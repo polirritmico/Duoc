@@ -1,0 +1,60 @@
+/* Default (light) theme */
+:root {
+  --monokai-magenta: #ff004b;
+  --monokai-blue: #00b3e3;
+  --monokai-grey: #7e7e7e;
+  --monokai-green: #4faf00;
+  --monokai-bg-grey: #f0f0f0;
+  --monokai-bg: #fefefe;
+  --monokai-yellow: #ff8f00;
+  --monokai-purple: #6054d0;
+  --bg-blocks: #f6f6f6;
+}
+
+/* Dark theme overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --monokai-magenta: #fc1a70;
+/*    --monokai-blue: #62d8f1;*/
+/*    --monokai-grey: #898989;*/
+/*    --monokai-green: #a4e400;*/
+/*    --monokai-bg-grey: #252525;*/
+/*    --monokai-bg: #2a2a2a;*/
+  }
+}
+
+/* Apply custom properties to your syntax highlighting */
+.code-keyword { color: #ff004b; font-weight: bold; }
+.code-type { color: var(--monokai-blue); font-weight: bold; }
+.code-comment { color: var(--monokai-grey); font-style: italic; }
+.code-function { color: var(--monokai-green); font-weight: bold; }
+.code-string { color: var(--monokai-yellow); font-weight: bold; }
+.code-boolean { color: var(--monokai-purple); font-weight: bold; }
+.code-secondary { color: var(--monokai-grey); }
+
+/* ---------------------------------------------------------------------- */
+
+.codeblock {
+  background-color: var(--bg-blocks);
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  white-space: pre;
+}
+
+th { background-color: var(--bg-blocks) !important; }
+
+h1 {
+  margin-bottom: 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+}
