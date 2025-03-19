@@ -59,6 +59,7 @@
   border-radius: 5px;
   font-family: monospace;
   white-space: pre;
+  overflow-x: auto;
 }
 
 .table,
@@ -97,6 +98,10 @@ h3 {
     margin: 15mm !important;
   }
 
+  :root {
+    --bg-blocks: #fafafa;
+  }
+
   .container,
   .container-md,
   .container-sm {
@@ -129,6 +134,7 @@ h3 {
     /*page-break-inside: avoid;*/
     margin-left: 0.5em !important;
     padding: 1em !important;
+    overflow: visible !important;
   }
 
   .codeblock pre {
@@ -162,5 +168,13 @@ h3 {
     max-width: 100% !important;
     box-sizing: border-box !important;
     table-layout: fixed !important;
+  }
+
+  .salto{
+     margin-top: 2em !important;
+   }
+
+  .salto-pagina {
+    page-break-before: always;
   }
 }
