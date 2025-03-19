@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CheatSheet PSeint</title>
+    <title>Referencia PSeint (sintaxis)</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="container">
-    <h1>CheatSheet PSeint</h1>
+    <h1>Referencia PSeint (sintaxis)</h1>
 
     <h2>Variables y Tipos de Datos</h2>
 
@@ -70,9 +70,9 @@
       <span class="code-keyword">Definir</span> bar <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span>
       <span class="code-keyword">Definir</span> buz <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span>
       <span class="code-keyword">Definir</span> seleccion <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span>
-      foo <span class="code-keyword">=</span> 1<span class="code-secondary">;</span>
-      bar <span class="code-keyword">=</span> 2<span class="code-secondary">;</span>
-      buz <span class="code-keyword">=</span> 3<span class="code-secondary">;</span>
+      foo <span class="code-keyword">=</span> <span class="code-number">1</span><span class="code-secondary">;</span>
+      bar <span class="code-keyword">=</span> <span class="code-number">2</span><span class="code-secondary">;</span>
+      buz <span class="code-keyword">=</span> <span class="code-number">3</span><span class="code-secondary">;</span>
       seleccion<span class="code-keyword"> = </span>buz<span class="code-secondary">;</span>
 
       <span class="code-keyword">Segun</span> seleccion <span class="code-keyword">Hacer</span>
@@ -80,7 +80,7 @@
               <span class="code-function">Escribir</span> <span class="code-string">"Foo"</span><span class="code-secondary">;</span>
           bar<span class="code-secondary">:</span>
               <span class="code-function">Escribir</span> <span class="code-string">"Bar"</span><span class="code-secondary">;</span>
-          3<span class="code-secondary">:</span>
+          <span class="code-number">3</span><span class="code-secondary">:</span>
               <span class="code-function">Escribir</span> <span class="code-string">"Buz"</span><span class="code-secondary">;</span>
 
           <span class="code-keyword">De Otro Modo:</span>
@@ -95,7 +95,7 @@
     <h3>For</h3>
 
     <div class="codeblock">
-      <span class="code-keyword">Para</span> i <span class="code-keyword">&lt;-</span> 1 <span class="code-keyword">Hasta</span> 10 <span class="code-keyword">Con</span> <span class="code-keyword">Paso</span> 2 <span class="code-keyword">Hacer</span>
+      <span class="code-keyword">Para</span> i <span class="code-keyword">&lt;-</span> <span class="code-number">1</span> <span class="code-keyword">Hasta</span> <span class="code-number">10</span> <span class="code-keyword">Con</span> <span class="code-keyword">Paso</span> <span class="code-number">2</span> <span class="code-keyword">Hacer</span>
           <span class="code-function">Escribir</span> i
       <span class="code-keyword">FinPara</span>
     </div>
@@ -104,11 +104,11 @@
 
     <div class="codeblock">
       <span class="code-keyword">Definir</span> x <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span>
-      x<span class="code-keyword"> = </span>0<span class="code-secondary">;</span>
+      x<span class="code-keyword"> = </span><span class="code-number">0</span><span class="code-secondary">;</span>
 
-      <span class="code-keyword">Mientras</span> x <span class="code-keyword">&lt;</span> 5 <span class="code-keyword">Hacer</span>
+      <span class="code-keyword">Mientras</span> x <span class="code-keyword">&lt;</span> <span class="code-number">5</span> <span class="code-keyword">Hacer</span>
           <span class="code-function">Escribir</span> x<span class="code-secondary">;</span>
-          x<span class="code-keyword"> = </span>x <span class="code-keyword">+</span> 1<span class="code-secondary">;</span>
+          x<span class="code-keyword"> = </span>x <span class="code-keyword">+</span> <span class="code-number">1</span><span class="code-secondary">;</span>
       <span class="code-keyword">FinMientras</span> <span class="code-comment">// Output: 0 1 2 3 4</span>
     </div>
 
@@ -116,13 +116,13 @@
 
     <div class="codeblock">
       <span class="code-keyword">Definir</span> iteracion <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span>
-      iteracion<span class="code-keyword"> = </span>0<span class="code-secondary">;</span>
+      iteracion<span class="code-keyword"> = </span><span class="code-number">0</span><span class="code-secondary">;</span>
 
       <span class="code-keyword">Repetir</span>
           <span class="code-function">Escribir</span> iteracion<span class="code-secondary">;</span>
 
-          iteracion<span class="code-keyword"> = </span>iteracion<span class="code-keyword"> + </span>1<span class="code-secondary">;</span>
-      <span class="code-keyword">Hasta Que</span> iteracion <span class="code-keyword">&gt;</span> 4 <span class="code-comment">// Output: 0 1 2 3 4</span>
+          iteracion<span class="code-keyword"> = </span>iteracion<span class="code-keyword"> + </span><span class="code-number">1</span><span class="code-secondary">;</span>
+      <span class="code-keyword">Hasta Que</span> iteracion <span class="code-keyword">&gt;</span> <span class="code-number">4</span> <span class="code-comment">// Output: 0 1 2 3 4</span>
     </div>
 
     <hr />
@@ -131,15 +131,15 @@
 
     <div class="codeblock">
       <span class="code-keyword">Definir</span> foo <span class="code-keyword">Como</span> <span class="code-type">Caracter</span><span class="code-secondary">;</span> <span class="code-comment">// Definir tipo de datos del arreglo</span>
-      <span class="code-keyword">Dimension</span> foo<span class="code-keyword">[</span>2<span class="code-keyword">]</span><span class="code-secondary">;</span> <span class="code-comment">// Definir tamaño. ¡Debe ser un literal no una variable!</span>
+      <span class="code-keyword">Dimension</span> foo<span class="code-keyword">[</span><span class="code-number">2</span><span class="code-keyword">]</span><span class="code-secondary">;</span> <span class="code-comment">// Definir tamaño. ¡Debe ser un literal no una variable!</span>
 
-      foo<span class="code-keyword">[</span>0<span
+      foo<span class="code-keyword">[</span><span class="code-number">0</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"Foo"</span><span class="code-secondary">;</span>
-      foo<span class="code-keyword">[</span>1<span
+      foo<span class="code-keyword">[</span><span class="code-number">1</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"Bar"</span><span class="code-secondary">;</span>
 
       <span class="code-keyword">Definir</span> index <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span>
-      <span class="code-keyword">Para</span> index<span class="code-keyword"> = </span>0 <span class="code-keyword">Hasta</span> 1 <span class="code-keyword">Hacer</span> <span class="code-comment">// "Hasta" es inclusivo (Ej: "Hasta 3" incluye el 3)</span>
+      <span class="code-keyword">Para</span> index<span class="code-keyword"> = </span><span class="code-number">0</span> <span class="code-keyword">Hasta</span> <span class="code-number">1</span> <span class="code-keyword">Hacer</span> <span class="code-comment">// "Hasta" es inclusivo (Ej: "Hasta 3" incluye el 3)</span>
           <span class="code-function">Escribir</span> foo<span class="code-keyword">[</span>index<span class="code-keyword">]</span><span class="code-secondary">;</span>
       <span class="code-keyword">FinPara</span> <span class="code-comment">// output: Foo Bar</span>
     </div>
@@ -149,16 +149,16 @@
     <div class="codeblock">
       <span class="code-keyword">Definir</span> arraySize <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span> <span class="code-comment">// Variable con el tamaño que usaremos del arreglo</span>
       <span class="code-keyword">Definir</span> array <span class="code-keyword">Como</span> <span class="code-type">Caracter</span><span class="code-secondary">;</span> <span class="code-comment">// Tipo de datos del arreglo</span>
-      <span class="code-keyword">Dimension</span> array<span class="code-keyword">[</span>9999<span class="code-keyword">]</span><span class="code-secondary">;</span> <span class="code-comment">// Le reservamos mucho espacio (debe ser mayor al arraySize)</span>
+      <span class="code-keyword">Dimension</span> array<span class="code-keyword">[</span><span class="code-number">9999</span><span class="code-keyword">]</span><span class="code-secondary">;</span> <span class="code-comment">// Le reservamos mucho espacio (debe ser mayor al arraySize)</span>
 
-      arraySize<span class="code-keyword"> = </span>2<span class="code-secondary">;</span> <span class="code-comment">// el verdadero tamaño del arreglo</span>
-      array<span class="code-keyword">[</span>0<span
+      arraySize<span class="code-keyword"> = </span><span class="code-number">2</span><span class="code-secondary">;</span> <span class="code-comment">// el verdadero tamaño del arreglo</span>
+      array<span class="code-keyword">[</span><span class="code-number">0</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"Foo"</span><span class="code-secondary">;</span>
-      array<span class="code-keyword">[</span>1<span
+      array<span class="code-keyword">[</span><span class="code-number">1</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"Bar"</span><span class="code-secondary">;</span>
 
       <span class="code-keyword">Definir</span> index <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span>
-      <span class="code-keyword">Para</span> index<span class="code-keyword"> = </span>0 <span class="code-keyword">Hasta</span> arraySize<span class="code-keyword"> - </span>1 <span class="code-keyword">Hacer</span> <span class="code-comment">// Menos 1 porque "Hasta" es inclusivo</span>
+      <span class="code-keyword">Para</span> index<span class="code-keyword"> = </span><span class="code-number">0</span> <span class="code-keyword">Hasta</span> arraySize<span class="code-keyword"> - </span><span class="code-number">1</span> <span class="code-keyword">Hacer</span> <span class="code-comment">// Menos 1 porque "Hasta" es inclusivo</span>
           <span class="code-function">Escribir</span> array<span class="code-keyword">[</span>index<span class="code-keyword">]</span><span class="code-secondary">;</span>
       <span class="code-keyword">FinPara</span>
     </div>
@@ -169,25 +169,25 @@
 
     <div class="codeblock">
       <span class="code-keyword">Definir</span> matrix <span class="code-keyword">Como</span> <span class="code-type">Caracter</span><span class="code-secondary">;</span>
-      <span class="code-keyword">Dimension</span> matrix<span class="code-keyword">[</span>3<span class="code-secondary">,</span>3<span class="code-keyword">]</span><span class="code-secondary">;</span> <span class="code-comment">// de 0 hasta 2 (n-1)</span>
+      <span class="code-keyword">Dimension</span> matrix<span class="code-keyword">[</span><span class="code-number">3</span><span class="code-secondary">,</span><span class="code-number">3</span><span class="code-keyword">]</span><span class="code-secondary">;</span> <span class="code-comment">// de 0 hasta 2 (n-1)</span>
 
-      matrix<span class="code-keyword">[</span>0<span class="code-secondary">,</span>0<span
+      matrix<span class="code-keyword">[</span><span class="code-number">0</span><span class="code-secondary">,</span><span class="code-number">0</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"0"</span><span class="code-secondary">;</span>
-      matrix<span class="code-keyword">[</span>0<span class="code-secondary">,</span>1<span
+      matrix<span class="code-keyword">[</span><span class="code-number">0</span><span class="code-secondary">,</span><span class="code-number">1</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"1"</span><span class="code-secondary">;</span>
-      matrix<span class="code-keyword">[</span>0<span class="code-secondary">,</span>2<span
+      matrix<span class="code-keyword">[</span><span class="code-number">0</span><span class="code-secondary">,</span><span class="code-number">2</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"2"</span><span class="code-secondary">;</span>
-      matrix<span class="code-keyword">[</span>1<span class="code-secondary">,</span>0<span
+      matrix<span class="code-keyword">[</span><span class="code-number">1</span><span class="code-secondary">,</span><span class="code-number">0</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"3"</span><span class="code-secondary">;</span>
-      matrix<span class="code-keyword">[</span>1<span class="code-secondary">,</span>1<span
+      matrix<span class="code-keyword">[</span><span class="code-number">1</span><span class="code-secondary">,</span><span class="code-number">1</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"4"</span><span class="code-secondary">;</span>
-      matrix<span class="code-keyword">[</span>1<span class="code-secondary">,</span>2<span
+      matrix<span class="code-keyword">[</span><span class="code-number">1</span><span class="code-secondary">,</span><span class="code-number">2</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"5"</span><span class="code-secondary">;</span>
-      matrix<span class="code-keyword">[</span>2<span class="code-secondary">,</span>0<span
+      matrix<span class="code-keyword">[</span><span class="code-number">2</span><span class="code-secondary">,</span><span class="code-number">0</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"6"</span><span class="code-secondary">;</span>
-      matrix<span class="code-keyword">[</span>2<span class="code-secondary">,</span>1<span
+      matrix<span class="code-keyword">[</span><span class="code-number">2</span><span class="code-secondary">,</span><span class="code-number">1</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"7"</span><span class="code-secondary">;</span>
-      matrix<span class="code-keyword">[</span>2<span class="code-secondary">,</span>2<span
+      matrix<span class="code-keyword">[</span><span class="code-number">2</span><span class="code-secondary">,</span><span class="code-number">2</span><span
         class="code-keyword">]</span><span class="code-keyword"> = </span><span class="code-string">"8"</span><span class="code-secondary">;</span>
 
       <span class="code-keyword">Definir</span> columna <span class="code-keyword">Como</span> <span class="code-type">Entero</span><span class="code-secondary">;</span>
@@ -195,9 +195,9 @@
 
       <span class="code-keyword">Definir</span> linea <span class="code-keyword">Como</span> <span class="code-type">Caracter</span><span class="code-secondary">;</span>
 
-      <span class="code-keyword">Para</span> fila<span class="code-keyword"> = </span>0 <span class="code-keyword">Hasta</span> 2 <span class="code-keyword">Hacer</span>
+      <span class="code-keyword">Para</span> fila<span class="code-keyword"> = </span><span class="code-number">0</span> <span class="code-keyword">Hasta</span> <span class="code-number">2</span> <span class="code-keyword">Hacer</span>
           linea<span class="code-keyword"> = </span><span class="code-string">""</span><span class="code-secondary">;</span>
-          <span class="code-keyword">Para</span> columna<span class="code-keyword"> = </span>0 <span class="code-keyword">Hasta</span> 2 <span class="code-keyword">Hacer</span>
+          <span class="code-keyword">Para</span> columna<span class="code-keyword"> = </span><span class="code-number">0</span> <span class="code-keyword">Hasta</span> <span class="code-number">2</span> <span class="code-keyword">Hacer</span>
               linea<span class="code-keyword"> = </span>linea<span class="code-keyword"> + </span>matrix<span class="code-keyword">[</span>fila<span class="code-secondary">,</span> columna<span class="code-keyword">]</span><span class="code-secondary">;</span>
           <span class="code-keyword">FinPara</span>
           <span class="code-function">Escribir</span> linea<span class="code-secondary">;</span>
@@ -208,106 +208,72 @@
 
     <h2>Operadores</h2>
 
-    <h3>Aritméticos</h3>
-
     <table class="table">
       <thead>
         <tr>
+          <th colspan="2">Aritméticos</th>
+          <th colspan="2">Relacionales</th>
+          <th colspan="2">Lógicos</th>
+        </tr>
+        <tr>
+          <th>Símbolo</th>
+          <th>Descripción</th>
+          <th>Símbolo</th>
+          <th>Descripción</th>
           <th>Símbolo</th>
           <th>Descripción</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>`+`</td>
+          <td><span class="code-keyword">+</span></td>
           <td>Suma</td>
-        </tr>
-        <tr>
-          <td>`-`</td>
-          <td>Resta</td>
-        </tr>
-        <tr>
-          <td>`*`</td>
-          <td>Multiplicación</td>
-        </tr>
-        <tr>
-          <td>`/`</td>
-          <td>División</td>
-        </tr>
-        <tr>
-          <td>`^`</td>
-          <td>Potencia</td>
-        </tr>
-        <tr>
-          <td>`%`</td>
-          <td>Módulo</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <p>Python también tiene división sin decimales `//` (trim).</p>
-
-    <h3>Relacionales</h3>
-
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Símbolo</th>
-          <th>Descripción</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>`=`</td>
+          <td><span class="code-keyword">=</span></td>
           <td>Igualdad</td>
-        </tr>
-        <tr>
-          <td>`<>`</td>
-          <td>Diferente</td>
-        </tr>
-        <tr>
-          <td>`<`</td>
-          <td>Menor que</td>
-        </tr>
-        <tr>
-          <td>`>`</td>
-          <td>Mayor que</td>
-        </tr>
-        <tr>
-          <td>`<=`</td>
-          <td>Menor o igual que</td>
-        </tr>
-        <tr>
-          <td>`>=`</td>
-          <td>Mayor o igual que</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h3>Lógicos</h3>
-
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Símbolo</th>
-          <th>Descripción</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>`Y`</td>
+          <td><span class="code-keyword">Y</span></td>
           <td>Y (AND)</td>
         </tr>
         <tr>
-          <td>`O`</td>
+          <td><span class="code-keyword">-</span></td>
+          <td>Resta</td>
+          <td><span class="code-keyword">&lt;&gt;</span></td>
+          <td>Diferente</td>
+          <td><span class="code-keyword">O</span></td>
           <td>O (OR)</td>
         </tr>
         <tr>
-          <td>`NO`</td>
+          <td><span class="code-keyword">*</span></td>
+          <td>Multiplicación</td>
+          <td><span class="code-keyword">&lt;</span></td>
+          <td>Menor que</td>
+          <td><span class="code-keyword">NO</span></td>
           <td>Negación (NOT)</td>
+        </tr>
+        <tr>
+          <td><span class="code-keyword">/</span></td>
+          <td>División</td>
+          <td><span class="code-keyword">&gt;</span></td>
+          <td>Mayor que</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="code-keyword">^</span></td>
+          <td>Potencia</td>
+          <td><span class="code-keyword">&lt;=</span></td>
+          <td>Menor o igual que</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="code-keyword">%</span></td>
+          <td>Módulo</td>
+          <td><span class="code-keyword">&gt;=</span></td>
+          <td>Mayor o igual que</td>
+          <td></td>
+          <td></td>
         </tr>
       </tbody>
     </table>
-
   </body>
 </html>

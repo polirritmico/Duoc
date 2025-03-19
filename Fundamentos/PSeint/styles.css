@@ -30,6 +30,7 @@
 .code-function { color: var(--monokai-green); font-weight: bold; }
 .code-string { color: var(--monokai-yellow); font-weight: bold; }
 .code-boolean { color: var(--monokai-purple); font-weight: bold; }
+.code-number { color: var(--monokai-purple); font-weight: bold; }
 .code-secondary { color: var(--monokai-grey); }
 
 /* ---------------------------------------------------------------------- */
@@ -42,7 +43,18 @@
   white-space: pre;
 }
 
-th { background-color: var(--bg-blocks) !important; }
+.table, .table th, .table td {
+  border: 1px solid var(--bs-border-color);
+  border-collapse: collapse;
+}
+
+.table td:has(span.code-keyword) {
+  padding-left: 1em;
+}
+
+th {
+  background-color: var(--bg-blocks) !important;
+}
 
 h1 {
   margin-bottom: 1em;
@@ -57,4 +69,28 @@ h3 {
   margin-top: 1em;
   margin-bottom: 0.5em;
   font-size: 1.25em;
+}
+
+@media print {
+  @page {
+    size: letter;
+    margin: 10mm;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .codeblock {
+    page-break-inside: avoid;
+    /*word-wrap: break-word;*/
+  }
+
+  .codeblock pre {
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+  }
 }
