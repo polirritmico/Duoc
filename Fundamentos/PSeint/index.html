@@ -12,10 +12,13 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="container">
-    <h1>Referencia PSeint (sintaxis)</h1>
+  <body>
+    <main class="container-lg">
+      <h1 class="mt-2 mb-5">
+        Referencia PSeint
+        <small class="text-body-secondary fst-italic">(sintaxis)</small>
+      </h1>
 
-    <div class="container">
       <div class="row">
         <div class="col">
           <h2>Variables y Tipos de Datos</h2>
@@ -59,13 +62,12 @@ foo <span class="code-keyword">=</span> <span class="code-string">"Foo"</span ><
         </div>
       </div>
 
-      <hr />
-
       <div class="row">
         <div class="col">
           <h2>Condicionales</h2>
 
-          <pre><code>
+          <div class="row">
+            <pre><code>
 <span class="code-keyword">Definir</span> booleano <span class="code-keyword">Como</span> <span class="code-type">Logico</span ><span class="code-secondary">;</span>
 booleano<span class="code-keyword"> = </span><span class="code-boolean">Verdadero</span><span class="code-secondary">;</span>
 
@@ -74,11 +76,25 @@ booleano<span class="code-keyword"> = </span><span class="code-boolean">Verdader
 <span class="code-keyword">SiNo</span>
     <span class="code-function">Escribir</span> <span class="code-string">"False"</span><span class="code-secondary">;</span>
 <span class="code-keyword">FinSi</span> <span class="code-comment">// output: True</span>
-          </code></pre>
+            </code></pre>
+          </div>
+
+          <div class="row">
+            <pre><code>
+<span class="code-keyword">Definir</span> foo <span class="code-keyword">Como</span> <span class="code-type">Caracter</span ><span class="code-secondary">;</span>
+foo<span class="code-keyword"> = </span><span class="code-string">"Foo"</span><span class="code-secondary">;</span>
+
+<span class="code-keyword">Si</span> foo <span class="code-keyword">==</span> <span class="code-string">"Bar"</span> <span class="code-keyword">O</span> foo <span class="code-keyword">&lt;&gt;</span> <span class="code-string">"Foo"</span> <span class="code-keyword">Entonces</span>
+    <span class="code-function">Escribir</span> <span class="code-string">"True"</span><span class="code-secondary">;</span>
+<span class="code-keyword">SiNo</span>
+    <span class="code-function">Escribir</span> <span class="code-string">"False"</span><span class="code-secondary">;</span>
+<span class="code-keyword">FinSi</span> <span class="code-comment">// output: False</span>
+            </code></pre>
+          </div>
         </div>
 
         <div class="col">
-          <h2 class="salto-pagina">Switches</h2>
+          <h2>Switches</h2>
 
           <pre><code>
 <span class="code-keyword">Definir</span> foo <span class="code-keyword">Como</span> <span class="code-type">Entero</span ><span class="code-secondary">;</span>
@@ -105,9 +121,11 @@ seleccion<span class="code-keyword" > = </span>buz<span class="code-secondary">;
         </div>
       </div>
 
-      <hr />
-
-      <h2>Bucles</h2>
+      <div class="row">
+        <div class="col">
+          <h2>Bucles</h2>
+        </div>
+      </div>
 
       <div class="row">
         <div class="col">
@@ -151,8 +169,6 @@ iteracion<span class="code-keyword"> = </span><span class="code-number">0</span>
         </div>
       </div>
 
-      <hr />
-
       <div class="row">
         <div class="col">
           <h2>Arrays</h2>
@@ -190,7 +206,6 @@ array<span class="code-keyword" >[</span ><span class="code-number">1</span><spa
           </code></pre>
         </div>
       </div>
-      <hr />
 
       <div class="row">
         <div class="col">
@@ -225,114 +240,117 @@ matrix<span class="code-keyword" >[</span ><span class="code-number">2</span><sp
           </code></pre>
         </div>
       </div>
-    </div>
-    <hr />
 
-    <h2>Operadores</h2>
-
-    <div class="row row-cols-1 row-cols-lg-3 tablas-operadores">
-      <div class="col">
-        <h3>Aritméticos</h3>
-
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Símbolo</th>
-              <th>Descripción</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><span class="code-keyword">+</span></td>
-              <td>Suma</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">-</span></td>
-              <td>Resta</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">*</span></td>
-              <td>Multiplicación</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">/</span></td>
-              <td>División</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">^</span></td>
-              <td>Potencia</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">%</span></td>
-              <td>Módulo</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="row mb-3">
+        <div class="col">
+          <h2>Operadores</h2>
+        </div>
       </div>
 
-      <div class="col">
-        <h3>Relacionales</h3>
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Símbolo</th>
-              <th>Descripción</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><span class="code-keyword">==</span></td>
-              <td>Igualdad</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">&lt;&gt;</span></td>
-              <td>Diferente</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">&lt;</span></td>
-              <td>Menor que</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">&gt;</span></td>
-              <td>Mayor que</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">&lt;=</span></td>
-              <td>Menor o igual que</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">&gt;=</span></td>
-              <td>Mayor o igual que</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <div class="row row-cols-1 row-cols-lg-3 tablas-operadores">
+        <div class="col">
+          <h3>Aritméticos</h3>
 
-      <div class="col">
-        <h3>Lógicos</h3>
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Símbolo</th>
-              <th>Descripción</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><span class="code-keyword">Y</span></td>
-              <td>Y (AND)</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">O</span></td>
-              <td>O (OR)</td>
-            </tr>
-            <tr>
-              <td><span class="code-keyword">NO</span></td>
-              <td>Negación (NOT)</td>
-            </tr>
-          </tbody>
-        </table>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Símbolo</th>
+                <th>Descripción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code-keyword">+</span></td>
+                <td>Suma</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">-</span></td>
+                <td>Resta</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">*</span></td>
+                <td>Multiplicación</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">/</span></td>
+                <td>División</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">^</span></td>
+                <td>Potencia</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">%</span></td>
+                <td>Módulo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col">
+          <h3>Relacionales</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Símbolo</th>
+                <th>Descripción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code-keyword">==</span></td>
+                <td>Igualdad</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">&lt;&gt;</span></td>
+                <td>Diferente</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">&lt;</span></td>
+                <td>Menor que</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">&gt;</span></td>
+                <td>Mayor que</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">&lt;=</span></td>
+                <td>Menor o igual que</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">&gt;=</span></td>
+                <td>Mayor o igual que</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col">
+          <h3>Lógicos</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Símbolo</th>
+                <th>Descripción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code-keyword">Y</span></td>
+                <td>Y (AND)</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">O</span></td>
+                <td>O (OR)</td>
+              </tr>
+              <tr>
+                <td><span class="code-keyword">NO</span></td>
+                <td>Negación (NOT)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>

@@ -1,4 +1,3 @@
-/* Default (light) theme */
 :root {
   --monokai-magenta: #ff004b;
   --monokai-blue: #00b3e3;
@@ -11,18 +10,11 @@
   --bg-blocks: #fafafa;
 }
 
-/* Dark theme overrides */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --monokai-magenta: #fc1a70;
-  }
-}
-
 pre {
   background-color: var(--bg-blocks);
   padding-left: 1em;
   padding-right: 1em;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 code {
@@ -30,7 +22,7 @@ code {
 }
 
 .code-keyword {
-  color: #ff004b;
+  color: var(--monokai-magenta);
   font-weight: bold;
 }
 .code-type {
