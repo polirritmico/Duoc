@@ -23,9 +23,9 @@ foo: boolean = True # Boolean True/False
 
 ```pseint
 Escribir "Foo";   // Imprime `Foo` en la pantalla (sin comillas)
-
 Definir foo Como Caracter; // ¡Primero definir para evitar fallo!
-Leer foo;
+foo = "Foo";
+Leer foo; // Output: Foo
 ```
 
 ```python
@@ -55,7 +55,7 @@ Python también tiene división sin decimales `//` (trim).
 
 | Símbolo | Descripción       | Python |
 | ------- | ----------------- | ------ |
-| `=`     | Igualdad          | `==`   |
+| `==`    | Igualdad          | `==`   |
 | `<>`    | Diferente         | `!=`   |
 | `<`     | Menor que         | `<`    |
 | `>`     | Mayor que         | `>`    |
@@ -75,10 +75,10 @@ Python también tiene división sin decimales `//` (trim).
 ## Funciones
 
 ```pseint
-SubProceso retorno <- Bar (arg)
+Funcion retorno <- Bar (arg)
 	Definir retorno Como Caracter; // ¡Definir el output si no es un argumento!
 	retorno = arg;
-FinSubProceso
+FinFuncion
 
 Proceso Main
 	Definir foo Como Caracter;
