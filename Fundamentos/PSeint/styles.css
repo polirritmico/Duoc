@@ -21,6 +21,11 @@ code {
   font-size: 1.2em !important;
 }
 
+.copyleft {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
 .code-keyword {
   color: var(--monokai-magenta);
   font-weight: bold;
@@ -51,4 +56,14 @@ code {
 }
 .code-secondary {
   color: var(--monokai-grey);
+}
+
+/* padding for the navbar section scroll */
+h2,
+h3 {
+  scroll-margin-top: 3em;
+}
+
+h1 {
+  padding-top: 2.5em;
 }
