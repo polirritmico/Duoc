@@ -30,6 +30,7 @@ jobs:
           mkdir -p public
           cp ./Fundamentos/PSeint/index.html public/
           cp ./Fundamentos/PSeint/styles.css public/
+          cp ./Fundamentos/PSeint/script.js public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
