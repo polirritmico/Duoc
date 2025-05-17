@@ -9,8 +9,8 @@ def test_subsidio_de_gas_ejemplo1() -> None:
     expected = 65000
 
     case = Solicitante(**case)
-    subsidiador = SubsidioGas()
-    output = subsidiador.subsidiar(case)
+    subsidiaria = SubsidioGas()
+    output = subsidiaria.subsidiar(case)
 
     assert expected == output
 
@@ -20,7 +20,7 @@ def test_subsidio_de_gas_ejemplo2() -> None:
     expected = 10000
 
     solicitante = Solicitante(**case)
-    subsidiador = SubsidioGas()
-    output = subsidiador.subsidiar(solicitante)
+    subsidiaria = SubsidioGas()
+    output = subsidiaria.subsidiar(solicitante)
 
     assert expected == output

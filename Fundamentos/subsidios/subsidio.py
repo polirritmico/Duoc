@@ -26,6 +26,7 @@ class Solicitante:
 
 
 Condicion = Callable[[Solicitante], bool]
+BonoExtra = Callable[[Solicitante], int]
 
 
 class Subsidio:
@@ -44,15 +45,15 @@ class Subsidio:
         return True
 
 
-class Subsidiador:
+class Subsidiaria:
     def __init__(
         self,
         subsidios: list[Subsidio],
-        bonos_extra: Callable[[Solicitante], int],
+        bonos_extra: list[BonoExtra],
         grupos: list[GruposFichaSocial],
     ):
         self.subsidios: list = subsidios
-        self.bonos_extra: Callable[[Solicitante], int] = bonos_extra
+        self.bonos_extra: list[BonoExtra] = bonos_extra
         self.grupos_ficha_social: list[GruposFichaSocial] = grupos
 
     def obtener_monto_subsidio_base(self, solicitante: Solicitante) -> int:
@@ -91,7 +92,7 @@ class Subsidiador:
 
 
 class SubsidioGas:
-    subsidiador: Subsidiador
+    subsidiaria: Subsidiaria
 
     def __init__(self):
         # fmt: off
@@ -126,9 +127,53 @@ class SubsidioGas:
             Subsidio([tercera_edad], 15000),
         ]
 
-        self.subsidiador = Subsidiador(
+        self.subsidiaria = Subsidiaria(
             lista_subsidios, bonos_extra, criterios_puntajes_ficha_social
         )
 
-    def subsidiar(self, solicitante: Solicitante) -> int:
-        return self.subsidiador.subsidiar(solicitante)
+    def input_usuario(self, mensaje: str, minimo: int, maximo: int) -> int:
+        mensaje_de_error: str = "No se reconoce el valor ingresado."
+        while True:
+            valor_ingresado_raw: str = input(mensaje)
+
+            if not valor_ingresado_raw.isdecimal():
+                print(mensaje_de_error)
+                continue
+            valor_ingresado: int = int(valor_ingresado_raw)
+
+            if minimo > valor_ingresado or maximo < valor_ingresado:
+                print(mensaje_de_error)
+                continue
+            return valor_ingresado
+
+    def crear_solicitante(self) -> Solicitante:
+        print("Ingrese los datos requeridos.")
+        edad = self.input_usuario("Ingrese su edad (18-120): ", 18, 120)
+        msg = "Ingrese su puntaje de ficha social (0-1000): "
+        puntaje = self.input_usuario(msg, 0, 10000)
+        msg = "Ingrese su zona geográfica (1 Norte, 2 Centro, 3 Sur): "
+        zona = ["", "Norte", "Centro", "Sur"][self.input_usuario(msg, 1, 3)]
+
+        solicitante = Solicitante(puntaje, zona, edad)
+        return solicitante
+
+    def subsidiar(self, solicitante: Solicitante | None = None) -> int:
+        if not solicitante:
+            solicitante = self.crear_solicitante()
+        return self.subsidiaria.subsidiar(solicitante)
+
+
+def main():
+    print("----------\nBienvenido\n----------\n")
+
+    subsidio_gas = SubsidioGas()
+    monto_subsidio = subsidio_gas.subsidiar()
+
+    mensaje = f"El valor del subsidio de gas es ${monto_subsidio:,}"
+    print(mensaje.replace(",", "."))
+
+    return 0
+
+
+if __name__ == "__main__":
+    main()
