@@ -6,12 +6,7 @@ from typing import Callable
 
 
 class GruposFichaSocial:
-    def __init__(
-        self,
-        denominacion: str,
-        minimo: int,
-        maximo: int,
-    ):
+    def __init__(self, denominacion: str, minimo: int, maximo: int):
         self.denominacion: str = denominacion
         self.minimo: int = minimo
         self.maximo: int = maximo
@@ -30,11 +25,7 @@ BonoExtra = Callable[[Solicitante], int]
 
 
 class Subsidio:
-    def __init__(
-        self,
-        condiciones: list[Condicion],
-        monto: int,
-    ):
+    def __init__(self, condiciones: list[Condicion], monto: int):
         self.condiciones: list[Condicion] = condiciones
         self.monto: int = monto
 
@@ -92,8 +83,6 @@ class Subsidiaria:
 
 
 class SubsidioGas:
-    subsidiaria: Subsidiaria
-
     def __init__(self):
         # fmt: off
         def puntaje_bajo(sol: Solicitante) -> bool: return sol.grupo == "Bajo"
