@@ -53,6 +53,7 @@ class Subsidiaria:
         for subsidio in self.subsidios:
             if subsidio.cumple_condiciones(solicitante):
                 return subsidio.monto
+        return 0
 
     def obtener_monto_bonos_extra(self, solicitante: Solicitante) -> int:
         monto_bonos: int = 0
