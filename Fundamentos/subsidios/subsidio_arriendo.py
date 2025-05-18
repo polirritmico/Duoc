@@ -119,16 +119,20 @@ class SubsidioArriendo:
         msg = "Edad: "
         edad = self.pedir_input_usuario(msg, 1, 120)
 
-        Solicitante(quintil, tiene_empleo, edad)
+        solicitante = Solicitante(quintil, tiene_empleo, edad)
+        return solicitante
 
-    def calcular(self, solicitante: Solicitante) -> int:
+    def calcular(self, solicitante: Solicitante | None = None) -> int:
         if not solicitante:
             solicitante = self.crear_solicitante()
         return self.subsidiadora.calcular(solicitante)
 
 
 def main():
-    pass
+    subsiadora = SubsidioArriendo()
+    monto = subsiadora.calcular()
+    msg = f"El valor del subsidio de arriendo es: ${monto:,}"
+    print(msg.replace(",", "."))
 
 
 if __name__ == "__main__":
