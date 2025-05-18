@@ -5,7 +5,7 @@
 from typing import Callable
 
 
-class GruposFichaSocial:
+class GrupoFichaSocial:
     def __init__(self, denominacion: str, minimo: int, maximo: int):
         self.denominacion: str = denominacion
         self.minimo: int = minimo
@@ -21,15 +21,17 @@ class Solicitante:
 
 
 Condicion = Callable[[Solicitante], bool]
-BonoExtra = Callable[[Solicitante], int]
 
 
 class Subsidio:
+    """Un subsidio es una lista de condiciones que un solicitante debe cumplir
+    para obtener un monto de beneficio."""
+
     def __init__(self, condiciones: list[Condicion], monto: int):
         self.condiciones: list[Condicion] = condiciones
         self.monto: int = monto
 
-    def cumple_condiciones_del_subsidio(self, solicitante: Solicitante) -> bool:
+    def cumple_condiciones(self, solicitante: Solicitante) -> bool:
         for condicion in self.condiciones:
             if not condicion(solicitante):
                 return False
@@ -40,22 +42,22 @@ class Subsidiaria:
     def __init__(
         self,
         subsidios: list[Subsidio],
-        bonos_extra: list[BonoExtra],
-        grupos: list[GruposFichaSocial],
+        bonos_extra: list[Subsidio],
+        grupos_ficha_social: list[GrupoFichaSocial],
     ):
         self.subsidios: list = subsidios
-        self.bonos_extra: list[BonoExtra] = bonos_extra
-        self.grupos_ficha_social: list[GruposFichaSocial] = grupos
+        self.bonos_extra: list[Subsidio] = bonos_extra
+        self.grupos_ficha_social: list[GrupoFichaSocial] = grupos_ficha_social
 
     def obtener_monto_subsidio_base(self, solicitante: Solicitante) -> int:
         for subsidio in self.subsidios:
-            if subsidio.cumple_condiciones_del_subsidio(solicitante):
+            if subsidio.cumple_condiciones(solicitante):
                 return subsidio.monto
 
     def obtener_monto_bonos_extra(self, solicitante: Solicitante) -> int:
         monto_bonos: int = 0
         for bono_extra in self.bonos_extra:
-            if bono_extra.cumple_condiciones_del_subsidio(solicitante):
+            if bono_extra.cumple_condiciones(solicitante):
                 monto_bonos += bono_extra.monto
         return monto_bonos
 
@@ -79,6 +81,7 @@ class Subsidiaria:
             self.clasificar_solicitante(solicitante)
         monto_subsidio_base: int = self.obtener_monto_subsidio_base(solicitante)
         monto_subsidio_extra: int = self.obtener_monto_bonos_extra(solicitante)
+
         return monto_subsidio_base + monto_subsidio_extra
 
 
@@ -107,9 +110,9 @@ class SubsidioGas:
             Subsidio([puntaje_alto, zona_centro], 10000),
         ]
         criterios_puntajes_ficha_social = [
-            GruposFichaSocial("Bajo", 0, 4000),
-            GruposFichaSocial("Medio", 4001, 7000),
-            GruposFichaSocial("Alto", 7001, 10000),
+            GrupoFichaSocial("Bajo", 0, 4000),
+            GrupoFichaSocial("Medio", 4001, 7000),
+            GrupoFichaSocial("Alto", 7001, 10000),
         ]
         bonos_extra = [
             Subsidio([zona_sur], 5000),
@@ -136,12 +139,16 @@ class SubsidioGas:
             return valor_ingresado
 
     def crear_solicitante(self) -> Solicitante:
-        print("Ingrese los datos requeridos.")
-        edad = self.input_usuario("Ingrese su edad (18-120): ", 18, 120)
-        msg = "Ingrese su puntaje de ficha social (0-1000): "
+        print("Ingrese los datos requeridos:")
+
+        msg = "Puntaje de ficha social (0-1000): "
         puntaje = self.input_usuario(msg, 0, 10000)
-        msg = "Ingrese su zona geográfica (1 Norte, 2 Centro, 3 Sur): "
-        zona = ["", "Norte", "Centro", "Sur"][self.input_usuario(msg, 1, 3)]
+
+        msg = "Zona geográfica (1 Norte, 2 Centro, 3 Sur): "
+        zona_idx = self.input_usuario(msg, 1, 3) - 1  # convert to 0-idx
+        zona = ["Norte", "Centro", "Sur"][zona_idx]
+
+        edad = self.input_usuario("Edad: ", 1, 127)
 
         solicitante = Solicitante(puntaje, zona, edad)
         return solicitante
