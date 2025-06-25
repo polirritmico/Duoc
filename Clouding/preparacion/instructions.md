@@ -26,7 +26,29 @@
 
 ### VPC
 
-VPC and more
+Siempre partir creando la VPC
+
+> [!WARNING]
+>
+> Siempre utilizar: **VPC and more**
+
+### Autoscaling
+
+Aumenta la cantidad de máquinas que sirven el servicio. Se configura el mínimo y
+el máximo.
+
+Para funcionar necesita un _template_. En AWS, vamos a:
+
+[Launch Templates](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#LaunchTemplates:)
+
+Crear las instancias en el mismo grupo de subred que la instancia original.
+
+Recordar asignar ip pública.
+
+Al crear grupo de AutoScaling, usar la plantilla.
+
+El valor del umbral se calcula en base al promedio de todas las instancias en
+funcionamiento.
 
 ### IPv4 VPC CIDR blocks
 
@@ -46,8 +68,8 @@ Lista de rangos de ejemplo:
   - id: vpc-0bd19ad90c37ab250
   - IPv4 CIDR: 172.31.0.0/24
 - **Subnets:**
-  - preparacion-subnet1: subnet-0a453337f9a35a0c0 us-east-1a 192.168.0.0/28
-  - preparacion-subnet2: subnet-09a098fa269580eff us-east-1e 192.168.0.16/28
+  - :
+  - :
 - **Getaway:**
   - id:
   - name:
