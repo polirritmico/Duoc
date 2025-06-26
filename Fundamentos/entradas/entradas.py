@@ -32,7 +32,7 @@ def mostrar_menu() -> None:
 
 def pedir_opcion_al_usuario(valor_maximo_permitido: int) -> int:
     mensaje = "Ingrese una opción: "
-    mensaje_de_error = "Valor inválido."
+    mensaje_de_error = "¡¡Debe ingresar una opción válida!!"
 
     while True:
         input_usuario_raw = input(mensaje)
