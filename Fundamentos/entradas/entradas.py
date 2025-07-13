@@ -30,7 +30,7 @@ def mostrar_menu() -> None:
         print(opcion)
 
 
-def pedir_opcion_al_usuario(valor_maximo_permitido: int) -> int:
+def pedir_opcion(valor_maximo_permitido: int) -> int:
     mensaje = "Ingrese una opción: "
     mensaje_de_error = "¡¡Debe ingresar una opción válida!!"
 
@@ -49,15 +49,15 @@ def pedir_opcion_al_usuario(valor_maximo_permitido: int) -> int:
         return input_usuario
 
 
-def pedir_nombre_al_usuario() -> str:
+def pedir_nombre() -> str:
     nombre = input("Escriba el nombre de usuario a buscar: ")
     return nombre
 
 
-def pedir_datos_entrada_a_usuario() -> dict:
+def pedir_datos_entrada() -> dict:
     nombre = input("Ingrese nombre de usuario: ")
     tipo = input("Ingrese tipo de venta (G/V): ")
-    codigo = pedir_codigo_de_configuracion_al_usuario()
+    codigo = pedir_codigo_de_configuracion()
     venta = {
         "nombre": nombre,
         "tipo": tipo.upper(),
@@ -67,7 +67,7 @@ def pedir_datos_entrada_a_usuario() -> dict:
     return venta
 
 
-def pedir_codigo_de_configuracion_al_usuario() -> str:
+def pedir_codigo_de_configuracion() -> str:
     mensaje = "Ingrese el código de confirmación: "
     mensaje_de_error = "Valor de código inválido."
     mensaje_de_exito = "Código validado."
@@ -82,14 +82,14 @@ def pedir_codigo_de_configuracion_al_usuario() -> str:
             print(mensaje_de_error)
 
 
-def validar_nombre_unico(entrada: dict, ventas: list[dict]) -> bool:
-    for venta in ventas:
-        if entrada["nombre"] == venta["nombre"]:
-            return False
+def validar_nombre_unico(nombre: str, ventas: list[dict]) -> bool:
+    nombre_unico = buscar_venta_por_nombre_de_usuario(nombre, ventas) is None
+    if nombre_unico:
+        return False
     return True
 
 
-def validar_tipo_entrada(tipo: str) -> bool:
+def validar_tipo_de_entrada(tipo: str) -> bool:
     if tipo == "V" or tipo == "G":
         return True
     return False
@@ -122,7 +122,14 @@ def validar_codigo_sin_espacios(codigo: str) -> bool:
     return True
 
 
+def validar_codigo_tiene_solo_numeros_y_letras(codigo: str) -> bool:
+    return codigo.isalnum()
+
+
 def validar_codigo_de_confirmacion(codigo) -> bool:
+    if not validar_codigo_tiene_solo_numeros_y_letras(codigo):
+        return False
+
     if not validar_codigo_con_almenos_una_letra(codigo):
         return False
 
@@ -139,10 +146,10 @@ def validar_codigo_de_confirmacion(codigo) -> bool:
 
 
 def validar_venta(entrada: dict, ventas: list[dict]) -> bool:
-    if not validar_nombre_unico(entrada, ventas):
+    if not validar_nombre_unico(entrada["nombre"], ventas):
         return False
 
-    if not validar_tipo_entrada(entrada["tipo"]):
+    if not validar_tipo_de_entrada(entrada["tipo"]):
         return False
 
     return True
@@ -156,20 +163,27 @@ def mostrar_info_venta(venta: dict) -> None:
 
 
 def cancelar_compra(nombre: str, ventas: list[dict]) -> None:
+    venta_encontrada = buscar_venta_por_nombre_de_usuario(nombre, ventas)
+    if venta_encontrada:
+        ventas.remove(venta_encontrada)
+        print("Compra cancelada")
+    else:
+        print("No se ha cancelado la compra")
+
+
+def buscar_venta_por_nombre_de_usuario(nombre: str, ventas: list[dict]) -> dict | None:
     for venta in ventas:
         if nombre == venta["nombre"]:
-            ventas.remove(venta)
-            print("Compra cancelada")
-            return
-    print("No se ha cancelado la compra")
+            return venta
+    return
 
 
 def consultar_comprador(nombre: str, ventas: list[dict]) -> None:
-    for venta in ventas:
-        if nombre == venta["nombre"]:
-            mostrar_info_venta(venta)
-            return
-    print("El comprador no se encuentra.")
+    venta_encontrada = buscar_venta_por_nombre_de_usuario(nombre, ventas)
+    if venta_encontrada:
+        mostrar_info_venta(venta_encontrada)
+    else:
+        print("El comprador no se encuentra.")
 
 
 def realizar_venta(entrada: dict, ventas: list[dict]) -> None:
@@ -177,7 +191,7 @@ def realizar_venta(entrada: dict, ventas: list[dict]) -> None:
 
 
 def comprar_entrada(ventas: list[dict]) -> None:
-    entrada = pedir_datos_entrada_a_usuario()
+    entrada = pedir_datos_entrada()
 
     venta_valida = validar_venta(entrada, ventas)
     if not venta_valida:
@@ -197,11 +211,11 @@ def ejecutar_opcion(opcion: int, ventas: list) -> None:
         comprar_entrada(ventas)
 
     elif opcion == 2:
-        nombre = pedir_nombre_al_usuario()
+        nombre = pedir_nombre()
         consultar_comprador(nombre, ventas)
 
     elif opcion == 3:
-        nombre = pedir_nombre_al_usuario()
+        nombre = pedir_nombre()
         cancelar_compra(nombre, ventas)
 
     elif opcion == 4:
@@ -213,7 +227,7 @@ def main() -> None:
 
     while True:
         mostrar_menu()
-        opcion = pedir_opcion_al_usuario(valor_maximo_permitido=4)
+        opcion = pedir_opcion(valor_maximo_permitido=4)
         ejecutar_opcion(opcion, ventas)
 
 
