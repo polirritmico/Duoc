@@ -28,7 +28,7 @@ class Store:
     products: dict[str, list[str | float | int]]
 
     def __init__(self):
-        self.open_status: bool = True
+        self.open_status: bool = False
         self.stock: Dict = {}
         self.products: Dict = {}
 
@@ -36,7 +36,9 @@ class Store:
         store.is_open = self.is_open
         store.open_store = self.open_store
         store.close_store = self.close_store
-        store.set_productos = self.set_products
+        store.get_products = self.get_products
+        store.set_products = self.set_products
+        store.get_stock = self.get_stock
         store.set_stock = self.set_stock
         store.set_action = self.set_action
         store.execute_action = self.execute_action
@@ -50,8 +52,18 @@ class Store:
     def close_store(self) -> None:
         self.open_status = False
 
+    def get_products(self) -> dict[str, list[int, int]]:
+        if not self.products:
+            raise TypeError("Missing products data. Check set_products()")
+        return self.products
+
     def set_products(self, products: dict[str, list[str | float | int]]) -> None:
         self.products = products.copy()
+
+    def get_stock(self) -> dict[str, list[int, int]]:
+        if not self.stock:
+            raise TypeError("Missing stock data. Check set_stock()")
+        return self.stock
 
     def set_stock(self, stock: dict[str, list[int, int]]) -> None:
         self.stock = stock.copy()
@@ -106,15 +118,16 @@ class PyBooks:
             return input_usr
 
     def update_price(self) -> None:
+        stock = self.get_stock()
+
         keep_running = True
         while keep_running:
             model = input("Ingrese modelo a actualizar: ")
-
-            if model not in self.store.stock:
+            if model not in stock:
                 print("¡¡El modelo no existe!!")
             else:
                 new_price: int = self.ask_positive_integer("Ingrese nuevo precio: ")
-                self.store.stock[model][S.PRICE] = new_price
+                stock[model][S.PRICE] = new_price
                 print("¡¡Precio actualizado!!")
 
             msg = "¿Desea actualizar otro precio de notebook? (s/n): "
@@ -123,14 +136,14 @@ class PyBooks:
 
     def get_products_in_range(self, minimum: int, maximum: int) -> list[str]:
         found: list[str] = []
-        for model, stock in self.store.stock.items():
-            price = stock[S.PRICE]
+        for model, stock_data in self.get_stock().items():
+            price = stock_data[S.PRICE]
             if price >= minimum and price <= maximum:
                 found.append(model)
         return found
 
     def get_brand_and_model(self, model: str) -> str | None:
-        product_info = self.store.products.get(model)
+        product_info = self.get_products().get(model)
         if not product_info:
             return
         brand = product_info[P.BRAND]
@@ -155,11 +168,15 @@ class PyBooks:
         print(f"Los notebooks entre los precios consultados son: {found}")
 
     def show_stock(self) -> None:
+        stock: list = self.get_stock()
+        products: list = self.get_products()
+
         brand = input("Ingrese marca a consultar: ").lower()
         amount = 0
-        for model, info in self.store.products.items():
-            if info[P.BRAND].lower() == brand:
-                amount += self.store.stock.get(model)[S.AMOUNT]
+        for model, product_info in products.items():
+            if product_info[P.BRAND].lower() == brand and model in stock:
+                stock_data: int = stock.get(model)
+                amount += stock_data[S.AMOUNT]
 
         print(f"El stock es: {amount}")
 
@@ -240,6 +257,8 @@ def main() -> None:
         menu = Menu()
         menu.set_header(pybooks.header)
         menu.set_actions(pybooks.actions)
+
+        pybooks.open_store()
 
         while pybooks.is_open():
             menu.show()
