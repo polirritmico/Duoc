@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from typing import Callable, Dict
+from typing import Any, Callable, Dict
 
 from data import IndexProduct as P
 from data import IndexStock as S
@@ -32,7 +32,7 @@ class Store:
         self.stock: Dict = {}
         self.products: Dict = {}
 
-    def register_store(self, store: Action) -> None:
+    def register_store(self, store: Any) -> None:
         store.is_open = self.is_open
         store.open_store = self.open_store
         store.close_store = self.close_store
@@ -73,6 +73,76 @@ class Store:
 
     def execute_action(self, action: Callable) -> None:
         action()
+
+
+class Menu:
+    def __init__(self):
+        self.current_user_selection = 0
+        self.entries_action: dict[int, Callable] = {}
+        self.entries_menu: dict[int, str] = {}
+        self.header = ""
+        self.last_option: int = 0
+        self.option_id: int = 1
+
+    def get_selected_option(self, get_id: bool = False) -> int:
+        if get_id:
+            return self.current_user_selection
+        return self.entries_action.get(self.current_user_selection, 0)
+
+    def get_new_option_id(self) -> int:
+        new_id: int = self.option_id
+        self.option_id += 1
+        return new_id
+
+    def format_entry(self, entry: str, id: int) -> str:
+        res = entry.capitalize()
+        res = res if res.endswith(".") else res + "."
+        res = f"{id}. {res}"
+        return res
+
+    def add_menu_entry(self, action: Action) -> None:
+        id: int = self.get_new_option_id()
+        entry: str = self.format_entry(action.name, id)
+
+        self.entries_action[id] = action.run
+        self.entries_menu[id] = entry
+
+    def set_header(self, header: str) -> None:
+        self.header = header
+
+    def set_actions(self, actions: list[Callable]) -> None:
+        self.actions: dict[Callable] = []
+        for action in actions:
+            self.add_menu_entry(action)
+            self.last_option += 1
+
+    def show(self) -> None:
+        print("\n" + self.header)
+        for option in self.entries_menu.values():
+            print(option)
+
+        print()
+
+    def ask_usr_selection(
+        self,
+        message: str = "Ingrese una opción: ",
+        error_message: str = "¡¡Debe seleccionar una opción válida!!",
+    ) -> int:
+        while True:
+            usr_input_raw: str = input(message)
+
+            if not usr_input_raw.isdecimal():
+                print(error_message)
+                continue
+
+            usr_input: int = int(usr_input_raw)
+            if 1 > usr_input or self.last_option < usr_input:
+                print(error_message)
+                continue
+
+            print()
+            self.current_user_selection = usr_input
+            return usr_input
 
 
 class PyBooks:
@@ -182,73 +252,6 @@ class PyBooks:
 
     def exit(self) -> None:
         self.store.close_store()
-
-
-class Menu:
-    def __init__(self):
-        self.current_user_selection = 0
-        self.entries_action: dict[int, Callable] = {}
-        self.entries_menu: dict[int, str] = {}
-        self.header = ""
-        self.last_option: int = 0
-        self.option_id: int = 1
-
-    def get_selected_option(self, get_id: bool = False) -> int:
-        if get_id:
-            return self.current_user_selection
-        return self.entries_action.get(self.current_user_selection, 0)
-
-    def get_new_option_id(self) -> int:
-        new_id: int = self.option_id
-        self.option_id += 1
-        return new_id
-
-    def add_menu_entry(self, action: Action) -> None:
-        id: int = self.get_new_option_id()
-
-        self.entries_action[id] = action.run
-
-        entry: str = action.name.capitalize()
-        entry = entry if entry.endswith(".") else entry + "."
-        entry = f"{id}. {entry}"
-        self.entries_menu[id] = entry
-
-    def set_header(self, header: str) -> None:
-        self.header = header
-
-    def set_actions(self, actions: list[Callable]) -> None:
-        self.actions: dict[Callable] = []
-        for action in actions:
-            self.add_menu_entry(action)
-            self.last_option += 1
-
-    def show(self) -> None:
-        print("\n" + self.header)
-        for option in self.entries_menu.values():
-            print(option)
-
-        print()
-
-    def ask_usr_selection(
-        self,
-        message: str = "Ingrese una opción: ",
-        error_message: str = "¡¡Debe seleccionar una opción válida!!",
-    ) -> int:
-        while True:
-            usr_input_raw: str = input(message)
-
-            if not usr_input_raw.isdecimal():
-                print(error_message)
-                continue
-
-            usr_input: int = int(usr_input_raw)
-            if 1 > usr_input or self.last_option < usr_input:
-                print(error_message)
-                continue
-
-            print()
-            self.current_user_selection = usr_input
-            return usr_input
 
 
 def main() -> None:
