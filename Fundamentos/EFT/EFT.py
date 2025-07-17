@@ -245,7 +245,7 @@ class PyBooks:
         amount = 0
         for model, product_info in products.items():
             if product_info[P.BRAND].lower() == brand and model in stock:
-                stock_data: int = stock.get(model)
+                stock_data: list = stock.get(model)
                 amount += stock_data[S.AMOUNT]
 
         print(f"El stock es: {amount}")
