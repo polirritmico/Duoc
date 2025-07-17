@@ -85,7 +85,8 @@ class SubsidiadoraGas:
         lista_de_bonos_extra: list[Subsidio] = [
             Subsidio([quintil_1], 2000),
             Subsidio([quintil_2], 2000),
-            Subsidio([mayor_de_65], 3000),
+            Subsidio([quintil_1, mayor_de_65], 3000),
+            Subsidio([quintil_2, mayor_de_65], 3000),
         ]
 
         self.subsidiadora = Subsidiadora(lista_de_subsidios, lista_de_bonos_extra)
@@ -111,7 +112,7 @@ class SubsidiadoraGas:
         print("Bienvenido")
         print("Ingrese los datos requeridos.")
 
-        msg = "Quintil (1-5):"
+        msg = "Quintil (1-5): "
         quintil = self.pedir_input_usuario(msg, 1, 5)
 
         msg = "Condición laboral (1. Empleado, 2. Desempleado): "
