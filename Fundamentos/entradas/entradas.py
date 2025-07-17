@@ -85,8 +85,8 @@ def pedir_codigo_de_configuracion() -> str:
 def validar_nombre_unico(nombre: str, ventas: list[dict]) -> bool:
     nombre_unico = buscar_venta_por_nombre_de_usuario(nombre, ventas) is None
     if nombre_unico:
-        return False
-    return True
+        return True
+    return False
 
 
 def validar_tipo_de_entrada(tipo: str) -> bool:
