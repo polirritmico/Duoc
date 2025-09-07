@@ -1,7 +1,10 @@
 package org.polirritmico;
 
+import org.polirritmico.demo_atm.DemoATM;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
+        ATM demoATM = new DemoATM();
+        demoATM.run();
     }
 }
