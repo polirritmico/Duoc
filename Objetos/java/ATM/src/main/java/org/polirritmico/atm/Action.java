@@ -1,5 +1,7 @@
 package org.polirritmico.atm;
 
+import java.util.function.Function;
+
 public class Action {
     private String name = "Unset name";
     private Function run;

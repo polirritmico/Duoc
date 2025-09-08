@@ -1,13 +1,17 @@
 package org.polirritmico.atm;
 
+import java.util.ArrayList;
+import org.polirritmico.atm.Action;
+import org.polirritmico.atm.ATMState;
+
 public interface ATMState {
-    private Menu menu;
+    void handleInput(Integer input);
+    void setMenu(ArrayList<Action> actions);
+    void showMenu();
 
-    public void setMenu(Array<ATMActions>) {
+    ATMState nextState(String input);
+    ATMState canTransitionTo(String input);
 
-    }
-
-    public void showMenu() {
-
-    }
+    default void onEnter() {};
+    default void onExit() {};
 }

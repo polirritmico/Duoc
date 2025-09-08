@@ -1,6 +1,24 @@
 package org.polirritmico.atm.state;
 
 import org.polirritmico.atm.ATMState;
+import org.polirritmico.atm.Action;
 
-public class StandBy extends ATMState {
+import java.util.ArrayList;
+
+public class StandBy implements ATMState {
+    public void handleInput(Integer input) {}
+
+    public void setMenu(ArrayList<Action> actions) {}
+
+    public void showMenu() {}
+
+    public ATMState nextState(String input) {
+        return null;
+    }
+
+    public ATMState canTransitionTo(String input) {
+        return null;
+    }
+
+    public void setMenu() {}
 }

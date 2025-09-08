@@ -9,7 +9,15 @@ public class ATM {
         this.currentState = currentState;
     }
 
+    public void handleInput(Integer input) {
+        this.currentState.handleInput(input);
+    }
+
     public void setState(ATMState newState) {
         this.currentState = newState;
+    }
+
+    public int getCashAmount() {
+        return this.cash.getAmount();
     }
 }
