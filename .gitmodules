@@ -1,0 +1,3 @@
+[submodule "Objetos/java/java-ej-poo"]
+	path = Objetos/java/java-ej-poo
+	url = git@github.com:polirritmico/java-ej-poo.git
