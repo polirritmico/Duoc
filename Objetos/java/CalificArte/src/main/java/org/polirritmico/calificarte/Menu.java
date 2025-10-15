@@ -82,6 +82,10 @@ public class Menu {
         this.currentSelection = selection;
     }
 
+    public int askUserSelection() {
+        return this.askUserSelection(null, null,null);
+    }
+
     public int askUserSelection(String message, String errorMessage, Scanner scanner) {
         if (message == null || message.isBlank()) {
             message = "Ingrese una opción: ";

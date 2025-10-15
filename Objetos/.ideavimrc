@@ -1,0 +1,43 @@
+let mapleader = " "
+
+nmap ñ :
+vmap ñ :
+nmap Ñ ;
+vmap Ñ ;
+
+nmap <bar> `
+vmap < <gv
+vmap > >gv
+
+nmap <leader>l :action NextTab<CR>
+nmap <leader>h :action PreviousTab<CR>
+nmap <leader>db :action CloseAllEditorsButActive<CR>
+nmap <leader>dB :action CloseEditor<CR>
+nmap <leader>gb <C-^>
+
+nmap <C-d> <C-d>zz
+nmap <C-u> <C-u>zz
+nmap n nzzzv
+nmap N Nzzzv
+
+nmap <leader>fe :action SelectInProjectView<CR>
+nmap <leader>y "+y
+vmap <leader>y "+y
+xmap <leader>p "_dP
+nmap <leader>P o<ESC>"+p
+vmap <leader>P o<ESC>"+p
+
+map <F1> :action ShowHoverInfo<CR>
+map <F2> :action RenameElement<CR>
+nmap gcc :action CommentByLineComment<CR>k
+vmap gcc :action CommentByBlockComment<CR>
+
+" -----------------------------------------------------------------------------
+
+set number
+set relativenumber
+set showmode
+set ignorecase
+set smartcase
+set incsearch
+set idearefactormode=keep
