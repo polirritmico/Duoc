@@ -81,17 +81,17 @@ class Menu:
         self.entries_action: dict[int, Callable] = {}
         self.entries_menu: dict[int, str] = {}
         self.header = ""
-        self.last_option: int = 0
-        self.option_id: int = 1
+        self.last_entry: int = 0
+        self.entry_id: int = 1
 
-    def get_selected_option(self, get_id: bool = False) -> int:
+    def get_selected_entry(self, get_id: bool = False) -> int | Callable:
         if get_id:
             return self.current_user_selection
         return self.entries_action.get(self.current_user_selection, 0)
 
-    def get_new_option_id(self) -> int:
-        new_id: int = self.option_id
-        self.option_id += 1
+    def get_new_entry_id(self) -> int:
+        new_id: int = self.entry_id
+        self.entry_id += 1
         return new_id
 
     def format_entry(self, entry: str, id: int) -> str:
@@ -101,7 +101,7 @@ class Menu:
         return res
 
     def add_menu_entry(self, action: Action) -> None:
-        id: int = self.get_new_option_id()
+        id: int = self.get_new_entry_id()
         entry: str = self.format_entry(action.name, id)
 
         self.entries_action[id] = action.run
@@ -114,7 +114,7 @@ class Menu:
         self.actions: dict[Callable] = []
         for action in actions:
             self.add_menu_entry(action)
-            self.last_option += 1
+            self.last_entry += 1
 
     def show(self) -> None:
         print("\n" + self.header)
@@ -136,7 +136,7 @@ class Menu:
                 continue
 
             usr_input: int = int(usr_input_raw)
-            if 1 > usr_input or self.last_option < usr_input:
+            if 1 > usr_input or self.last_entry < usr_input:
                 print(error_message)
                 continue
 
@@ -266,7 +266,7 @@ def main() -> None:
         while pybooks.is_open():
             menu.show()
             menu.ask_usr_selection()
-            pybooks.execute_action(menu.get_selected_option())
+            pybooks.execute_action(menu.get_selected_entry())
         print("Programa finalizado.")
 
     except Exception as err:
