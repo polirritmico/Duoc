@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED2FF58A-F5C9-77C9-653D-4401F7570824" name="TiposLicenciaManejo">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 01:24:35 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_licencia_manejo" id="4C06AAFD-952D-746F-C796-687E259AF627">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 01:24:35 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="99AD4236-A861-484C-EB9D-FC3BD0C83DB4">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 01:24:35 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21403BA8-A7CF-D055-E400-7AB9CAFB6B20" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 01:24:35 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C06AAFD-952D-746F-C796-687E259AF627</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

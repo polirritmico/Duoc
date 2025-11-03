@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Directores Profesiones FK" directorySegmentName="seg_0" id="1AD6040B-B1A3-9068-2DC4-09BD74234E5D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:42:40 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>1F98DFFD-5E78-1F65-34A9-883AB1213223</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DFA57283-97C7-397B-70BB-8D33442EB8A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C51838DD-8903-3047-4BFB-B02D58671A27</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4B9C5EC-AFD5-FBEA-F237-6C724822937B" containerWithKeyObject="7DA54741-696A-63B2-5551-DE745F536C4A" localFKIndex="ACC5E105-5C3B-CF59-A922-00CBAC223FF9" name="Profesores_EstadosCiviles_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>DA6B9E75-57A3-195B-3252-9FC9A2C5AC03</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>EstadosCiviles</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF659FB0-2982-3FA9-4A6C-4BD7E5450B13</referredTableID>
+<keyObject>72CB1C89-E4D3-6DD9-AC19-1185697D1045</keyObject>
+<referredKeyID>72CB1C89-E4D3-6DD9-AC19-1185697D1045</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_estado_civil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

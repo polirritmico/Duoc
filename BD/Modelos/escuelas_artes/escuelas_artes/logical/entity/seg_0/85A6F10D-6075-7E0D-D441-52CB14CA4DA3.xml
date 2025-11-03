@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85A6F10D-6075-7E0D-D441-52CB14CA4DA3" name="InstitucionesEducacionSuperior">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:19:10 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>IES</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id ies" id="B9C83D37-1BD4-AB47-7564-F1888BE21DE2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:19:10 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7AE2568B-B158-F661-F413-AFEC8107B304">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:19:10 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B3829B7-7179-312F-E0AB-775D69EB7114" name="InstitucionesEducacionSuperior_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:19:10 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9C83D37-1BD4-AB47-7564-F1888BE21DE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

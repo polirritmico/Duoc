@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Directores AFP FK" directorySegmentName="seg_0" id="7F2F6427-5F23-4D1F-06EB-B22452A2E6F6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:30:00 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>CCBC7AD9-7D5C-E372-7BDB-2A8D3D20EC9A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>132CA773-0B41-34B8-03D7-E16EBDDC16AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C51838DD-8903-3047-4BFB-B02D58671A27</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E38F426-75AC-558F-E02F-EAEA3AF28FBF" name="Giros">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>F9221669-53EE-BAD3-B031-5059D04DC361</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_giro" id="82142B35-923B-50AC-26A0-D1F144687686">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>4001C297-08EE-460D-5E31-B9D073654A5D</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="B26164FC-086D-9C0E-03B3-6E7188826CC9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>55E51DAD-52DF-F790-2B2B-CDC1B097F3B8</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9D4FAFB-BC2C-FAAC-71EF-ED74842BD044" name="Giros_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>EDE76AF8-AA6E-112E-0F25-703D61791928</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82142B35-923B-50AC-26A0-D1F144687686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

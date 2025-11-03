@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E29A8C7-C225-E513-5FC5-21585E3723F8" containerWithKeyObject="E9BEDAAD-02E5-FB71-341A-CCBC1084905B" localFKIndex="DD639E04-1F75-A0A1-FDEC-18E493DFA7F0" name="Familiares_Parentescos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>F02EE25F-2802-B635-3BFB-7B3F254C9E8E</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>Parentescos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>18DAC531-3EBF-A6D1-A39B-CAD0E3018221</referredTableID>
+<keyObject>AC5942CB-7637-6148-684A-D4CAC8257F9A</keyObject>
+<referredKeyID>AC5942CB-7637-6148-684A-D4CAC8257F9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_parentesco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

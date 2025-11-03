@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B83E17A-14C7-E11C-E868-1287A956B05D" containerWithKeyObject="649E5310-D611-4277-55BD-D5204550A423" localFKIndex="9528A543-1DB5-5EB4-3251-D0DB7F052A80" name="FormulariosContratos_Contratos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:02:27 UTC</createdTime>
+<generatorID>79A35C65-AD48-06DF-46B8-F61CCB729E38</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>Contratos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>879373F3-0285-033B-86FE-DBD2402682EB</referredTableID>
+<keyObject>424D56C1-B6F5-88E9-935D-C7D3B9BA105B</keyObject>
+<referredKeyID>424D56C1-B6F5-88E9-935D-C7D3B9BA105B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Contratos_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

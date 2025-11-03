@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="6FCF3B13-5B03-4310-1ECA-504495472F54" containerWithKeyObject="C7375B3B-AAA9-AE5C-7F1A-22AAF1989ED5" localFKIndex="F0EB897A-BEAD-98DA-C762-6D70392C06DD" name="Solicitudes_Familiares_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>09348251-453A-DF64-5CA3-6EFEE6286167</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>Familiares</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9BEDAAD-02E5-FB71-341A-CCBC1084905B</referredTableID>
+<keyObject>5F79A5F3-83F6-D17C-60AA-8A96E5A4A76E</keyObject>
+<referredKeyID>5F79A5F3-83F6-D17C-60AA-8A96E5A4A76E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_familiar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

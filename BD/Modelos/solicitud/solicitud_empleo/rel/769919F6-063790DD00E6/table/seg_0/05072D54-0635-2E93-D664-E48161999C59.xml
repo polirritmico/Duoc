@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05072D54-0635-2E93-D664-E48161999C59" name="Estados">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>CACA16F4-6C9F-7BF0-8F55-17E437895229</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado" id="42DE97E8-8B64-1C1D-EF65-CA14F9E7C3C8">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>2177CA69-2BDE-3BE9-B327-82EC5380A6A2</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1896148C-8AD7-9D4B-585D-8ECC4474821E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>4BD1839F-1ECD-1A9E-B4A7-7A4AE37988A3</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B79D3371-3463-3609-A79B-BCC7FA6AC892" name="Estados_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>88A5D9E3-B556-F1C5-66B4-509C094C0071</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42DE97E8-8B64-1C1D-EF65-CA14F9E7C3C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

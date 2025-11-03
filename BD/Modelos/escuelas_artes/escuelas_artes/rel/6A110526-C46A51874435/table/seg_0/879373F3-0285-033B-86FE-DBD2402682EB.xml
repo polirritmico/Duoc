@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="879373F3-0285-033B-86FE-DBD2402682EB" name="Contratos">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>31A07CB5-C5B9-9E2D-99A8-71C07D9E2D51</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contrato" id="9A38B23C-DBBB-B86E-1679-4991318E854D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>3FB021AB-1ACB-CB60-A499-43D202090854</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="folio" id="41858672-3847-2362-CCFD-951167A4EC68">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>4A72F1B0-B882-269C-8525-382CCFE89E8D</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesores_id_profesor" id="B0D7EE0F-7CE0-80C9-A896-9505E8EF34A4">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>A0ACFB95-B22A-34DC-3020-5AB53073917F</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="670F3553-DAE7-AD3A-5C54-3FA4775A2A0D" referredColumn="11FDBE17-3A2D-D67E-570E-480A91B32164"/>
+</associations>
+</Column>
+<Column name="es_planta" id="8C05F058-5CEE-2CF6-979B-B9C610B8AD1D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>8E4FB9FB-7FB4-166A-BA1A-36496A7A807E</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_base" id="CE0A4D17-5C5E-B01C-7B4B-E485258C2F50">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>BFA983E0-279E-6855-17ED-47EB4E1BC501</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_hora" id="061B5FF6-7705-DFA5-D310-ED520D226F96">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>54F23AA9-BB77-433D-1432-B53FC274DB17</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_mensuales" id="7D9F15C3-6792-224E-B178-27EC932E667C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>2E601E2D-ACA3-37A0-320D-9161AD3B3EBB</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contratos_ID" id="D22977FE-A401-9953-ED7E-09FB5DC1B177">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="424D56C1-B6F5-88E9-935D-C7D3B9BA105B" name="Contratos_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D22977FE-A401-9953-ED7E-09FB5DC1B177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08955004-240F-99F1-584A-B608E27021F9" name="Contratos_Profesores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>70FB92B8-5053-F34B-8877-49E883482F5B</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0D7EE0F-7CE0-80C9-A896-9505E8EF34A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

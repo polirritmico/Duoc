@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D5A2698-8679-9835-ED67-B92F92BE1FF7" containerWithKeyObject="7DA54741-696A-63B2-5551-DE745F536C4A" localFKIndex="E3E55395-1689-19E8-073E-2219A890CECF" name="Profesores_Prevision_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>D424832D-0862-F77A-3386-348CEDB15616</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>Prevision</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96C2C468-C83A-04F3-7D3A-656C60E5EBF4</referredTableID>
+<keyObject>1CBF2D24-823C-7D37-3718-E8D9C65666BF</keyObject>
+<referredKeyID>1CBF2D24-823C-7D37-3718-E8D9C65666BF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_prevision</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

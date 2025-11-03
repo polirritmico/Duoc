@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5B3646D-8795-7E73-4E19-EB963A5C5773" name="Ciudades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>B92961B2-93EF-EA45-3F61-318718EE79D0</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ciudad" id="86216BD4-2A2A-11D5-C014-A1AC91983744">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>B7896308-5164-B69A-CC04-21ED616A77A7</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="144887F3-E9A8-A832-5EB9-5BB836774EF6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>6A7D693D-623E-9995-32CA-B0F824247DA7</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paises_id_pais" id="C826EA54-BD3A-9C2E-0D2F-CBD3708E9BD5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>095E7510-F317-AB12-30B5-DAB58C15A8AA</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="913D8794-22D9-A751-95A4-0FD7FBE448FD" referredColumn="49DA2024-2215-D48A-EA4C-77AC61789607"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8744B3D-3CCC-9F13-5904-0F0974083898" name="Ciudades_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>688DA956-817F-5C7A-8BA7-D99C27680FF2</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86216BD4-2A2A-11D5-C014-A1AC91983744"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A00B5DD0-7057-52B1-65EA-850004E8FE6C" name="Ciudades_Paises_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>610E4BA5-5F59-6C8E-280B-F3CD1B1A5794</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C826EA54-BD3A-9C2E-0D2F-CBD3708E9BD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49C3C8B2-46B7-7A80-3511-51635E0E1238" containerWithKeyObject="3191B062-71EB-E98F-ED30-47B5E6E62E2D" localFKIndex="C7397F88-1A54-05FD-61A8-54A89965DE9A" name="Inversiones_TiposInversiones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>6D8ED0AE-7B68-04BA-6968-1F732D67C6B6</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>TiposInversiones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F843CCDF-0555-7BC7-2B45-D14A1F7FFB8D</referredTableID>
+<keyObject>34B4D353-C2B2-FF27-B2CB-E900119B6D18</keyObject>
+<referredKeyID>34B4D353-C2B2-FF27-B2CB-E900119B6D18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_inversion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

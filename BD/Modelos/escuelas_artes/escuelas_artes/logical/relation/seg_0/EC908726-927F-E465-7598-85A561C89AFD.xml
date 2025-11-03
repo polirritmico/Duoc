@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Directores Paises FK" directorySegmentName="seg_0" id="EC908726-927F-E465-7598-85A561C89AFD">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 00:14:45 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>22B53AD7-39B6-8B09-3A5E-2F9BDECB4F2D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69096785-71B4-F2CD-8FA1-456A7E395FF1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C51838DD-8903-3047-4BFB-B02D58671A27</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2F6C19FF-E3E0-F173-E36E-E96AA58D313E" name="TiposArchivo">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>95FD760C-6015-7449-C2E9-CF686247E4AD</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_archivo" id="26284277-EEE4-02F7-90AA-5FA9720EB1C5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>B3AE24A5-647D-F041-E402-48360EAF38D6</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="extension" id="02C4B00C-2483-E434-94BD-5F1881867E4E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>B20DD8D3-EC0D-1BE2-131A-0A65F447F601</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9F9D0D9-3A28-2CDA-41B8-CBEA9F4ED160" name="TiposArchivo_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>811F044D-6A4D-2C23-F234-E404E1FF3E07</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26284277-EEE4-02F7-90AA-5FA9720EB1C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

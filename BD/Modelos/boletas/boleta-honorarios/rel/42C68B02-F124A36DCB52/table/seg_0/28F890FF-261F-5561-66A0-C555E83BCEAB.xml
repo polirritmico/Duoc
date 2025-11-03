@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28F890FF-261F-5561-66A0-C555E83BCEAB" name="Emisores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>B52FCCFC-D0E2-9836-C5DA-E9C596A55FA4</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_emisor" id="EBBE584B-76BE-17C6-96BF-2A629D73E28F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>3F2C2119-22D1-5534-EE53-CDAD47F5FEAA</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A581F150-66F6-223D-4B14-16D407EA2205">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>C3401BE3-CC6D-47F7-BA9E-2553C9D9EFFD</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="4370BF6D-94B3-F939-B86C-6E93608B7D31">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>A51BCE81-BFCD-9814-1717-ADBEFED94D94</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dv" id="507DB7CE-BB36-5225-0933-318C64E352A3">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>C2AE10E4-A635-379D-72C5-D31797D3312B</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="756EFA99-FE72-573F-4C8D-6D78F4BC0B13">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>D2AD19A8-B2D8-F08B-952C-342D995C3F14</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="6904D8D3-75FB-F3DF-744D-D6D871C10C56">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>E1A82E67-47FC-9280-7F09-14323DE7B3B0</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logo" id="833F15D0-A2D4-BB57-9F9E-4CCD78E74C13">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>85DAEB56-FE6D-918F-CD97-F931043637CC</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comunas_id_comuna" id="0AF17745-0862-B12C-4C06-D6C476DEC8D2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>7319AD01-17A0-BED0-DF08-881662BED98D</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5215C4F0-349D-F74A-817A-0D2EB71B3324" referredColumn="E06E416A-5486-596B-9114-30CD8077A543"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="077D4EFB-AC8D-3A61-BBBF-FEE2653A9E56" name="Emisores_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>CBFCCE48-D830-0357-C81E-51D70E4E51A3</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBBE584B-76BE-17C6-96BF-2A629D73E28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D41D7F2C-C4EC-A981-890B-D024C18BFCE5" name="Emisores_rut_UN">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>B6DA8D2D-D48D-B436-4B83-5901F14D2039</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4370BF6D-94B3-F939-B86C-6E93608B7D31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20FA51FB-3850-38D7-44DE-72743793BE75" name="Emisores_Comunas_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>5C8BE469-9ABD-C278-3DA3-8596B6786E5B</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF17745-0862-B12C-4C06-D6C476DEC8D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

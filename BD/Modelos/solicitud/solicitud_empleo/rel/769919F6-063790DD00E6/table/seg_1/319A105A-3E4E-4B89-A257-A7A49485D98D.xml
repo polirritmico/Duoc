@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="319A105A-3E4E-4B89-A257-A7A49485D98D" name="TiposEscolaridad">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>86229BB2-AFCF-B702-3EBE-728839754520</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_escolaridad" id="E74A3485-EB92-87A7-B9EF-8939F3A8993F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>1AAB81C7-1951-676C-847A-4DE57676B12C</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="45CFFF72-6D3A-4DDB-3E9F-020EAFBF08C5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>939F0293-A20F-B6C7-5BFA-7EEAD1BFFF1B</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E058205-FD6C-F102-3584-6986C3AEA12A" name="TiposEscolaridad_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>09F71E0D-4F6B-179F-53CD-0D7FFD26A516</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E74A3485-EB92-87A7-B9EF-8939F3A8993F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

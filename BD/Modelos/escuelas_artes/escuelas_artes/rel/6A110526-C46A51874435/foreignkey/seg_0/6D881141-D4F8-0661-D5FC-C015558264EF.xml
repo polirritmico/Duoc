@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D881141-D4F8-0661-D5FC-C015558264EF" containerWithKeyObject="1E0AF252-7734-9C6F-2BCD-9EF06CCAD1A8" localFKIndex="BFF9B5AE-C977-89FC-887C-F73F00B0CC3D" name="Directores_Paises_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>EC908726-927F-E465-7598-85A561C89AFD</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>Paises</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9868577D-F3D8-D80C-EFB9-C10C5669BE4D</referredTableID>
+<keyObject>A97E4246-804F-9E9F-D692-770A0C457A4B</keyObject>
+<referredKeyID>A97E4246-804F-9E9F-D692-770A0C457A4B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_pais</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

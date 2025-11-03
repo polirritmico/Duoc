@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FormulariosPostulacion Directores FK" directorySegmentName="seg_0" id="0ECDA58E-0290-47EF-4C3C-D7025310F031">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 04:56:12 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>2BBD1E27-EBE7-3F5A-AC6C-248BDE63E80F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C51838DD-8903-3047-4BFB-B02D58671A27</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>01930FB2-EAEF-2230-80D2-3029865465BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

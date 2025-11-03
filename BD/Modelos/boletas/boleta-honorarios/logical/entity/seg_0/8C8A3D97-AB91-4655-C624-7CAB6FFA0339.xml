@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C8A3D97-AB91-4655-C624-7CAB6FFA0339" name="Ciudades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:43:26 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ciudad" id="9CB69391-1919-78EE-13AD-9FB34A462E6F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:43:26 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9DA5500F-3FF5-018B-B908-1B196D03DFC9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:43:26 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="04763222-2393-0FBC-8706-D06BA94A9515">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:45:24 UTC</createdTime>
+<generatorID>750D1690-00EB-71C1-51BD-4FBAC285B3D2</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>D8152EA5-B593-C339-56B3-6709AFCB1F54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3C27C72-57B7-2211-398D-C354746F3B0A" name="Entity_11 PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:43:26 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CB69391-1919-78EE-13AD-9FB34A462E6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

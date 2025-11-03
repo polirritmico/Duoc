@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FAB6CC2-9E7D-1254-9BB8-1D7F96206A14" name="Giros_Emisores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 01:49:44 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_giro" id="61696C33-FCD7-1A5D-8F73-842215155071">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 01:52:45 UTC</createdTime>
+<generatorID>78234A3F-136D-5779-D0F2-E2D902706298</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>4001C297-08EE-460D-5E31-B9D073654A5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_emisor" id="EB3882A1-2CBA-B151-0E6E-56B35B804E86">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 01:52:51 UTC</createdTime>
+<generatorID>85E97FE5-88CF-D558-9BA8-F6960B083251</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>3F2C2119-22D1-5534-EE53-CDAD47F5FEAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="673BA6CE-9027-722F-7173-A5108C8C7E0F" name="Giros_Emisores PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 01:53:31 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>61696C33-FCD7-1A5D-8F73-842215155071,EB3882A1-2CBA-B151-0E6E-56B35B804E86</newElementsIDs>
+<usedAttributes>
+<attributeRef>61696C33-FCD7-1A5D-8F73-842215155071</attributeRef>
+<attributeRef>EB3882A1-2CBA-B151-0E6E-56B35B804E86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

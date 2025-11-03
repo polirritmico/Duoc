@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="563C7B2E-17FF-AC38-2AB2-1FC41D2AD3BE" name="SolicitudesEscolaridades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>C630D90E-CD18-CDCF-EB71-11ABF42FE6E5</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Solicitudes_id_solicitud" id="0EAA49CB-2A52-A0A9-5572-3C651523C11E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>C36EA704-1727-D905-5B2F-597289CA8DD0</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F705BCF3-1B88-5396-04B1-350930D008A7" referredColumn="B06F3EB6-8BE7-0D4A-8956-59D6EE73B6FF"/>
+</associations>
+</Column>
+<Column name="Escolaridades_id_escolaridad" id="CFA5266C-7835-439B-35E1-945B047DD9FE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>F8E0AB3B-8BB2-1C6D-9F94-4A03B3C13057</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39A692F7-5937-DAC6-9D40-2064DD1856ED" referredColumn="20371E03-5647-E86E-FFD4-9E0F0259F5F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BEA512B-4BB5-573C-3F7E-A7DA159B1701" name="SolicitudesEscolaridades_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>2A8758D4-5B25-6BBC-8C7C-F8C603645D30</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EAA49CB-2A52-A0A9-5572-3C651523C11E"/>
+<colUsage columnID="CFA5266C-7835-439B-35E1-945B047DD9FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD4013F5-E164-E4AF-D9B3-5A7F9386ECB7" name="SolicitudesEscolaridades_Solicitudes_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>C9D2892A-DB53-F3E1-97E3-CE29EAE720F9</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EAA49CB-2A52-A0A9-5572-3C651523C11E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AD39CE0-C693-6B6D-AECA-E55CC44670BE" name="SolicitudesEscolaridades_Escolaridades_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>4F1A1D52-D63E-8C20-9C19-95A37F2167E3</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFA5266C-7835-439B-35E1-945B047DD9FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

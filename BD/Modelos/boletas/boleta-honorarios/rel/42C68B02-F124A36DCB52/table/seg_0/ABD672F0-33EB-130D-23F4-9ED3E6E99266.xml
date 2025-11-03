@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABD672F0-33EB-130D-23F4-9ED3E6E99266" name="Ciudades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>8C8A3D97-AB91-4655-C624-7CAB6FFA0339</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ciudad" id="929DDA1A-F507-4634-C3AB-723CF81653A9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>9CB69391-1919-78EE-13AD-9FB34A462E6F</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="00C31082-C7A2-82F8-D2B4-C1EA5D70ACC0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>9DA5500F-3FF5-018B-B908-1B196D03DFC9</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Regiones_id_region" id="0ED441AD-6390-0D35-10DD-B529C3041443">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>04763222-2393-0FBC-8706-D06BA94A9515</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C45001D2-E244-9464-11C2-6547D2BF14BB" referredColumn="0FC7F387-6C6B-FA62-A2B2-D386414095D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46DCC8F5-E33C-03B1-5997-71BFCAACAF2C" name="Ciudades_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>B3C27C72-57B7-2211-398D-C354746F3B0A</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="929DDA1A-F507-4634-C3AB-723CF81653A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="890366CF-A75D-A920-FD03-E8EF7DC65D1F" name="Ciudades_Regiones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>750D1690-00EB-71C1-51BD-4FBAC285B3D2</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ED441AD-6390-0D35-10DD-B529C3041443"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

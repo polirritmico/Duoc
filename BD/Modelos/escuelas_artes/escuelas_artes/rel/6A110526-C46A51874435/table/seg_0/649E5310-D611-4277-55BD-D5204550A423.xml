@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="649E5310-D611-4277-55BD-D5204550A423" name="FormulariosContratos">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 02:55:56 UTC</createdTime>
+<generatorID>64CD7C50-F736-072B-CC09-D1B4800917FF</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FormulariosPostulacion_id_formulario_postulacion" id="E87EA36A-17DC-6CAC-32AD-680752FA6763">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:02:27 UTC</createdTime>
+<generatorID>2DB1CB95-9C1E-2B30-9103-C0EE7C63CA62</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F3AA9D5-4330-0B51-03B1-B8045223E102" referredColumn="4980A814-546D-FF9E-14C2-79219FC8DD34"/>
+</associations>
+</Column>
+<Column name="id_contrato" id="B1030DBB-ABA7-8061-0A71-032068333FDC">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:02:27 UTC</createdTime>
+<generatorID>C83CB0FC-2BF0-3E50-B81B-EE2F472E2E12</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contratos_Contratos_ID" id="6BAB059C-03DE-3F74-5184-4A97F63A8406">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:02:27 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B83E17A-14C7-E11C-E868-1287A956B05D" referredColumn="D22977FE-A401-9953-ED7E-09FB5DC1B177"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A97D88A-F697-1049-CC5C-6E5FC6EB92C9" name="FormulariosContratos_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:02:27 UTC</createdTime>
+<generatorID>E3C00055-EDD2-4130-2664-4F3E0B455ED1</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E87EA36A-17DC-6CAC-32AD-680752FA6763"/>
+<colUsage columnID="B1030DBB-ABA7-8061-0A71-032068333FDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A562F541-2AEF-F1DF-3BF7-4F02A22AA767" name="FormulariosContratos_FormulariosPostulacion_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:02:27 UTC</createdTime>
+<generatorID>95FC8A5E-729B-47F6-C392-537F2E081393</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E87EA36A-17DC-6CAC-32AD-680752FA6763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9528A543-1DB5-5EB4-3251-D0DB7F052A80" name="FormulariosContratos_Contratos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:02:27 UTC</createdTime>
+<generatorID>79A35C65-AD48-06DF-46B8-F61CCB729E38</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BAB059C-03DE-3F74-5184-4A97F63A8406"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

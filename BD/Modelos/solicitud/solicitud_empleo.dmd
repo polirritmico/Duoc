@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="solicitud_empleo" id="19BD62B5-CE60-2504-B57E-245F0C67EA13" version="3.5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:51:20 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>19BD62B5-CE60-2504-B57E-245F0C67EA13</designId>
+</OSDM_Design>

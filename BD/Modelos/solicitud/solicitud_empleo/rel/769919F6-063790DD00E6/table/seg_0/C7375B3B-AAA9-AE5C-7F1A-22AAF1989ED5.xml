@@ -1,0 +1,425 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7375B3B-AAA9-AE5C-7F1A-22AAF1989ED5" name="Solicitudes">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>F88073FB-97FD-6D88-2C67-F94C5272D15A</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud" id="B06F3EB6-8BE7-0D4A-8956-59D6EE73B6FF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>EAF626AE-699B-2927-2B38-84271EE89125</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="DBC177D9-1161-9433-C482-4BC51E323B64">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>1089BED0-0E1A-3C67-EA7F-84D3611B12F1</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_deseado" id="269E7251-F211-C3D5-01DE-A6C3F2A0C1BC">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>463C7737-19BD-7306-F2E3-5875094C9170</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="62C3244D-A61C-F5E9-01BE-5A9EF297B54B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>1D1EB499-CB29-0D02-65A3-1B9C293931DA</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autoriza_consulta" id="61E1808D-3154-B284-C37B-602F753ABF89">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[autoriza consultar información empleos]]></commentInRDBMS>
+<generatorID>C1264989-B37A-E27C-C489-4269BBD6782E</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivo_negativa_autorizacion" id="D65606EF-37AC-D083-EA0F-9F6745804485">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>D2FA26B8-D87E-DEB1-9337-1E5A4C17E55F</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postulantes_id_postulante" id="591F1942-88A0-2A5D-88BD-A517C2F875C0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>3E4677AA-96C6-4CD3-9B16-D6DABB81F6E2</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D64E7B0D-8602-9B2B-9E4B-112EA7B34892" referredColumn="BEBC7E49-B838-A634-2CC2-4BBB7AD428F7"/>
+</associations>
+</Column>
+<Column name="Documentaciones_id_documentacion" id="7F88A6DC-757E-48BE-1630-3DD6774D0420">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>CA34CA9D-5875-5580-D1CA-BAA77455BC2F</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FF204E3-400B-05E5-5652-54F2EA4BC3A0" referredColumn="D278ABA1-37D4-066B-BE75-54B140E173CE"/>
+</associations>
+</Column>
+<Column name="HabitosPersonales_id_habitos" id="375CB1A4-82D5-B73B-9260-AD8D05684FEB">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>2AAA7754-F9D0-B15F-CA8D-FD2DAD781771</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FCA35CD-FD4E-6651-6143-D8FEB2F893D3" referredColumn="BEDD2609-C47A-ECF5-17E9-B05E7011A096"/>
+</associations>
+</Column>
+<Column name="DatosEconomicos_id_dato_economico" id="B7E3798D-FAD4-B5E0-A932-D16F22CBFFDD">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>9B298236-C484-03DB-7CBF-6C4B1A0086CE</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD52D38E-7EB2-97CC-22E0-D4F37D3F6F62" referredColumn="4EDA359C-84EB-772A-4034-0F8E5713371E"/>
+</associations>
+</Column>
+<Column name="DatosGenerales_id_dato_general" id="1E91C645-F74C-CEEF-C012-9C034319345C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>0205D341-DA3F-BDE3-3EBA-4AD3ECB635BD</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9C59374-8B16-62DA-23FF-1D6DFDA3448F" referredColumn="5D9ABC8B-7593-F29F-84A8-8F1CAABDD49C"/>
+</associations>
+</Column>
+<Column name="Referencias_id_referencia" id="8990FABD-B4DA-7F89-CCB4-30F88AE36EED">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>697CBD63-120B-0177-B138-BDC5FDF5E6B1</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78CB3E60-8894-2A7F-3175-4377AA6D9473" referredColumn="708CC2C9-4E52-3DB8-38BD-8DB45D4897BA"/>
+</associations>
+</Column>
+<Column name="ExperienciasLaborales_id_experiencia_laboral" id="172AB989-4DAE-571C-3218-4073E7F514BF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>3F31A8C9-6870-4ADC-7BA1-9312CDF0374B</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="331CF61B-AFB9-321E-0B7B-494A37359484" referredColumn="8AC205A6-F273-773C-DAD9-9436C9DDE22B"/>
+</associations>
+</Column>
+<Column name="Conocimientos_id_conocimiento_general" id="9EAD87C3-F9BE-4C1E-446C-6A0A1E45A342">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>35991AA7-6776-7B66-2246-1927BC98F66C</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29F7857E-503C-749D-C9B9-C6633A8B4D15" referredColumn="5105BC7D-4D77-70D1-CFAC-D7633E2D5D9F"/>
+</associations>
+</Column>
+<Column name="Familiares_id_familiar" id="292962AD-BA66-04AC-1E61-E571FF7BF606">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>B5499AC3-8355-37DB-941C-435CA7E76A58</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FCF3B13-5B03-4310-1ECA-504495472F54" referredColumn="493D88F1-B137-5026-D2EF-E4C227248245"/>
+</associations>
+</Column>
+<Column name="Puestos_id_puesto" id="7EB7FB76-0101-DB13-2D25-43AC0AF91E69">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>8727BCA9-E18E-0BF4-38B5-9A5C800CB352</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D001BCD-8120-2FA9-6A63-AFD4EDB1BBB6" referredColumn="B8E7D405-10FB-CE2A-FC23-A7709667B15C"/>
+</associations>
+</Column>
+<Column name="id_adjuntos_foto" id="4B1F1CFE-1282-E31D-BA86-5DF072C70767">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>3813CF0D-3EDB-530B-8F53-53796AB6B621</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C00C4D7-CB35-6FBD-3F88-A96B70204BB6" referredColumn="6D48D615-C326-AA70-330B-CDACB13DA6FA"/>
+</associations>
+</Column>
+<Column name="id_adjuntos_firma" id="8909633C-56CB-DD2D-6843-234CB3EE3073">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>5F564DCB-3221-A5A9-B05E-0B9B63652807</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="554F1485-6985-6FDB-2E9D-907811453344" referredColumn="6D48D615-C326-AA70-330B-CDACB13DA6FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A3C7723-48F0-FFB2-06DC-6BA9AC817392" name="Solicitudes_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>1154AE83-8F87-A69B-9AAF-02261C382D7B</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B06F3EB6-8BE7-0D4A-8956-59D6EE73B6FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDB14B30-A4E0-C35D-F689-2950B30C961E" name="Solicitudes_Conocimientos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>4A3438AA-8785-4625-8118-0D70C149314B</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EAD87C3-F9BE-4C1E-446C-6A0A1E45A342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0EB897A-BEAD-98DA-C762-6D70392C06DD" name="Solicitudes_Familiares_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>09348251-453A-DF64-5CA3-6EFEE6286167</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="292962AD-BA66-04AC-1E61-E571FF7BF606"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C54716D3-8A99-AEA3-C9D6-85E45D24E827" name="Solicitudes_Postulantes_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>8D1C8636-C12F-29AC-87CF-A2F416AAA328</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="591F1942-88A0-2A5D-88BD-A517C2F875C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6B93420-21A6-85FE-AE34-BA8C4052CA1A" name="Solicitudes_Documentaciones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>CE493C08-FC2C-1C20-2CBE-8C341D66319E</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F88A6DC-757E-48BE-1630-3DD6774D0420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B41A27AF-D258-21F6-3B83-A07F2E13B660" name="Solicitudes_HabitosPersonales_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>35D38634-316B-5AD0-DD06-A3A8407B4061</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="375CB1A4-82D5-B73B-9260-AD8D05684FEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7B64657-D5A5-E970-06B5-1EF9EDE9B581" name="Solicitudes_DatosEconomicos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>C62F24E1-F84B-213E-30DA-CF09F4529369</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E3798D-FAD4-B5E0-A932-D16F22CBFFDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C584817F-2E5F-C142-CF9B-8B7B428E092E" name="Solicitudes_DatosGenerales_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>45CA0CC1-37C2-778E-9673-813C502B9BB3</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E91C645-F74C-CEEF-C012-9C034319345C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF7C031B-E344-53D7-09A5-36B539791C0B" name="Solicitudes_Puestos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>EFD04AA0-3C0C-6E2F-1B13-29B6B009C964</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EB7FB76-0101-DB13-2D25-43AC0AF91E69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7738924-507A-1486-FEB7-92FBA63AE547" name="Solicitudes_Adjuntos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>224345CD-17BD-1DC0-E56C-04F52BE7AFB7</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B1F1CFE-1282-E31D-BA86-5DF072C70767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C80E71B-A348-AC3E-C640-72D14CCAE2C1" name="Solicitudes_Adjuntos_FKv2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>5C2DF0D6-3F93-3C83-0A3F-95C6A15EAB22</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8909633C-56CB-DD2D-6843-234CB3EE3073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB520E4D-2C30-BD53-4AAE-EA8758D33C31" name="Solicitudes_Referencias_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>324FE97B-819A-7A6B-8911-F92090C536AB</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8990FABD-B4DA-7F89-CCB4-30F88AE36EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCA916F6-5859-1BD4-EFB7-3AF3AE4F6A02" name="Solicitudes_ExperienciasLaborales_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>2B7A205B-0D6E-3FE8-5116-019EC2C01AD3</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="172AB989-4DAE-571C-3218-4073E7F514BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

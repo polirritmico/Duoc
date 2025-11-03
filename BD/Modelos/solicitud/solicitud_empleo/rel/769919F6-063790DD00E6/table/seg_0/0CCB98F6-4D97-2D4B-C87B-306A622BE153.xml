@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CCB98F6-4D97-2D4B-C87B-306A622BE153" name="ConvivientePostulante">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>0D21889B-8DF0-2886-4EFD-6BEF56841E0A</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TipoConvivientes_id_tipo_conviviente" id="BE9BABFE-792D-930C-7046-99ECAE931CDA">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>69DE7B13-2DDE-62C8-5E9C-208F83C667F1</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B00D5BD-85C8-8123-D08A-78CF3ABD9AAB" referredColumn="1C6E5B8A-320C-B899-60F1-EDA6F7FD3961"/>
+</associations>
+</Column>
+<Column name="Postulantes_id_postulante" id="B4D6D45E-6EDC-D112-65AE-7640193B82E4">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>4B053672-84F8-BEE6-C8DA-06ED15AB0E77</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2E977F0-D411-97F9-5C13-BA6D268EA029" referredColumn="BEBC7E49-B838-A634-2CC2-4BBB7AD428F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFE189BB-1314-63BB-3967-04741B414A84" name="ConvivientePostulante_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>93C32735-BC43-897E-CA72-8A73881C7A44</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="66700F8C-D3F6-4580-A091-4B2EC17DC140" name="ConvivientePostulante_TipoConvivientes_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>803D4B0B-BA54-4422-15EB-E2496A028490</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE9BABFE-792D-930C-7046-99ECAE931CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D679F578-D904-77E7-C6F5-9FC512ABC031" name="ConvivientePostulante_Postulantes_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>078F6AFC-5D39-55B1-04A8-2D5C5B58AE28</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4D6D45E-6EDC-D112-65AE-7640193B82E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

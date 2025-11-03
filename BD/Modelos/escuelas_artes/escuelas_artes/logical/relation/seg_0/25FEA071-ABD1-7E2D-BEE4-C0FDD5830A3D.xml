@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Telefonos TiposTelefono FK" directorySegmentName="seg_0" id="25FEA071-ABD1-7E2D-BEE4-C0FDD5830A3D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-16 04:40:48 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>8B3FFA80-7543-1FDE-5F90-01964FF8F314</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7BD05223-5B54-AC4F-05F5-17EDADE1C05C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6B1E854-57C6-C4BE-96DC-932756828E91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

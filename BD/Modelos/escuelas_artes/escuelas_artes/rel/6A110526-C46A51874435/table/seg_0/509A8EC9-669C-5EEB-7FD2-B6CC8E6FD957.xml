@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="509A8EC9-669C-5EEB-7FD2-B6CC8E6FD957" name="Adjudicaciones">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>10D712E9-0151-0912-C2D7-B51381211AB3</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_adjudicacion" id="9E8A3400-9DD8-D715-FF2A-B4D55A0A191B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>76EFE139-E723-5A12-9B8F-D051AD05BB2E</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="43CD45F4-C992-C57F-CF42-F9487613BF65">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>22CDE4A5-44B8-C782-102B-D08CADA8C5C8</generatorID>
+<notes><![CDATA[Quizás se llene después así que lo dejo opcional]]></notes>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_asignado_uf" id="4F63AA9E-1DAA-7854-5A3A-E99C8E3654EF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>622166FA-CA7E-6D1A-B58B-060F01360371</generatorID>
+<notes><![CDATA[Lo dejo opcional para que 0 represente efectivamente esa cantidad y no que no se ha asignado.]]></notes>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cumple_requisitos" id="3793B173-8113-EFA3-95D5-26FBD2F9FE8D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>BDDE9C53-386B-9B0A-99FE-D22D49C889C4</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F4EA5FF-6FD9-4D69-570F-65C132A64121" name="Adjudicaciones_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>D9FD6A94-88E0-5535-C2EE-D218469EC00F</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E8A3400-9DD8-D715-FF2A-B4D55A0A191B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

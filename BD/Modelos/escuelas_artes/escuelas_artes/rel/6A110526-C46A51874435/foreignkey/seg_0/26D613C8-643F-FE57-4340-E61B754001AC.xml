@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="26D613C8-643F-FE57-4340-E61B754001AC" containerWithKeyObject="97A61395-8AF5-920D-F271-BA07375F54CF" localFKIndex="4F03F1CE-8890-9B2C-882E-519D8EF4A8A2" name="Ciudades_Regiones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>D93E24EC-28F1-366A-201C-91D90E5F1C53</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>Regiones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CDCB6C1B-54FB-0361-C67A-97DD06841B87</referredTableID>
+<keyObject>3EBB2011-B1B5-6538-F42F-E3B45453FD95</keyObject>
+<referredKeyID>3EBB2011-B1B5-6538-F42F-E3B45453FD95</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_region</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

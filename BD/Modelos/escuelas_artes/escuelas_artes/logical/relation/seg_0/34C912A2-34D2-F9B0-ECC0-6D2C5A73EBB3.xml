@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Academias TiposAcademia FK" directorySegmentName="seg_0" id="34C912A2-34D2-F9B0-ECC0-6D2C5A73EBB3">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 00:42:04 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>99D7BC8B-907D-3621-F5ED-13C579D8A8BA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1885EAD5-7D19-152A-A1FD-27DD203AB6E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6192B6EE-C826-CEB4-B940-05505A8427D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

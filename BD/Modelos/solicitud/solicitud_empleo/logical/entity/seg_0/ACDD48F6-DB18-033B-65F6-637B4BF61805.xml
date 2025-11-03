@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACDD48F6-DB18-033B-65F6-637B4BF61805" name="HabitosPersonales">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 04:01:45 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_habitos" id="8116A21E-A2A5-D543-F5F9-1682BB2F1181">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 04:01:45 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="practica_deporte" id="68266F98-4BE4-464E-ABBB-82387C74A24F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 20:09:08 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pasatiempo_favorito" id="9E9393C5-B2BC-6C96-5C32-0636B32DAF40">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 20:09:22 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado_salud" id="D8FFDEC8-1A27-0A76-FB07-1216193DCCCE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 02:41:21 UTC</createdTime>
+<generatorID>2E294E56-EC5F-3DC4-DA7B-39165A45E49A</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<referedAttribute>E451ED26-05CE-82F7-8684-E1568099C454</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_enfermedad_cronica" id="584E93FE-1F14-20B3-0142-CC9EFA8AE87B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 02:43:50 UTC</createdTime>
+<generatorID>0C2A4490-C7D0-4BC4-59DA-7E5121CE0831</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<referedAttribute>2A3409A5-89AB-20C7-F585-A641B2C6D785</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E28E7B3-CEF6-709C-2C5F-DD374504E5A8" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 04:01:45 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8116A21E-A2A5-D543-F5F9-1682BB2F1181</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

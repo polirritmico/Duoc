@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D4B04B7-308A-0167-FDEB-DFFE72202B76" containerWithKeyObject="B63A7788-3588-0389-00B7-C86583C8A61C" localFKIndex="9FF9A37F-01CA-1440-A37F-9529EC095F27" name="Receptores_Comunas_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>C52AA4F7-F387-3F22-3397-7B8C215EFC86</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<referredTableLongName>Comunas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE9286C1-6E1C-21C7-00E8-5144EBA50D8A</referredTableID>
+<keyObject>D169F595-1AB7-7E30-A4E8-80D12A2B6E98</keyObject>
+<referredKeyID>D169F595-1AB7-7E30-A4E8-80D12A2B6E98</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_comuna</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

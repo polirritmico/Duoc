@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69096785-71B4-F2CD-8FA1-456A7E395FF1" name="Paises">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:08:13 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pais" id="6564C97E-11F3-DFAA-02E4-5A45DA24B911">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:08:23 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="195D05CF-DA31-2837-0921-FA9AE99C416F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:10:17 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="072728C9-BD11-9A86-9C07-8BA28D68865D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 00:11:46 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22B53AD7-39B6-8B09-3A5E-2F9BDECB4F2D" name="Paises_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:10:15 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6564C97E-11F3-DFAA-02E4-5A45DA24B911</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C4A6CA1-A6F1-7FBB-867F-B959BEDB8A3D" name="Telefonos_Emisores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:46:23 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefono" id="DF0AB024-D497-F72C-CC8B-1F0B12AD3137">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:46:23 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="4C4C39C1-0628-6E74-61EE-4A4E7F528BF6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:46:23 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="E5A34437-3C71-5BE9-630D-396601540638">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:48:08 UTC</createdTime>
+<generatorID>D0744A99-8B8F-5831-80CA-393E74A02513</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>83DE49F3-5D6E-2CF4-1532-202FDBA17A66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_emisor" id="68598953-ACD7-3953-42A9-76CD1C83FD47">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 17:29:15 UTC</createdTime>
+<generatorID>3042A9A5-2243-DC35-7BB5-FCA451DF98FF</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>3F2C2119-22D1-5534-EE53-CDAD47F5FEAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C790B210-FB22-1B96-FADA-2F20B143FCEE" name="Entity_11 PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:46:23 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF0AB024-D497-F72C-CC8B-1F0B12AD3137</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="37746948-E03C-1134-DA23-562D3A5653F6" name="Key_2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 01:56:54 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<newElementsIDs>4C4C39C1-0628-6E74-61EE-4A4E7F528BF6</newElementsIDs>
+<usedAttributes>
+<attributeRef>4C4C39C1-0628-6E74-61EE-4A4E7F528BF6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

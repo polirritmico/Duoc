@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBAEC09F-24D1-D47A-EC99-1A9E31A480A4" containerWithKeyObject="BE9286C1-6E1C-21C7-00E8-5144EBA50D8A" localFKIndex="F93166F5-6DFB-B734-975F-BC7E821CC18A" name="Comunas_Ciudades_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>D97134F1-BEAF-5910-628B-FADD7C893E92</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<referredTableLongName>Ciudades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABD672F0-33EB-130D-23F4-9ED3E6E99266</referredTableID>
+<keyObject>46DCC8F5-E33C-03B1-5997-71BFCAACAF2C</keyObject>
+<referredKeyID>46DCC8F5-E33C-03B1-5997-71BFCAACAF2C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ciudad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

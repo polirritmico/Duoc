@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2DBEF44-2716-EDED-2882-D0C28121D9E9" name="HabitosPersonales">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>ACDD48F6-DB18-033B-65F6-637B4BF61805</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_habitos" id="BEDD2609-C47A-ECF5-17E9-B05E7011A096">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>8116A21E-A2A5-D543-F5F9-1682BB2F1181</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="practica_deporte" id="A7F6F41E-985B-2FD0-20F0-B9B108C67BCF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>68266F98-4BE4-464E-ABBB-82387C74A24F</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasatiempo_favorito" id="879B47F8-EFBD-7728-C592-4AFD680588B5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>9E9393C5-B2BC-6C96-5C32-0636B32DAF40</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstadosSalud_id_estado_salud" id="3D9EB7E3-7DD0-8E86-33D2-857B497A74D6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>D8FFDEC8-1A27-0A76-FB07-1216193DCCCE</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19129205-BAE0-F205-9A64-E6796CA57095" referredColumn="0B926E17-1ECE-1288-0296-E4B25C41E5A2"/>
+</associations>
+</Column>
+<Column name="EnfermedadesCronicas_id_enfermedad_cronica" id="B4F99F06-E23B-887A-227C-FCC6480F76F4">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>584E93FE-1F14-20B3-0142-CC9EFA8AE87B</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F049E52-D566-41A8-5154-C24ACE008BDB" referredColumn="86E8EF65-9610-D1E0-0ED3-47E5FD9977C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7723C5B3-7CEF-645B-45BF-12D7FC21ED90" name="HabitosPersonales_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>0E28E7B3-CEF6-709C-2C5F-DD374504E5A8</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEDD2609-C47A-ECF5-17E9-B05E7011A096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CD1C510-E294-0607-ED07-355F25145FDA" name="HabitosPersonales_EstadosSalud_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>2E294E56-EC5F-3DC4-DA7B-39165A45E49A</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D9EB7E3-7DD0-8E86-33D2-857B497A74D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEB262EE-11E3-6DC5-5BFB-8C99A9AA21AE" name="HabitosPersonales_EnfermedadesCronicas_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>0C2A4490-C7D0-4BC4-59DA-7E5121CE0831</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4F99F06-E23B-887A-227C-FCC6480F76F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

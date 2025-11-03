@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="FE8C50B1-7CA1-4272-FCAC-3514BA704238">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:34:02 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<sourcePk>76E5148E-1248-2C24-C28E-C3F5905FBA4F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F6EDB4D-331C-CEBF-0239-CCF60E2B74F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>791EA6B7-4222-9242-DD8C-56E22723F3A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

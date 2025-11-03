@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAB18232-B264-7ECE-4633-5DDA7A0BBC1F" name="ConocimientosIdiomas">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>CE976DED-E9A2-6FBA-F98E-E29193875A00</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Conocimientos_id_conocimiento" id="62C8B8D3-5079-2DE1-275E-0A72C09176F9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>4644D90A-9763-14B2-D307-D175C4304FA9</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4279387-8732-45D8-6923-5458BA80E8AD" referredColumn="5105BC7D-4D77-70D1-CFAC-D7633E2D5D9F"/>
+</associations>
+</Column>
+<Column name="Idiomas_id_idioma" id="D89EEBB2-BF94-7954-74EF-6DCE414C3D6F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>C54FF698-AFA4-4701-FD03-73B1DD61F10C</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30472229-F0EA-70F6-D824-6C847225DDD1" referredColumn="644438F4-38BA-852D-8B8B-800477D30AA9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CC89EFF-BD0D-4947-AB0C-A38012AE001F" name="ConocimientosIdiomas_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>6BAE92C9-31C2-3368-FB58-8580C7B3630A</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62C8B8D3-5079-2DE1-275E-0A72C09176F9"/>
+<colUsage columnID="D89EEBB2-BF94-7954-74EF-6DCE414C3D6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FDBA77A-840A-A214-4EE5-53733C24A28E" name="ConocimientosIdiomas_Conocimientos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>D254950F-34AE-F0D1-04E9-258332637D3E</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62C8B8D3-5079-2DE1-275E-0A72C09176F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AB3EE02-896E-4BE7-2982-5FB82067A6AF" name="ConocimientosIdiomas_Idiomas_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>3F6F00B9-A5AC-B5CB-336D-146F50D2FFBD</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D89EEBB2-BF94-7954-74EF-6DCE414C3D6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

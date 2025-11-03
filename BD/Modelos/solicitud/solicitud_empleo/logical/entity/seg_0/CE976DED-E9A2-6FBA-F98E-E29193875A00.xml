@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE976DED-E9A2-6FBA-F98E-E29193875A00" name="ConocimientosIdiomas">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:35:23 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_conocimiento_general" id="4644D90A-9763-14B2-D307-D175C4304FA9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:35:36 UTC</createdTime>
+<generatorID>D254950F-34AE-F0D1-04E9-258332637D3E</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<referedAttribute>13665B51-1400-D720-FDB0-0E7D9F71A698</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_idioma" id="C54FF698-AFA4-4701-FD03-73B1DD61F10C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:35:50 UTC</createdTime>
+<generatorID>3F6F00B9-A5AC-B5CB-336D-146F50D2FFBD</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<referedAttribute>5C577B80-4920-3277-B995-AF2256852091</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BAE92C9-31C2-3368-FB58-8580C7B3630A" name="ConocimientosIdiomas PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:35:58 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4644D90A-9763-14B2-D307-D175C4304FA9</attributeRef>
+<attributeRef>C54FF698-AFA4-4701-FD03-73B1DD61F10C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

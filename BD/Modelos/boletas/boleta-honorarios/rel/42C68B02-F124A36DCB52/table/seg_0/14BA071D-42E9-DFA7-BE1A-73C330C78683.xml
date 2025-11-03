@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14BA071D-42E9-DFA7-BE1A-73C330C78683" name="Telefonos_Emisores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>5C4A6CA1-A6F1-7FBB-867F-B959BEDB8A3D</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefono" id="BA025A55-AE78-2C58-4501-D8B917371DF6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>DF0AB024-D497-F72C-CC8B-1F0B12AD3137</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="56655DDD-2C2E-9E97-14CE-9797C5ED5926">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>4C4C39C1-0628-6E74-61EE-4A4E7F528BF6</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipos_Telefonos_id_tipo" id="FA03F22C-747F-6A83-B172-6FB2176964FE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>E5A34437-3C71-5BE9-630D-396601540638</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ECE7C56-7B0A-948F-5A0C-B380258EEA7E" referredColumn="91E34769-A856-264A-8F31-9F231B3B6FB9"/>
+</associations>
+</Column>
+<Column name="Emisores_id_emisor" id="D0E79C20-9CC1-FB6D-AC08-F0AA0B44B793">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>68598953-ACD7-3953-42A9-76CD1C83FD47</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E26AAA1F-54D6-6CDA-2764-C97526DCBE40" referredColumn="EBBE584B-76BE-17C6-96BF-2A629D73E28F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64A4E469-1467-A395-533C-CDA736E28A11" name="Telefonos_Emisores_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>C790B210-FB22-1B96-FADA-2F20B143FCEE</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA025A55-AE78-2C58-4501-D8B917371DF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDDF1CD7-6D7F-F009-5E33-49D5236DAD37" name="Telefonos_Emisores_numero_UN">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>37746948-E03C-1134-DA23-562D3A5653F6</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56655DDD-2C2E-9E97-14CE-9797C5ED5926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9B2817B-8D03-41CA-EDE6-181ECAB0202E" name="Telefonos_Emisores_Tipos_Telefonos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>D0744A99-8B8F-5831-80CA-393E74A02513</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA03F22C-747F-6A83-B172-6FB2176964FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6123EC88-EE47-CB52-62E5-C3DEA956BD90" name="Telefonos_Emisores_Emisores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>3042A9A5-2243-DC35-7BB5-FCA451DF98FF</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0E79C20-9CC1-FB6D-AC08-F0AA0B44B793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CD39605-3984-E8A8-188E-04493BB79EAC" name="Prevision">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:19:38 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id prevision" id="5289F0D0-3E04-E6A2-49AA-D4D8E1F52030">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:19:38 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="DBAF206B-EC3D-E170-FB4D-14A7BEC3739D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:19:38 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9B83896-3FD1-AE9D-CDA7-E95032361D13" name="Prevision_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:19:38 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5289F0D0-3E04-E6A2-49AA-D4D8E1F52030</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

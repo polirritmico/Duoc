@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="05E1776E-667F-2C0E-8410-D6075C8A8FFF" containerWithKeyObject="1E0AF252-7734-9C6F-2BCD-9EF06CCAD1A8" localFKIndex="2F9015A8-A5DA-CD06-A64D-4CED6DE216E5" name="Directores_Direcciones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>DF1ECAAC-CE41-645D-6B90-2C352C0E1FBF</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>Direcciones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DB6F214-9DC9-5B3F-4B7D-7CF79A3ECA78</referredTableID>
+<keyObject>8E49D5EA-936B-21AA-D942-9946A1C2B229</keyObject>
+<referredKeyID>8E49D5EA-936B-21AA-D942-9946A1C2B229</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_direccion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

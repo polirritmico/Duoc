@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11D7A72E-FB7E-1968-090D-03059CCE93FB" containerWithKeyObject="2BCD41A6-B0D8-C948-EEBA-790490818C57" localFKIndex="0DFBB9D8-2628-6E4D-615F-67EEA360BBF0" name="Boletas_Giros_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>C3DE5374-CC19-5099-9879-63395B5E1A9A</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<referredTableLongName>Giros</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E38F426-75AC-558F-E02F-EAEA3AF28FBF</referredTableID>
+<keyObject>C9D4FAFB-BC2C-FAAC-71EF-ED74842BD044</keyObject>
+<referredKeyID>C9D4FAFB-BC2C-FAAC-71EF-ED74842BD044</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_giro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

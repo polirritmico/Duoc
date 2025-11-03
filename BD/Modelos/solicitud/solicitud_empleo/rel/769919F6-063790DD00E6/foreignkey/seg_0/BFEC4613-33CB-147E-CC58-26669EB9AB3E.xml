@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFEC4613-33CB-147E-CC58-26669EB9AB3E" containerWithKeyObject="533CC356-A439-3BA1-2374-B72288051A32" localFKIndex="E24B3ACF-8ACF-B81B-5755-72F963BE5E93" name="Documentaciones_TiposLicenciaManejo_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>95023E00-9810-84D7-4E51-6DA5A944069A</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>TiposLicenciaManejo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7BB87909-9E7A-3467-82B7-1B8AC842F59E</referredTableID>
+<keyObject>B29CD775-0E58-793C-9EB6-F1BE82D8FE5F</keyObject>
+<referredKeyID>B29CD775-0E58-793C-9EB6-F1BE82D8FE5F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_licencia_manejo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

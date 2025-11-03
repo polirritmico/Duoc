@@ -1,0 +1,318 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DA54741-696A-63B2-5551-DE745F536C4A" name="Profesores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>6D31338A-C23B-4B8A-020A-3D2849DF82D1</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profesor" id="11FDBE17-3A2D-D67E-570E-480A91B32164">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>6CCFEFAE-2A97-0D62-25AC-3A4D9E0D30CE</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1CEA189A-B8E1-D424-1D4A-37F20A5CC968">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>27663731-E67C-F371-274E-47E60842D10B</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="18DB3DC3-A526-D6F7-654E-D4590FDF2B08">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>C2D35937-1675-6747-E085-107238CEC12B</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="2B60ACC3-8962-B2F0-4D46-F70F0C797916">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>B9CF07D1-101E-2C84-4028-E1677172A7F4</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="C61D7644-FCF0-A07B-AD9C-F3EDA3A1F84B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>C29D2421-A2F2-D7FF-2424-DEF6CE0ABEB0</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run" id="CCBA03F4-CFCE-A873-412D-DCEC4C9874A3">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>2685D967-24B2-CFC6-2B8F-1F714F9FD853</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dv" id="00237414-7CCF-FE93-BF58-C65C67274587">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>ECA1E4DE-D517-9531-D218-EAAC34A35455</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direcciones_id_direccion" id="1766DDBC-7675-314F-85C4-265B9D93235C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>4936CE03-38B1-ED61-B829-EAD8190FF597</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E7EB726-16FB-41E0-1955-63C09BCEE279" referredColumn="8B29DAB1-2563-8BF1-2D3D-7FCC3B63958D"/>
+</associations>
+</Column>
+<Column name="Prevision_id_prevision" id="63A925F3-5B95-DB36-31B0-1938FC55EADD">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>DC29D2C1-DE0E-B94E-424F-8A53B02FD2B6</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D5A2698-8679-9835-ED67-B92F92BE1FF7" referredColumn="EBB669E1-5EB2-95AC-33E8-6684DAFBCF6D"/>
+</associations>
+</Column>
+<Column name="AFP_id_afp" id="2482D9AB-7E55-49C4-568A-846BCEA9ACDE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>7A45846E-4653-0DFE-5B87-FF8CF3B1B2A6</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E85495E-4289-DC95-6582-983575F37870" referredColumn="206CE337-0DD8-314D-8729-B761236C389A"/>
+</associations>
+</Column>
+<Column name="Profesiones_id_profesion" id="0547CFBA-7961-A7E1-941E-C98872BA0C6D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>2EC19F37-6BA1-6D72-87A5-20B95712B39A</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CF43ED1-4788-BB88-6E1C-B13F1B693DC6" referredColumn="07330A06-0AE8-0632-1639-9FE830639FCC"/>
+</associations>
+</Column>
+<Column name="EstadosCiviles_id_estado_civil" id="C86C008D-E4A9-84BD-C220-F8A4525A6E63">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>0719DDB9-6213-0722-DFCA-EE8785AC6295</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B9C5EC-AFD5-FBEA-F237-6C724822937B" referredColumn="BD81F6F2-E904-7182-10C8-4CAC45300C2F"/>
+</associations>
+</Column>
+<Column name="InstitucionesEducacionSuperior_id_ies" id="24985472-9CCA-08CC-A786-2ED02577254C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>4A44F55D-94F9-25B6-22FF-2C361B2CAD4B</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E372C85E-54A5-8309-7611-9F7890879D09" referredColumn="6D58496C-AC8A-2253-E61B-34B70F35AA4F"/>
+</associations>
+</Column>
+<Column name="id_pais" id="E76C1A6D-5C8C-BB02-1A38-BE76AB6677C4">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:22:31 UTC</createdTime>
+<generatorID>7CACB307-9590-242A-DAF1-2D3C59E507EB</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paises_id_pais" id="ECCE15A6-12A3-A06D-C689-1E5DA2B0ACAD">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:22:31 UTC</createdTime>
+<generatorID>D295E25A-FE83-5CFD-E7E8-D9577AEBF833</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6ECA0403-3632-909D-9EFE-DC2ADBAB7E06" referredColumn="D26668E2-0518-9EBC-0C64-93C977AB2D71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C3C2282-2B4B-C340-3EB8-2BB2F80D79C6" name="Profesores_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>D3F384FA-F51C-84B4-5DB7-8DBF0C3F4845</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11FDBE17-3A2D-D67E-570E-480A91B32164"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3E55395-1689-19E8-073E-2219A890CECF" name="Profesores_Prevision_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>D424832D-0862-F77A-3386-348CEDB15616</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63A925F3-5B95-DB36-31B0-1938FC55EADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EB47E74-66C6-8422-3D38-DAF938B46227" name="Profesores_AFP_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>B1154B1D-0265-89DD-7799-05A5EE2E9323</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2482D9AB-7E55-49C4-568A-846BCEA9ACDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E67CD617-9CD3-6761-6442-661F02973BD1" name="Profesores_Profesiones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>404EB5A8-059B-21BE-3A92-EB9D97E96B34</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0547CFBA-7961-A7E1-941E-C98872BA0C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACC5E105-5C3B-CF59-A922-00CBAC223FF9" name="Profesores_EstadosCiviles_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>DA6B9E75-57A3-195B-3252-9FC9A2C5AC03</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C86C008D-E4A9-84BD-C220-F8A4525A6E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F312632D-4954-B08D-EBF8-21083CFE61EC" name="Profesores_Direcciones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>EC9D9EA8-A3B2-348B-AD5C-0D449C8D0441</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1766DDBC-7675-314F-85C4-265B9D93235C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1D2F9D0-0349-CDE3-CB0C-C84AF1E4A959" name="Profesores_InstitucionesEducacionSuperior_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>7B6F0947-ECA1-E8CD-4F37-51D6F15D48CF</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24985472-9CCA-08CC-A786-2ED02577254C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D52F7B70-2F9D-4018-CF50-402887E97E5B" name="Profesores_Paises_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:22:31 UTC</createdTime>
+<generatorID>394FAFE3-2DCB-A629-4A36-DE5C1B08A46F</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECCE15A6-12A3-A06D-C689-1E5DA2B0ACAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

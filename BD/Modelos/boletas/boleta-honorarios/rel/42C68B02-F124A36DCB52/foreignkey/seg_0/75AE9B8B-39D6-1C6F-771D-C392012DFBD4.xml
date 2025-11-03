@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75AE9B8B-39D6-1C6F-771D-C392012DFBD4" containerWithKeyObject="3F5F1A83-AEEC-1972-9849-3736EC226695" localFKIndex="D05E48BF-E6EA-68C7-110C-73AB443AA52D" name="Telefonos_Receptores_Receptores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>2DBA5F1D-852B-0E69-561D-7FFFE81204C7</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<referredTableLongName>Receptores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B63A7788-3588-0389-00B7-C86583C8A61C</referredTableID>
+<keyObject>DF56347D-26B2-A2B9-40D8-09B48327346B</keyObject>
+<referredKeyID>DF56347D-26B2-A2B9-40D8-09B48327346B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_receptor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

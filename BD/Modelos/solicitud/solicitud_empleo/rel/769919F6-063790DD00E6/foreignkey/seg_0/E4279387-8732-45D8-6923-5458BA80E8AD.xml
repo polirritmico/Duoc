@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4279387-8732-45D8-6923-5458BA80E8AD" containerWithKeyObject="AAB18232-B264-7ECE-4633-5DDA7A0BBC1F" localFKIndex="2FDBA77A-840A-A214-4EE5-53733C24A28E" name="ConocimientosIdiomas_Conocimientos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>D254950F-34AE-F0D1-04E9-258332637D3E</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>Conocimientos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9494B74B-5CC6-3A27-8C5D-CBB78980E705</referredTableID>
+<keyObject>E6C0041E-B6BE-92C9-CD1B-96F0444DFACF</keyObject>
+<referredKeyID>E6C0041E-B6BE-92C9-CD1B-96F0444DFACF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_conocimiento_general</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F6EDB4D-331C-CEBF-0239-CCF60E2B74F4" name="Boletas">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:19:52 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_boleta" id="6ABBFE1E-EF95-3387-9347-A38E8EA3E9B2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:19:58 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="FAD54F11-23C4-A82D-7B75-BA64BD5AB9F0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:20:16 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="A1669FE4-7D0A-1893-1B62-F1251916C661">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:20:06 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="BA15E388-AA44-9293-F834-CFB4BA88E720">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:21:34 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porcentaje_ret" id="E3C852F2-D4B5-D2B3-4B55-D4B1D96146A5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:23:07 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_ret" id="7B2A528C-27A9-7357-C2F4-493F89EFB04D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:23:41 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liquido" id="4FFA7DC4-C4ED-E726-6A45-842200357DD0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:24:12 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firma" id="42A9F004-4783-8865-3476-76D3E9567265">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:24:22 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota" id="980CF840-91C2-2FAB-D6D7-9946A651E1E6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:22:24 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_emisor" id="B744FF89-A9B1-58CD-C0FF-9EF26819F17F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:33:34 UTC</createdTime>
+<generatorID>B35FA3CF-4D0B-D98D-97AC-CCB96D7AA67F</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>3F2C2119-22D1-5534-EE53-CDAD47F5FEAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_receptor" id="18706A4D-F46F-2303-420B-809AE830FEDA">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:33:54 UTC</createdTime>
+<generatorID>A8E7DB7C-4172-B107-E655-71C9A8154274</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>3D7F2B27-61C8-974B-911B-73AE22D2148E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_giro" id="4CE9CAD1-4FD1-63C9-D9D7-97AA364CAC05">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 01:50:50 UTC</createdTime>
+<generatorID>C3DE5374-CC19-5099-9879-63395B5E1A9A</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>4001C297-08EE-460D-5E31-B9D073654A5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76E5148E-1248-2C24-C28E-C3F5905FBA4F" name="Entity_6 PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:20:03 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6ABBFE1E-EF95-3387-9347-A38E8EA3E9B2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BBED446C-4FBD-FA05-5C4D-A1553CF2F59D" name="Key_2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 01:57:40 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<newElementsIDs>FAD54F11-23C4-A82D-7B75-BA64BD5AB9F0</newElementsIDs>
+<usedAttributes>
+<attributeRef>FAD54F11-23C4-A82D-7B75-BA64BD5AB9F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

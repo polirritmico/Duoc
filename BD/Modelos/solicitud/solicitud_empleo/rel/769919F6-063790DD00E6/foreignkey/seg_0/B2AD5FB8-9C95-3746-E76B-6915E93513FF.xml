@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2AD5FB8-9C95-3746-E76B-6915E93513FF" containerWithKeyObject="67A7A3EB-48A8-FE66-48B0-33CA1236303D" localFKIndex="BA6D080F-DC53-1F96-0CF4-F53CC3D23CDD" name="Postulantes_DireccionesMexico_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>BCF53503-A0A5-AF4F-4963-60C60533EA4D</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>DireccionesMexico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6F01C5B-4A51-12B9-CCFE-D820C6FF384D</referredTableID>
+<keyObject>6C25B8CE-639C-FB80-DF3D-B1FCEA870610</keyObject>
+<referredKeyID>6C25B8CE-639C-FB80-DF3D-B1FCEA870610</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_direccion_mexico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

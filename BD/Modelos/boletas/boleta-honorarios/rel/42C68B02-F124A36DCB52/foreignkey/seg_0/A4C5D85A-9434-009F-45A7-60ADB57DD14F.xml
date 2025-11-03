@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4C5D85A-9434-009F-45A7-60ADB57DD14F" containerWithKeyObject="2BCD41A6-B0D8-C948-EEBA-790490818C57" localFKIndex="1A91C586-0072-B677-FB31-797A074DEFB1" name="Boletas_Emisores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>B35FA3CF-4D0B-D98D-97AC-CCB96D7AA67F</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<referredTableLongName>Emisores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28F890FF-261F-5561-66A0-C555E83BCEAB</referredTableID>
+<keyObject>077D4EFB-AC8D-3A61-BBBF-FEE2653A9E56</keyObject>
+<referredKeyID>077D4EFB-AC8D-3A61-BBBF-FEE2653A9E56</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_emisor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FFFC1BD-D34A-3FB3-62F2-C7DAD6A75F56" name="TiposInversiones">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:27:11 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tipo inversion" id="68C6AE9F-8CC5-6025-8FB7-9AFB95B32445">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:27:11 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C720A056-A0CA-CDE2-B466-DC653F4EC2E3">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:27:11 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA1D3300-08C3-9924-F815-88D95A4B4D20" name="TiposInversiones_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:27:11 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68C6AE9F-8CC5-6025-8FB7-9AFB95B32445</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

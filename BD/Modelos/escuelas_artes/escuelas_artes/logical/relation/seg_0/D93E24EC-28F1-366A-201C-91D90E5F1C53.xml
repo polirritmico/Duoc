@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ciudades Regiones FK" directorySegmentName="seg_0" id="D93E24EC-28F1-366A-201C-91D90E5F1C53">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:03:28 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>B29B78A5-7A36-64EB-340B-22E536478C0F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4A82E3CC-6C57-50F5-BF94-839FCD3F0B81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0EE51624-07F7-193A-B088-F0040CD72FAC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

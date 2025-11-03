@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBB1D59F-92B7-D23E-BEE5-97109BAEC88C" containerWithKeyObject="D66631F3-2080-BE85-3785-4DC9A13D7F82" localFKIndex="C727B44C-CDC6-F09F-A94F-06B562AC4B07" name="Municipios_Estados_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>058868D2-BF8E-C56A-4718-5C219A868A2C</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>Estados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>05072D54-0635-2E93-D664-E48161999C59</referredTableID>
+<keyObject>B79D3371-3463-3609-A79B-BCC7FA6AC892</keyObject>
+<referredKeyID>B79D3371-3463-3609-A79B-BCC7FA6AC892</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

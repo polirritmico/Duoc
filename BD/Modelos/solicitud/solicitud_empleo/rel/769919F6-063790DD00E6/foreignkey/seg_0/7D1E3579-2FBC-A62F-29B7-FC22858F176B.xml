@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7D1E3579-2FBC-A62F-29B7-FC22858F176B" containerWithKeyObject="71A667C0-E9F2-3CF7-8A5C-074E90D590EC" localFKIndex="8DCDA430-B888-92B3-25A7-01C6A41CFBEF" name="Escolaridades_TiposEscolaridad_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>09E2850F-0168-50E3-9A7C-5A985F296952</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>TiposEscolaridad</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>319A105A-3E4E-4B89-A257-A7A49485D98D</referredTableID>
+<keyObject>5E058205-FD6C-F102-3584-6986C3AEA12A</keyObject>
+<referredKeyID>5E058205-FD6C-F102-3584-6986C3AEA12A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_escolaridad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

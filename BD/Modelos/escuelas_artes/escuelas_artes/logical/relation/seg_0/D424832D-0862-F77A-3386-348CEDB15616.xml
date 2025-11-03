@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Profesores Prevision FK" directorySegmentName="seg_0" id="D424832D-0862-F77A-3386-348CEDB15616">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:37:37 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>C9B83896-3FD1-AE9D-CDA7-E95032361D13</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4CD39605-3984-E8A8-188E-04493BB79EAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6D31338A-C23B-4B8A-020A-3D2849DF82D1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

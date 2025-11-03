@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8307920-C35F-F5C7-75B7-253A4B117D07" name="FormulariosPostulacion">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>01930FB2-EAEF-2230-80D2-3029865465BF</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_formulario_postulacion" id="4980A814-546D-FF9E-14C2-79219FC8DD34">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>0162C3BD-A200-3B62-B8DD-33DB72611085</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="folio" id="3BC5039E-2790-F3A3-FB55-98EAEC5CA48F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>87FCD6AC-611D-B184-7B38-D642A2E54744</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Directores_id_director" id="4B451558-BF1D-57A4-AD1A-CE591304AEDD">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>E01AFB0A-82FC-A1EB-4A47-C70901A53168</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB86249E-B41E-6D65-B326-D79385329E52" referredColumn="35A9AE53-B81F-B829-4A44-D3B9B105DDC3"/>
+</associations>
+</Column>
+<Column name="Academias_id_academia" id="C7F272EA-55D1-9369-5DE1-356119DCC5DA">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>326889F0-65AA-979B-99EA-2481D7554FEE</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="708C033D-AA03-446B-027E-71F4161AD45F" referredColumn="66703F70-C351-B3BF-B466-40261B94483B"/>
+</associations>
+</Column>
+<Column name="Inversiones_id_inversion" id="6BDCC728-BBE1-3AE7-8C23-6D900D8D5B09">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>E35C5670-9F8B-7CC3-BCD1-86E399D1A17B</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EDAB33A-E1DF-3CEA-8043-EA0AB2559D53" referredColumn="5B172A94-AF86-DBE1-24EA-FBDFB3EC279F"/>
+</associations>
+</Column>
+<Column name="Adjudicaciones_id_adjudicaciones" id="0B81196B-5F31-0700-3CFF-283D02108D2A">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>5896F754-0EAC-2736-D934-F1BAC1BD0970</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F221140-636A-2105-81AD-4C17D8AF441E" referredColumn="9E8A3400-9DD8-D715-FF2A-B4D55A0A191B"/>
+</associations>
+</Column>
+<Column name="firma" id="2F7C4975-B909-13C4-00C6-3588229283DF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 02:55:56 UTC</createdTime>
+<generatorID>9859511B-713A-065E-8B8E-D730D576FA07</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_firma" id="E2475E65-B739-3415-E8BF-449C475C35A7">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 02:55:56 UTC</createdTime>
+<generatorID>1FE6E09D-DAF5-34E9-69EC-FB3D60F99B7B</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6445BC35-DEF7-3824-53A1-8CF6172B6094" name="FormulariosPostulacion_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>0B607974-DC98-E5C5-5E7A-1EDD821C1ABF</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4980A814-546D-FF9E-14C2-79219FC8DD34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FB2CB56-5E11-54CB-0669-4DFB8E672244" name="FormulariosPostulacion_Directores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>0ECDA58E-0290-47EF-4C3C-D7025310F031</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B451558-BF1D-57A4-AD1A-CE591304AEDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C92AD627-618F-2299-E0F8-9120E4985893" name="FormulariosPostulacion_Academias_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>AC0977D2-E38A-4B82-F502-868079A6301E</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7F272EA-55D1-9369-5DE1-356119DCC5DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70362F3B-18D2-0FBA-F300-4865110BB9FA" name="FormulariosPostulacion_Inversiones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>833446EB-4105-78C7-57D7-4D115A6197DF</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BDCC728-BBE1-3AE7-8C23-6D900D8D5B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7923EEAD-EEFA-65EA-AF16-18BF033D518E" name="FormulariosPostulacion_Adjudicaciones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>1BF8F297-8EE7-CA0D-668F-3D597E31FC05</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B81196B-5F31-0700-3CFF-283D02108D2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

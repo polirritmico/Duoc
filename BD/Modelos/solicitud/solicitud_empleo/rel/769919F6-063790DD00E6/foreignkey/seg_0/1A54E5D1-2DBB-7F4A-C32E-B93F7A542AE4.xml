@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A54E5D1-2DBB-7F4A-C32E-B93F7A542AE4" containerWithKeyObject="5C04601F-0FF3-7494-58F2-8F4C310C10CB" localFKIndex="7342CC67-927B-585A-2AD0-FB98EFDF533F" name="ExperienciasLaborales_Puestos_FKv2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>2B0B4189-69B3-CA1E-1AB9-3D012B77D359</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>Puestos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>37707942-54B4-A7DD-340E-279C4F8389F6</referredTableID>
+<keyObject>000A5FFF-87B2-C949-5F0D-1B4386A6C4AD</keyObject>
+<referredKeyID>000A5FFF-87B2-C949-5F0D-1B4386A6C4AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_puesto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

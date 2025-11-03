@@ -1,0 +1,293 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C51838DD-8903-3047-4BFB-B02D58671A27" name="Directores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:40:14 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id director" id="2ADA847D-829E-6196-A690-A88B7F5CFF7F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:40:24 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="F5410129-AEFE-5AA6-B9B6-E0BA6944C137">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:50:11 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="E35FA92C-E4B8-98C3-983E-501F856EA1B5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:50:16 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer nombre" id="A12EC009-5DA9-0FFA-B8C7-D94EEA83EEC1">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:40:34 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo nombre" id="2107E9BE-54EF-6D77-2B48-32E018DF874B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:42:21 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer apellido" id="C0C67265-929F-11FF-05ED-0C07A3EAAD71">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:43:41 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo apellido" id="A1FD2347-C7B9-3E36-9C9F-81250FDA2DD4">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:43:58 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="F182A953-252E-452F-7801-318FDC697BB5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:44:40 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id prevision" id="D9A98CA0-24C7-3340-30E7-1A5DA2AA342D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:29:54 UTC</createdTime>
+<generatorID>74F7F4F9-0857-CE11-6CEE-CCC09C6C250E</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5289F0D0-3E04-E6A2-49AA-D4D8E1F52030</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFP id afp" id="2850A985-AA86-0C0C-0AA7-79F200BCCA52">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:30:00 UTC</createdTime>
+<generatorID>7F2F6427-5F23-4D1F-06EB-B22452A2E6F6</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CAACF86C-B2EC-1528-A752-AAA9D4FFAE70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id profesion" id="50E58627-95EC-EE1D-536D-13CA65C4D91C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:42:40 UTC</createdTime>
+<generatorID>1AD6040B-B1A3-9068-2DC4-09BD74234E5D</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<referedAttribute>0E8BDE9E-321D-9BBB-061E-364824F233B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id estado civil" id="944B5005-D80A-8D84-155E-6640E000D3BB">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-14 23:45:32 UTC</createdTime>
+<generatorID>BFA9245B-DAA1-89D3-C1FD-4E13BD61081D</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A0B2C6DD-3D91-9645-CEBE-29F70D555BC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pais" id="8BBED0D7-C757-AFC1-C924-D7E07CDDE515">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 00:14:45 UTC</createdTime>
+<generatorID>EC908726-927F-E465-7598-85A561C89AFD</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6564C97E-11F3-DFAA-02E4-5A45DA24B911</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id telefono" id="1F628324-B0FE-6B75-AE05-BBA65756EEB5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 00:25:48 UTC</createdTime>
+<generatorID>095CC994-CD83-29C7-1EC0-19121CB507B2</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<referedAttribute>5261AD56-9614-2FF5-E6BB-E3BCC08C5FAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direcciones id direccion" id="1827F393-C7CB-1CD5-CD2E-107F02A55613">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 00:30:36 UTC</createdTime>
+<generatorID>DF1ECAAC-CE41-645D-6B90-2C352C0E1FBF</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<referedAttribute>F69599F3-30AB-9F85-F8C0-8B705D1A37F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="B02183A8-F60F-8FB4-2E9F-56E27996413B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:39:58 UTC</createdTime>
+<generatorID>B7FF7575-765A-5032-20EC-F7E59FDD5B35</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firma" id="DD1A9BA3-27B9-32FA-1B6D-FACEDC23ED5F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 03:39:58 UTC</createdTime>
+<generatorID>79F4DA67-EAF8-4772-22DC-2C5A0188ABFA</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BBD1E27-EBE7-3F5A-AC6C-248BDE63E80F" name="Directores PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-09 22:42:42 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2ADA847D-829E-6196-A690-A88B7F5CFF7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

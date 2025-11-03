@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82CBE2CD-A222-89B4-3996-ED24A8D8E66D" containerWithKeyObject="1E0AF252-7734-9C6F-2BCD-9EF06CCAD1A8" localFKIndex="3BA009AA-2133-01BE-AE74-FDA037F1C6B4" name="Directores_AFP_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>7F2F6427-5F23-4D1F-06EB-B22452A2E6F6</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>AFP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B386F12F-C633-658D-2423-301658E94814</referredTableID>
+<keyObject>C4DC2B10-98F2-08F6-73B7-92436233FBF1</keyObject>
+<referredKeyID>C4DC2B10-98F2-08F6-73B7-92436233FBF1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_afp</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

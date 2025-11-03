@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49C83A45-B873-5D6F-C7F5-D8B2462EF9DB" name="Giros_Emisores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>6FAB6CC2-9E7D-1254-9BB8-1D7F96206A14</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Giros_id_giro" id="3CE8FC53-D3C5-E43E-70F9-2A4BB0A60F76">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>61696C33-FCD7-1A5D-8F73-842215155071</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2C499AB-10E8-923F-21BD-2F2CFE9FB9C6" referredColumn="82142B35-923B-50AC-26A0-D1F144687686"/>
+</associations>
+</Column>
+<Column name="Emisores_id_emisor" id="E68A1D93-104F-EB4B-52FC-D2E0591A50EE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>EB3882A1-2CBA-B151-0E6E-56B35B804E86</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24D7941A-75E7-ED9D-CD3C-356FEB39E64C" referredColumn="EBBE584B-76BE-17C6-96BF-2A629D73E28F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCAA67A2-65E7-FAFF-103D-BB82353B8BDE" name="Giros_Emisores_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>673BA6CE-9027-722F-7173-A5108C8C7E0F</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CE8FC53-D3C5-E43E-70F9-2A4BB0A60F76"/>
+<colUsage columnID="E68A1D93-104F-EB4B-52FC-D2E0591A50EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D050589-D502-CD2F-2494-F1BDE287D964" name="Giros_Emisores_Giros_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>78234A3F-136D-5779-D0F2-E2D902706298</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CE8FC53-D3C5-E43E-70F9-2A4BB0A60F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AF29BD0-550D-8A3A-DBEE-53BE4A6AEBFC" name="Giros_Emisores_Emisores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 02:06:58 UTC</createdTime>
+<generatorID>85E97FE5-88CF-D558-9BA8-F6960B083251</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E68A1D93-104F-EB4B-52FC-D2E0591A50EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

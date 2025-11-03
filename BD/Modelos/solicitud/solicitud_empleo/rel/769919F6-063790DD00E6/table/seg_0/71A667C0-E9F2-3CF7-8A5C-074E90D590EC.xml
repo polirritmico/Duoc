@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71A667C0-E9F2-3CF7-8A5C-074E90D590EC" name="Escolaridades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>A42D8D14-D735-1A38-0C66-D8A9D2B254DB</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escolaridad" id="20371E03-5647-E86E-FFD4-9E0F0259F5F2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>E15DD267-03AD-D17F-CBEF-EABDC37ECE6E</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_institucion" id="EC15A751-73A8-60A2-93B2-6E4875F7F325">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>9081D0F5-2D76-C986-B46B-8998996B468D</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="5CA6BB03-D08F-E2A0-9597-A469BB647766">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>E8FDBB60-2BDC-2954-A388-1B5E3D64D567</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="DC7720A8-A7D6-4A02-CA02-839BB84FB368">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>A60FCA7D-B9C8-EAB7-ED75-4FE607E11678</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_adjuntos_certificado" id="A18D40A8-E8CC-79C0-C2D9-EE54D5625CBF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>D3D4016A-D097-6CC5-D1F3-6882C5E45960</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63DCB78B-5517-6EF8-CF22-74FC819AE9A8" referredColumn="6D48D615-C326-AA70-330B-CDACB13DA6FA"/>
+</associations>
+</Column>
+<Column name="TiposEscolaridad_id_tipo_escolaridad" id="A3B78CDC-DE15-7F55-9972-507AA9696913">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>34E84186-4021-8BDB-349D-8915BEB465E0</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D1E3579-2FBC-A62F-29B7-FC22858F176B" referredColumn="E74A3485-EB92-87A7-B9EF-8939F3A8993F"/>
+</associations>
+</Column>
+<Column name="Direcciones_id_direccion" id="11AEB560-46AD-8FDC-9CAA-034206405037">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>1616A029-6E02-60F2-38E8-89F05A43E8B7</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E68AE50E-24DB-4B37-1A19-B35C720CCECB" referredColumn="3593EA51-4203-6FDA-D3DC-8801F19D8675"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BE966F0-EB7B-7996-B519-7B81BB1F7BA0" name="Escolaridades_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>9C53D39F-7BED-46D7-66EA-4ABC736089BB</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20371E03-5647-E86E-FFD4-9E0F0259F5F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D405D7E-DBB0-4FC2-0007-23C21D3CA57A" name="Escolaridades_Adjuntos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>2C647780-AF1D-D088-5C00-FBE7B50D721A</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A18D40A8-E8CC-79C0-C2D9-EE54D5625CBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DCDA430-B888-92B3-25A7-01C6A41CFBEF" name="Escolaridades_TiposEscolaridad_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>09E2850F-0168-50E3-9A7C-5A985F296952</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B78CDC-DE15-7F55-9972-507AA9696913"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19B01F6B-0489-EF83-9711-975A8ED92DBD" name="Escolaridades_Direcciones_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>5D29DDDD-3D3A-871E-7C96-077999B85529</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11AEB560-46AD-8FDC-9CAA-034206405037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

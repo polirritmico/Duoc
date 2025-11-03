@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Profesores InstitucionesEducacionSuperior FK" directorySegmentName="seg_0" id="7B6F0947-ECA1-E8CD-4F37-51D6F15D48CF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:03:33 UTC</createdTime>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6A110526-4266-C321-ABB1-C46A51874435" value="false"/>
+</engineerTo>
+<sourcePk>5B3829B7-7179-312F-E0AB-775D69EB7114</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>85A6F10D-6075-7E0D-D441-52CB14CA4DA3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6D31338A-C23B-4B8A-020A-3D2849DF82D1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C630D90E-CD18-CDCF-EB71-11ABF42FE6E5" name="SolicitudesEscolaridades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 12:18:14 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_solicitud" id="C36EA704-1727-D905-5B2F-597289CA8DD0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 12:19:11 UTC</createdTime>
+<generatorID>C9D2892A-DB53-F3E1-97E3-CE29EAE720F9</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<referedAttribute>EAF626AE-699B-2927-2B38-84271EE89125</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escolaridad" id="F8E0AB3B-8BB2-1C6D-9F94-4A03B3C13057">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 12:19:21 UTC</createdTime>
+<generatorID>4F1A1D52-D63E-8C20-9C19-95A37F2167E3</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="true"/>
+</engineerTo>
+<referedAttribute>E15DD267-03AD-D17F-CBEF-EABDC37ECE6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A8758D4-5B25-6BBC-8C7C-F8C603645D30" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 12:18:14 UTC</createdTime>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="769919F6-3B5C-8D23-21D5-063790DD00E6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C36EA704-1727-D905-5B2F-597289CA8DD0</attributeRef>
+<attributeRef>F8E0AB3B-8BB2-1C6D-9F94-4A03B3C13057</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

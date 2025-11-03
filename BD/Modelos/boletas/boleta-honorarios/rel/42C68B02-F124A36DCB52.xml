@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="42C68B02-EFCE-1364-6E1F-F124A36DCB52" mainViewID="CB71EA37-7980-5080-09DF-7E6F9F791FD4">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:17:44 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

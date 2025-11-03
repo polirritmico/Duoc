@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB86249E-B41E-6D65-B326-D79385329E52" containerWithKeyObject="C8307920-C35F-F5C7-75B7-253A4B117D07" localFKIndex="3FB2CB56-5E11-54CB-0669-4DFB8E672244" name="FormulariosPostulacion_Directores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-17 01:29:36 UTC</createdTime>
+<generatorID>0ECDA58E-0290-47EF-4C3C-D7025310F031</generatorID>
+<ownerDesignName>escuelas_artes</ownerDesignName>
+<referredTableLongName>Directores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E0AF252-7734-9C6F-2BCD-9EF06CCAD1A8</referredTableID>
+<keyObject>F90FE614-20A9-9231-72D6-51B3AABB47E2</keyObject>
+<referredKeyID>F90FE614-20A9-9231-72D6-51B3AABB47E2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_director</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

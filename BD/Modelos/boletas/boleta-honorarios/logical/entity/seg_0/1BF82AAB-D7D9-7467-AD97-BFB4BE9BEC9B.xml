@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BF82AAB-D7D9-7467-AD97-BFB4BE9BEC9B" name="Telefonos_Receptores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 17:31:11 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefono" id="8BDAEE00-1E96-ED9C-CCAC-F9F9F953CD99">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 17:31:11 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="8064C770-BF61-AC72-AB5A-76DB520AB638">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 17:31:11 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_receptor" id="5DB29852-A137-36C4-C6B7-6EA7346A36AD">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 17:31:45 UTC</createdTime>
+<generatorID>2DBA5F1D-852B-0E69-561D-7FFFE81204C7</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>3D7F2B27-61C8-974B-911B-73AE22D2148E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="C1CEEB02-ACA0-A098-5B52-C3D0E7236D52">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 17:32:42 UTC</createdTime>
+<generatorID>73BCA461-40FE-226B-ADF1-BD76ED9783B4</generatorID>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<referedAttribute>83DE49F3-5D6E-2CF4-1532-202FDBA17A66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACE50BE0-3913-4507-D306-45EE5089369B" name="Entity_11 PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 17:31:11 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8BDAEE00-1E96-ED9C-CCAC-F9F9F953CD99</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7BE2838C-DB0E-F110-1D1F-E4136F0C7ACB" name="Key_2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-27 01:56:44 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<engineerTo>
+<item key="42C68B02-EFCE-1364-6E1F-F124A36DCB52" value="true"/>
+</engineerTo>
+<newElementsIDs>8064C770-BF61-AC72-AB5A-76DB520AB638</newElementsIDs>
+<usedAttributes>
+<attributeRef>8064C770-BF61-AC72-AB5A-76DB520AB638</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

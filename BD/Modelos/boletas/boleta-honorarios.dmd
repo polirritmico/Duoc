@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="boleta-honorarios" id="C13C2A19-95CA-6EC5-563F-DE1250C190D0" version="3.5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-25 16:17:30 UTC</createdTime>
+<ownerDesignName>boleta-honorarios</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C13C2A19-95CA-6EC5-563F-DE1250C190D0</designId>
+</OSDM_Design>

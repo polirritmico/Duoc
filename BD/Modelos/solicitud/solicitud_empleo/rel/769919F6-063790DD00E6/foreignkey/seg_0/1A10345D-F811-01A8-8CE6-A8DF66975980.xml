@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A10345D-F811-01A8-8CE6-A8DF66975980" containerWithKeyObject="CDC6B258-D19A-2275-48A3-CDFF09731BBD" localFKIndex="EA653F2C-986C-70D6-D22F-A4D63D51A30A" name="Adjuntos_TiposArchivo_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-10-18 22:38:45 UTC</createdTime>
+<generatorID>60FFFA3C-B598-7262-9884-1315B0226D8B</generatorID>
+<ownerDesignName>solicitud_empleo</ownerDesignName>
+<referredTableLongName>TiposArchivo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F6C19FF-E3E0-F173-E36E-E96AA58D313E</referredTableID>
+<keyObject>A9F9D0D9-3A28-2CDA-41B8-CBEA9F4ED160</keyObject>
+<referredKeyID>A9F9D0D9-3A28-2CDA-41B8-CBEA9F4ED160</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_archivo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
