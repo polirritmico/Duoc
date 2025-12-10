@@ -2,7 +2,30 @@
 
 Aquí estan las instrucciones
 
+## Requisitos
+
+- Docker
+- Docker compose
+
+Para revisar que esté todo funcionando:
+
+```bash
+$ docker compose version
+Docker Compose version v2.39.3  # o la version que esté instalada
+```
+
+> [!NOTE]
+>
+> Cuando termines de usar la BD, baja la instancia. Sino, es probable que se
+> inicie automáticamente cada vez que lanzas docker:
+>
+> ```bash
+> docker compose down  # desde la carpeta con el docker-compose.yml
+> ```
+
 ## 1. Levantar el contenedor
+
+En una ruta con el archivo `docker-compose.yml` ejecutar:
 
 ```bash
 docker compose up -d
@@ -17,9 +40,9 @@ En SQL Developer agregamos una nueva conexión:
 
 | Campo            | Valor              | Nota                                             |
 | ---------------- | ------------------ | ------------------------------------------------ |
-| **Name**         | `OracleAdmin_CDB`  | O el nombre que prefieras                        |
+| **Name**         | `OracleAdmin_CDB`  | O cualquier nombre                               |
 | **Username**     | `SYSTEM`           |                                                  |
-| **Password**     | `TuPasswordSeguro` | Definida en el `compose.yaml`                    |
+| **Password**     | `MiPasswordSeguro` | Definida en el `compose.yaml`                    |
 | **Hostname**     | `localhost`        |                                                  |
 | **Port**         | `1521`             |                                                  |
 | **Service Name** | **`FREE`**         | **¡Importante!** No usar SID. Usar Service Name. |
