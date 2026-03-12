@@ -58,6 +58,47 @@ con estos datos:
 
 **Listo, todo debería estar funcionando.**
 
+## Preparación esquemas para los ejercicios
+
+Para crear los entornos de práctica vamos a crearlos en un procedimiento y luego
+solo faltaría agregar cada conección manualmente en el programa que utilizemos
+para conectarnos.
+
+Para los nombres de usuario se utiliza `BDY1102_X` donde `X` es el número de la
+práctica y `014V` la contraseña común.
+
+```sql
+ALTER SESSION SET CONTAINER = FREEPDB1;
+
+BEGIN
+   FOR i IN 1..17 LOOP
+      EXECUTE IMMEDIATE 'CREATE USER BDY1102_' || i ||
+                        ' IDENTIFIED BY "014V"' ||
+                        ' DEFAULT TABLESPACE USERS' ||
+                        ' TEMPORARY TABLESPACE TEMP';
+
+      EXECUTE IMMEDIATE 'ALTER USER BDY1102_' || i || ' QUOTA UNLIMITED ON USERS';
+      EXECUTE IMMEDIATE 'GRANT CREATE SESSION, RESOURCE TO BDY1102_' || i;
+      EXECUTE IMMEDIATE 'ALTER USER BDY1102_' || i || ' DEFAULT ROLE RESOURCE';
+   END LOOP;
+END;
+/
+```
+
+## Conexión al esquema
+
+Estos son los datos de conexión para los esquemas:
+
+| Campo            | Valor (Ejemplo para P1) | Nota                                      |
+| ---------------- | ----------------------- | ----------------------------------------- |
+| **Username**     | `BDY1102_1`             | Cambiar el número según la práctica.      |
+| **Password**     | `014V`                  | Contraseña única para todos los esquemas. |
+| **Hostname**     | `localhost`             |                                           |
+| **Port**         | `1521`                  |                                           |
+| **Service Name** | **`FREEPDB1`**          | **Obligatorio:** Conexión a la PDB.       |
+
+---
+
 ## Fuente
 
 Toda la info viene de aquí:
