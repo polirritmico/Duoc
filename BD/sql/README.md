@@ -1,6 +1,6 @@
 # Oracle Database Free con Docker
 
-Aquí estan las instrucciones
+Aquí están las instrucciones
 
 ## 1. Levantar el contenedor
 
@@ -61,7 +61,7 @@ con estos datos:
 ## Preparación esquemas para los ejercicios
 
 Para crear los entornos de práctica vamos a crearlos en un procedimiento y luego
-solo faltaría agregar cada conección manualmente en el programa que utilizemos
+solo faltaría agregar cada conexión manualmente en el programa que utilicemos
 para conectarnos.
 
 Para los nombres de usuario se utiliza `BDY1102_X` donde `X` es el número de la
