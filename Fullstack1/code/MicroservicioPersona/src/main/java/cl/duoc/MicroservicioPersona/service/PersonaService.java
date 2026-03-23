@@ -33,6 +33,13 @@ public class PersonaService {
         return repository.createPersona(persona);
     }
 
+    public List<Persona> bulkSavePersona(List<Persona> personas) {
+        for (Persona persona : personas) {
+            savePersona(persona);
+        }
+        return personas;
+    }
+
     public boolean deletePersona(int rut) {
         return repository.deletePersona(rut) != null;
     }

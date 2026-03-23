@@ -37,6 +37,11 @@ public class PersonaController {
         return service.savePersona(persona);
     }
 
+    @PostMapping("/bulk-create")
+    public List<Persona> bulkStorePersonas(@RequestBody List<Persona> personas) {
+        return service.bulkSavePersona(personas);
+    }
+
     @DeleteMapping("/{rut}")
     public boolean deletePersona(@PathVariable int rut) {
         return service.deletePersona(rut);
