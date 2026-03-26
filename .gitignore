@@ -5,3 +5,8 @@ Otros/
 *.zip
 *.pdf
 *.m4a
+/Objetos/PixelAndBean/target/
+Devops/ev2/LabDevops-back/
+Devops/ev2/LabDevops-front/
+Objetos/java/ejercicios/
+Objetos/java/pixel-and-bean/
