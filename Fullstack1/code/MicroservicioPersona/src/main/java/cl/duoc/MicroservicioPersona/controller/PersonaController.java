@@ -3,11 +3,13 @@ package cl.duoc.MicroservicioPersona.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import cl.duoc.MicroservicioPersona.model.Persona;
 import cl.duoc.MicroservicioPersona.service.PersonaService;
+import jakarta.validation.Valid;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -33,8 +35,13 @@ public class PersonaController {
     }
 
     @PostMapping
-    public Persona storePersona(@RequestBody Persona persona) {
-        return service.savePersona(persona);
+    public ResponseEntity<?> storePersona(@Valid @RequestBody Persona persona) {
+        try {
+            Persona nuevaPersona = service.savePersona(persona);
+            return ResponseEntity.ok(nuevaPersona);
+        } catch (Exception e) {
+            return ResponseEntity.status(400).body("Error al ingresar persona");
+        }
     }
 
     @PostMapping("/bulk-create")
