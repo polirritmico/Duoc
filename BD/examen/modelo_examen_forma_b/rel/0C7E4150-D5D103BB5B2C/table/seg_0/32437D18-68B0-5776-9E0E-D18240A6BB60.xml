@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32437D18-68B0-5776-9E0E-D18240A6BB60" name="Ciudades">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>E5DA94C2-9197-3201-2B3C-CEB78E8DCDDD</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ciudad" id="F77BDA25-77E7-E1AF-C825-493B79976A3B">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>F5056D21-4599-E823-DF38-B14F6842EAE0</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="97A795A3-9B7D-78FB-A7CF-8A849BE9C526">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>439F3E25-9CCD-69CE-69B4-E7948090CF69</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_region" id="13CE6F83-2C82-25D8-5E73-9B60A2A64E6D">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>16A07EE4-3657-DFE9-E2C8-3F9FFEA93A5D</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDB0D833-0B0B-A080-8A80-1DCC3F8B5D0E" referredColumn="567C917F-0C74-CFB3-3388-57D714D5FADB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBBCD4D4-F6BA-9104-FE76-2F9AE589F868" name="Ciudades_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>DD6CF1F7-D838-6420-37BF-56BC2E66D5DF</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F77BDA25-77E7-E1AF-C825-493B79976A3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7A98D6D-EC63-A122-35BE-F8202E07980A" name="Ciudades_Regiones_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>504CE760-54E9-8B16-E450-424A976BECA4</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13CE6F83-2C82-25D8-5E73-9B60A2A64E6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

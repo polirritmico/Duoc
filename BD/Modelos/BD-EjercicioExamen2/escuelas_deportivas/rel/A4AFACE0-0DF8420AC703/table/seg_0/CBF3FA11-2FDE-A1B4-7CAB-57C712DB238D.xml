@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBF3FA11-2FDE-A1B4-7CAB-57C712DB238D" name="Telefonos">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>DDF169C8-998E-0602-4B46-9654EC8B7377</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefono" id="7FBDA62E-B0AA-C191-CEA8-63BEC3127C24">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>15D1F4E0-739E-B6EA-316E-7DFBF9ED2FBD</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="770BCF37-1DC6-41D2-F751-6D39B03E5084">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>0344A538-5E75-61B7-BE17-A7DB81924166</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_telefono" id="DB6C1454-3A89-0F99-DA7D-077D713F1115">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>E34FE24F-2961-5F74-7DD2-1DC3696CB012</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E13BDEE-AFD4-BA8A-46DF-DF38D96D0BDA" referredColumn="F4B43DA7-7328-CA5F-7999-91F4C5FBD01E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56BAB000-6745-094A-EF1D-49F4674F6899" name="Telefonos_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>43F310CC-CD6F-AC73-F144-F60B82B0C218</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FBDA62E-B0AA-C191-CEA8-63BEC3127C24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A855E5B8-FFCD-C4B1-71E3-4D10B8A839D9" name="Telef_Tipos_Telef_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>B14F804A-E03B-A028-0119-2951ADFAB893</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB6C1454-3A89-0F99-DA7D-077D713F1115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

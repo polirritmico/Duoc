@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E43762B8-FCA1-CF59-948F-392361C96816" name="Servicios">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:40:42 UTC</createdTime>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_servicio" id="9E480F7B-CC6D-A15B-195C-2587E03B8BE0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:40:51 UTC</createdTime>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="1E4FFA44-1FF1-3DDC-8BE0-16BECC5B8225">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:42:45 UTC</createdTime>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_entrega" id="B3BA8EE4-D14E-FB22-E7B3-0EB5055E48D0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:43:59 UTC</createdTime>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_servicio" id="CAD2220D-1B62-8A83-E251-7137B4CCC10C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:44:07 UTC</createdTime>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="CBF9CF04-4BB4-C9BC-80F8-F9FCC5F8ECCE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:44:14 UTC</createdTime>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="92F12F15-0434-267D-A45A-CAE8846113C2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:44:33 UTC</createdTime>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vehiculo" id="F5E033BB-30EC-16E2-B78E-5E89CE981155">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 11:11:51 UTC</createdTime>
+<generatorID>EDD13F25-132E-BB99-07EA-F1BDD59D30C9</generatorID>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<referedAttribute>55E0F0C5-1211-579F-B5D8-503C93A4E976</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mecanico" id="96A1C3E0-A83F-3B92-3F34-0B47B94A246C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 11:15:04 UTC</createdTime>
+<generatorID>86FE8F6C-3461-281E-9174-3708C955381A</generatorID>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<referedAttribute>8AE3AEA9-F334-AA7C-8030-4E56746E31B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="E1592777-6C34-0F55-4AB6-F593E7F07360">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 11:15:16 UTC</createdTime>
+<generatorID>60E9D9EB-4B58-5323-18CD-5C2E11A60391</generatorID>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<referedAttribute>ECC0AFA1-BC8C-7A5E-06E7-AB8EC4DB3C37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B358BA47-91F8-394B-79E8-E4823C47B6EC" name="Servicios PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:42:48 UTC</createdTime>
+<ownerDesignName>forma_normal_2</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E480F7B-CC6D-A15B-195C-2587E03B8BE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

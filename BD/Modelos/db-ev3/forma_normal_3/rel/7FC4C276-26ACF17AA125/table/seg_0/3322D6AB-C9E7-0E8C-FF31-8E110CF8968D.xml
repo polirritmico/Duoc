@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3322D6AB-C9E7-0E8C-FF31-8E110CF8968D" name="Ordenes">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>EE44880F-29C5-A75C-BE80-7120481F9ACA</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="F0507518-5D45-3677-8F92-6E63A03D7FEF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>67A78D2E-1057-1576-37A6-55BA473717DD</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="19FC8551-7419-7623-9EF2-7E1303D64418">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>CF7CD084-8968-0D02-7A20-7DB21A072660</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega" id="97E2A9C9-0927-7088-5809-66F02BBCB219">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>BE5C40E7-6390-59D6-6F44-4DC506963686</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="7CA55747-3A4C-42DA-D966-6F0A302FEF61">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>597292E7-0778-8040-E535-421A137264E9</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="A182AC48-84E9-AD1D-8D23-8ACFE53AEF8E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>4F896E9D-46B8-90FC-5A15-9A91CAD66D84</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D26FA61B-8C50-DFB6-1957-ACD4DEDC0BBE" referredColumn="C95069E6-38B1-CDB8-E63F-8E41B7BCC53D"/>
+</associations>
+</Column>
+<Column name="id_vehiculo" id="D56210E1-3EF0-4B80-A818-3E2D472EC51C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>2B3AEDE5-FFF7-9ABD-2186-7B903A4978A0</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99B6B19D-CD5A-8585-0E55-FBAE06F5A3BA" referredColumn="F9AF879E-79FE-2AB2-EAD9-3248ADFA1FED"/>
+</associations>
+</Column>
+<Column name="id_mecanico_responsable" id="0C8FCAB9-8D11-8C7A-14DA-AEE2AFF728C9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>EC8C2D1B-2490-3172-6FBC-595FAE33B539</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FB46CCC-6338-C099-B612-BFE3E15FA439" referredColumn="51BD262D-4A8D-7D3D-1D43-F309871F1E51"/>
+</associations>
+</Column>
+<Column name="id_taller" id="9C213F67-855F-3CBA-6CC7-7853CA39D38A">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>0FC0AFF4-CC47-6811-BC17-AED4AF97B34C</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8F78B5C-93BE-41F5-9681-E0F7FA9C6E76" referredColumn="737B9DC7-4644-3D4F-7B2B-891205A01BE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA3EC1F1-9F28-3B8B-7789-0C1D59738B22" name="Ordenes_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>2230875A-A17D-174D-9FD1-61DAF7D05C61</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0507518-5D45-3677-8F92-6E63A03D7FEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B484A77-6A2B-87DB-18AF-0F4FB3A6DCEE" name="Ordenes_Clientes_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>5C211400-26EB-822F-4646-08CBA17446E1</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A182AC48-84E9-AD1D-8D23-8ACFE53AEF8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C60B2E79-1439-1F5B-80B9-170B442747F9" name="Ordenes_Vehiculos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>D0251764-1162-B3E8-41D1-646B8495DEFA</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D56210E1-3EF0-4B80-A818-3E2D472EC51C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B5BAB1A-4613-DBA2-4013-A65EA1F4E7FB" name="Ordenes_Mecanicos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>F267B0B8-DAAA-0B9F-2C75-129C10A34699</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C8FCAB9-8D11-8C7A-14DA-AEE2AFF728C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC388677-A3C8-6C02-CB2A-255189EFCA4D" name="Ordenes_Talleres_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>86EA7D9E-21CB-FF09-3FDE-7FB7AFDEF526</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C213F67-855F-3CBA-6CC7-7853CA39D38A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

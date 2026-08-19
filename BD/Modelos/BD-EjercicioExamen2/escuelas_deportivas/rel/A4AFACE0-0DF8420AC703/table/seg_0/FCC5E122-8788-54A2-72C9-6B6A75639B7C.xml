@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC5E122-8788-54A2-72C9-6B6A75639B7C" name="Tipos_Telefono">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>9B4E4B04-8746-774D-4694-E80B4BA47936</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_telefono" id="F4B43DA7-7328-CA5F-7999-91F4C5FBD01E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>0F5161D5-D7B6-F561-9E78-6FA024B87AA3</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A56C37F5-EA0E-A49E-9176-3208E8ED31AE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>C96E9ED6-B4E8-5BE6-C3D6-657E3A801011</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6542B7AC-4C87-BA13-2CB0-BA4A75F5067B" name="Tipos_Telefono_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>8A36F85E-3985-48DF-EC99-7DC6E5C8C734</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4B43DA7-7328-CA5F-7999-91F4C5FBD01E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

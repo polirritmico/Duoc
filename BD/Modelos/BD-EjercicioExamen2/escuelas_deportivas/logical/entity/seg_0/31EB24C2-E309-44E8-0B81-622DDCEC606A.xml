@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31EB24C2-E309-44E8-0B81-622DDCEC606A" name="Nacionalidades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:07:33 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nacionalidad" id="6C152537-40FF-9084-9B7D-33EFFDA9AD88">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:07:33 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="548B4719-D64C-4149-1E46-1F9E9D506B51">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:07:33 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_director" id="4B01CF6A-3824-A4BC-B69D-B0238298FBD2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:07:48 UTC</createdTime>
+<generatorID>47A39BCA-34C9-EAE9-9B98-B6DC1BA72697</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<referedAttribute>3F6028C0-91EC-570E-74B1-998FEC2BB392</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6085B5F8-A18E-E138-6EB9-47435BB30903" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:07:33 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C152537-40FF-9084-9B7D-33EFFDA9AD88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86DF1AA5-9948-83E0-94AD-C2DC01AF490D" containerWithKeyObject="472C5D6F-47D8-4B83-92F1-0182C91209BE" localFKIndex="9CA8F730-4CFF-EE40-96C8-B698EE5CBD4C" name="Directores_Estados_Civiles_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>107D355E-A4A1-FD0B-DD67-6340EB66C5BB</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>Estados_Civiles</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>323FACFD-86D0-7101-357E-B90780DD6115</referredTableID>
+<keyObject>BB6CD7DC-EB7E-014D-67C6-5B9D6B4DA1B5</keyObject>
+<referredKeyID>BB6CD7DC-EB7E-014D-67C6-5B9D6B4DA1B5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estado_civil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

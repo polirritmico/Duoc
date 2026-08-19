@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61046E39-3992-1C7D-3B46-B510DB8840AC" name="Profesiones">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:43 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_profesion" id="D652B06D-5794-8AB2-37B3-6FE2A3EB23E7">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:43 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="CA52EB2D-769D-6DAF-47B2-8F32C5CC8748">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:43 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF69A564-3B6D-D8C7-B254-E3C43CEB8BCF" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:43 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D652B06D-5794-8AB2-37B3-6FE2A3EB23E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

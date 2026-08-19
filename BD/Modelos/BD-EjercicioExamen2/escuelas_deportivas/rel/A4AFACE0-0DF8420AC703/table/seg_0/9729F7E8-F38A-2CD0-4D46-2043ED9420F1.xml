@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9729F7E8-F38A-2CD0-4D46-2043ED9420F1" name="Formularios">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>0EEE4834-A826-AAF5-405D-008D06A8DB5A</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_formulario" id="293B7C37-C127-8A3C-8C18-81DB3BD11AF3">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>AD1B4970-C316-922F-408C-009F03D6F5E2</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="folio" id="DE8A4790-5757-258F-E1A8-A98E7F0BE11F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>28100C1B-B4EB-48F2-BCFA-708E69BB9056</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firma_director" id="15C19F00-3223-759C-5E08-1CB29F11850E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>D7F7D376-B855-12DA-5B7E-9FE05AF2CEAA</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_firma" id="5F1A6E49-4341-C297-50DE-07ABF87094AE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>D3D79552-76BD-581C-3562-E78E498E06A3</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_adj_recursos" id="B3042CB0-8CC6-7684-BB7D-07963E3EE1D9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>D8E37595-E35F-5B60-4556-99193A21FE54</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="637DD8B9-266D-C4E2-8C64-CABF7FF2B512" referredColumn="03C88CBC-E7F6-6470-C31E-402254B0FF6A"/>
+</associations>
+</Column>
+<Column name="id_detalle_inversion" id="CB8FE2B2-8C6B-6C9E-F716-592D43C233C9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>9D8DDFF2-62B5-373D-B551-F037BB1A367E</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FDC2E39-EB3E-6651-10AD-2C5E95616900" referredColumn="925C64C3-926D-E140-302A-EC254F755DAD"/>
+</associations>
+</Column>
+<Column name="id_contrato" id="494AAA07-8997-3745-204A-0CD7BAA21A56">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>C743C5E7-15C3-E955-45BF-49CB309B7A02</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7BA9250-6D4A-68D7-4F64-6663B1BA936A" referredColumn="E8ABF22E-8BE8-3FFA-B309-6F1F94C6EBE5"/>
+</associations>
+</Column>
+<Column name="id_director" id="D574DC11-FC1E-08D3-4993-16E4EDA9A496">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>366F77AD-A3BC-429E-7CAE-01565AE7C888</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F649C86D-FB7B-DB84-DAE5-65115462626E" referredColumn="63076FF6-5CA6-6538-4490-E3D406B816C0"/>
+</associations>
+</Column>
+<Column name="id_escuela" id="8AC3B341-FBFF-7A2A-F06C-1DC95EA0D235">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>6080E30D-0369-372A-6FA4-8C71FE29D2FF</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A15C991-F3D7-A12B-2843-7A5F4ECC9FD0" referredColumn="34C76605-E3FE-5BF0-ABBD-27F237CBEE86"/>
+</associations>
+</Column>
+<Column name="id_profesor" id="549CB7FE-0ADA-84D9-4FC2-9274CDC53F7C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>749657B1-9A77-9A19-E185-FD3F585D9932</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="685D62BC-93FD-0A01-BF60-94C8D35C812B" referredColumn="1B5FCBF4-AE37-5DC1-663A-565E995B68FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B68A55EE-AC3E-27F6-E231-E809EF7086EF" name="Formularios_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>0F52FA31-0AEF-B267-BD38-B722B0011F45</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="293B7C37-C127-8A3C-8C18-81DB3BD11AF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36EF1E81-4155-5EEC-39F6-E1AD97012B29" name="Form_Adj_Recursos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>186D8DB1-3ADB-D6F9-6CB5-1D4EF819F7A3</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3042CB0-8CC6-7684-BB7D-07963E3EE1D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F7077B2-5881-EFED-FAAD-75BDBB453317" name="Form_Detalle_inv_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>63F62977-38A4-9E4E-F32A-8F5E4DE87709</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB8FE2B2-8C6B-6C9E-F716-592D43C233C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E8192D1-67BB-D70E-D6A7-FFB86773A338" name="Form_Contratos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>638BCD60-B829-6D81-4C94-96146FBF5806</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="494AAA07-8997-3745-204A-0CD7BAA21A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B40A3C09-BDFA-A37E-A90E-BD9BA93B3980" name="Form_Directores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>AC54522A-758B-439D-8DC4-569293C714F2</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D574DC11-FC1E-08D3-4993-16E4EDA9A496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C15979EF-1DB7-0F62-D6B2-EE2FDB250D22" name="Form_Escuelas_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>7A928477-C08C-4CFA-C6A7-E9C0B9FB0B67</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AC3B341-FBFF-7A2A-F06C-1DC95EA0D235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AEF1596-B673-1009-9535-62968B38C6CB" name="Form_Profesores_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>8B7C2738-3648-683F-7893-ED893C14B4C4</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549CB7FE-0ADA-84D9-4FC2-9274CDC53F7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

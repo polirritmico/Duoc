@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0BEC323-CC86-E9AE-0CA2-85CF613949B4" name="Especialidades">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>4846369D-A782-14D6-2669-B65B2B4CD9A1</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_especialidad" id="11B69E0C-3067-7F18-A7B5-685CF108BB43">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>9B8E23B9-083B-1075-8A82-77DA6127C4A2</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="466EFC08-6185-DB94-8709-FDF27089AD8C">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>066642A0-6B48-0EED-09CA-025826529A6E</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E145B368-7EB4-FC3B-6944-FB0DFB2F8809" name="Especialidades_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>9C8EAA39-2684-2F38-75D9-5561A5EFC417</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11B69E0C-3067-7F18-A7B5-685CF108BB43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

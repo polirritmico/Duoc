@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_31" directorySegmentName="seg_0" id="8F6DA235-CB40-28A2-199D-403A50E98B84">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:51:13 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<sourcePk>BCE0FF7D-B568-DE65-5FB9-F2B3B08AA15B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C926348-C08B-F7A0-45B5-A35BA25F8727</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CB8200D-3DFE-09FE-44FA-6716BCBF02D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64C68EB6-670B-88A0-46E3-35067ED9C1E1" name="Talleres">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>DFF91513-1C6E-25C0-FFE5-DCA2CEDBF3DB</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_taller" id="737B9DC7-4644-3D4F-7B2B-891205A01BE6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>ADCEC6BB-45A2-6BB4-E359-06C79776C869</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D4DA65D3-F60E-989F-DE96-01C9192E3DA7">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>39FB1FDA-3A92-9D7E-6FC3-DD8A6DB3FEB7</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="07FB5003-9513-EE1B-55D0-EA2069A74888">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>0A151751-5984-375A-BBF5-A8AB0685780F</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comuna" id="05EF5A74-0A48-4647-E5A1-F96AF28E391A">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>7365DA68-6493-C8E4-A60F-DF40653E803E</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA5EF0F6-515E-4FE7-0C53-BF4D0137CC60" referredColumn="97935DF4-25EC-DC84-CC87-7F2A7EDE3639"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A54961E9-C0A7-5504-F8A6-F86B78572D13" name="Talleres_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>E54EAA0C-41E2-5829-446B-493BF0D51844</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="737B9DC7-4644-3D4F-7B2B-891205A01BE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="847D316C-A408-FD4E-94D9-ABECFEC4DF65" name="Talleres_Comunas_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>BBE44C3C-FF24-ED5D-8278-B93FC58A4020</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05EF5A74-0A48-4647-E5A1-F96AF28E391A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

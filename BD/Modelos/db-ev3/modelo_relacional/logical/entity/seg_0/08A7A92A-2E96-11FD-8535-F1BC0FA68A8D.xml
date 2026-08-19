@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08A7A92A-2E96-11FD-8535-F1BC0FA68A8D" name="Ciudades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 10:51:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ciudad" id="E22D37E4-8E55-F1FA-84A4-C6A1B8936F6D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 10:51:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E7CE2C2D-D186-B546-9F2B-63F743A30E45">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 10:51:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="8B016D8A-59AA-4D53-6B40-075FA925F33A">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 11:10:26 UTC</createdTime>
+<generatorID>4BE507C1-902D-DBC0-26A4-8A9B8386150B</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<referedAttribute>AA121760-9D0D-C8FE-E9F3-999F350BD57D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A6D0046-2FBE-B984-F814-26649E2271FB" name="Comunas PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 10:51:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E22D37E4-8E55-F1FA-84A4-C6A1B8936F6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

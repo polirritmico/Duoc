@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA33FCCE-FCB3-BDCF-9276-50FF402CFE68" name="Tipos_Servicio">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>5352C5DB-B05F-B13E-011C-06C999502414</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_servicio" id="01D47BB3-8E5C-855A-68ED-E5B73D47E7ED">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>08BAACBE-A264-23C4-352B-054943E2AE9A</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="074052D8-270B-1011-33D7-1D51472231A9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>A2BD6049-BDCB-BD14-A8EC-4C3ED63A7669</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_actual" id="A16E1438-5403-B0CC-940D-AF0F095D8CD9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>22509284-786C-04BE-210D-9ED0F14DA2F1</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="499509FE-5A6F-4AED-E682-3D252D640F11" name="Tipos_Servicio_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>2C6F7E45-C082-E9A1-D639-8F3029C3F953</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D47BB3-8E5C-855A-68ED-E5B73D47E7ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

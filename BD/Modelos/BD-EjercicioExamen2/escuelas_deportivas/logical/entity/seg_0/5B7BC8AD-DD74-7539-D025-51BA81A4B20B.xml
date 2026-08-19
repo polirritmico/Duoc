@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B7BC8AD-DD74-7539-D025-51BA81A4B20B" name="Detalle_inversiones">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 22:54:44 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle_inversion" id="E8694632-9B75-E286-CADB-E80B9C85636B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 22:54:44 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_uf" id="FC7DA759-731D-7100-C86D-5CE5A44A3B4E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 22:54:44 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_proyecto" id="BF5E4E9F-12E1-9351-38DA-ABBCCE935862">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:02:42 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_inversion" id="F39C92D2-D95C-14B6-A905-54E9C6B6F28D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:16:40 UTC</createdTime>
+<generatorID>8BA746E9-7433-A3BC-1320-6AF7E38E69D2</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<referedAttribute>8F584905-E4D3-AD9B-8D66-B164DEBB417A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B549FE94-CF9D-D6E2-641B-E02186D966AB" name="template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 22:54:44 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8694632-9B75-E286-CADB-E80B9C85636B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

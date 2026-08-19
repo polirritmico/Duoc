@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA042B95-2E14-B066-6DA3-1F3C92C8E9B1" containerWithKeyObject="472C5D6F-47D8-4B83-92F1-0182C91209BE" localFKIndex="76057A97-4B8F-DD7F-9028-A6DE15A686DC" name="Directores_Nacionalidades_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>C71882D9-D1E0-91BB-AADE-CB7B10BC564E</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>Nacionalidades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>096FB765-96A5-42CB-1C45-F2255627064F</referredTableID>
+<keyObject>BA2B9881-DC81-0E84-862C-0709B190CD3C</keyObject>
+<referredKeyID>BA2B9881-DC81-0E84-862C-0709B190CD3C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nacionalidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

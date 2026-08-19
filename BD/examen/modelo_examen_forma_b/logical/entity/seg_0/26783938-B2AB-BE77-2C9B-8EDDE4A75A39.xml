@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26783938-B2AB-BE77-2C9B-8EDDE4A75A39" name="Detalle_Inversiones">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:08 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle_inversion" id="CF076EDC-26F3-BAB7-D9EA-C42296C9C0CC">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:08 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_uf" id="3585DB35-F0C4-B16C-AD86-0A54F511178E">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:25:19 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_proyecto" id="07575D07-7CF5-4672-34BE-4C40A8EFDECC">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:08 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_inversion" id="2A68B6FC-A478-DEB5-20A3-84ADD7A51EE5">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:44:53 UTC</createdTime>
+<generatorID>D20AFF68-B873-720B-D5C0-2A2D118E63E8</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<referedAttribute>F45E6065-157B-20C5-6F75-BE13661C8C35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E89229D1-052D-62C7-C658-440620EE21C7" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:08 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF076EDC-26F3-BAB7-D9EA-C42296C9C0CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

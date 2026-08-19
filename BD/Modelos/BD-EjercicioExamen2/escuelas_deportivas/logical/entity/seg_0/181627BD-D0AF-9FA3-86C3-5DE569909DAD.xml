@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="181627BD-D0AF-9FA3-86C3-5DE569909DAD" name="Tipos_Inversion">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:15:39 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_inversion" id="8F584905-E4D3-AD9B-8D66-B164DEBB417A">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:15:39 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="163C533D-2ADE-7DBC-4BE5-872F8FDB4E96">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:15:39 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5EF87870-0DE4-A105-43CE-7689C9E78BDD" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:15:39 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8F584905-E4D3-AD9B-8D66-B164DEBB417A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E61CF83-6C08-804C-BC10-3607B4CEAFC2" name="Mecanicos">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>0E6DF54B-99CE-2229-4CEE-D29DBD8F5085</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mecanico" id="51BD262D-4A8D-7D3D-1D43-F309871F1E51">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>8AE3AEA9-F334-AA7C-8030-4E56746E31B6</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="B6AA7B36-95E5-46E9-85DD-F72007EF9FA1">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>30B607CB-9D07-A1D0-84BF-EEBF71F05A20</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="CB69AF28-482E-E686-B4C7-173EBA54644A">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>4CDB28BD-95A0-6E14-6FBA-B20C2C620ABC</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="8CA278E5-ABDB-2EA0-59FA-C8E8541CD5A1">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>723829E0-2D58-5E51-B4ED-60A0AC185C5B</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="0D291F80-C61F-B79D-A0C0-350C0D0502A0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>5E916755-00D1-1BF1-9AF3-BD259B34E006</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="9F97AD38-5E45-9B1A-F06A-0A4722C90D56">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>871157A6-5543-5383-A335-75624D3196B9</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dv" id="6438EBA6-518D-6147-7E4B-09EE58AE0B48">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>7EAAEE8B-97BD-5D46-AC2F-4AA3635E5CA8</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="D96CFD1B-019E-5739-FD45-5409F8BE2F63">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>462BBCDA-4500-A87E-0D1A-01D380F26C03</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="630E3291-548A-61C7-2DE5-F6E672AB5FC0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>64A374BA-1457-A51F-D3F2-90638694AA45</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="9E1602EA-D822-BA52-87AC-2F301DC14068">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>E85CC5AD-0CB0-CF75-FA7C-8F6CCEF6A7ED</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comuna" id="CC21F517-9448-8739-8E4F-647EF283C4AF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>F47D770B-849C-9038-5234-0E0F5D3CB61C</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F89C5AB-1B2A-9F9B-290B-D7CB6057EE33" referredColumn="97935DF4-25EC-DC84-CC87-7F2A7EDE3639"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9D3E6AA-8199-D4CF-D893-4BFC655F0B0B" name="Mecanicos_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>EF6034B9-4B53-EC01-D639-A12030DA32AA</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51BD262D-4A8D-7D3D-1D43-F309871F1E51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F29E0944-A2EB-55EB-B825-92C19AC4EF67" name="Mecanicos_Comunas_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>C2FF2693-3BB2-0658-E680-44276CC1AF49</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC21F517-9448-8739-8E4F-647EF283C4AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

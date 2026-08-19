@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E43762B8-FCA1-CF59-948F-392361C96816" name="Servicios">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:40:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_servicio" id="9E480F7B-CC6D-A15B-195C-2587E03B8BE0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:40:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_orden" id="730E24A8-5BD1-A79C-9BFC-4A1071DC65A2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:26:21 UTC</createdTime>
+<generatorID>0263D211-35F1-D182-AA4B-3F3F53380419</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<referedAttribute>67A78D2E-1057-1576-37A6-55BA473717DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mecanico" id="C12BFDA1-7989-17F2-E3DA-29DB726F4402">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:26:28 UTC</createdTime>
+<generatorID>4E22AED9-F5CD-807E-E23F-6F6D72DF19CA</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<referedAttribute>8AE3AEA9-F334-AA7C-8030-4E56746E31B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_servicio" id="20396217-837A-687F-48CC-504A67E59BB9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:27:43 UTC</createdTime>
+<generatorID>B6EC037E-A5AD-356B-2016-E05590343617</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<referedAttribute>08BAACBE-A264-23C4-352B-054943E2AE9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_aplicado" id="0EB25F8D-4BE2-1093-43C8-FECC86FD1EEE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:28:28 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="70998273-7E91-A4DD-A43B-208D3453F40B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:36:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B358BA47-91F8-394B-79E8-E4823C47B6EC" name="Servicios PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 02:42:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E480F7B-CC6D-A15B-195C-2587E03B8BE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

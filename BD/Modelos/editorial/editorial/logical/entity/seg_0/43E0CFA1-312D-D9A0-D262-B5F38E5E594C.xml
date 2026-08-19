@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43E0CFA1-312D-D9A0-D262-B5F38E5E594C" name="Participaciones_Evento">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:45:30 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_participacion_evento" id="CA038CE0-0EDF-1CC5-8D6D-80F9F9493DC0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:45:30 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_evento" id="EFA39014-7858-D1B0-FE7C-6A25B596B732">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:45:30 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="12F6E049-538D-DFCE-0519-E9E271703A44">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:50:52 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="autores_invitados" id="5EFBFFD1-E991-AA77-62E9-EE7735A7657D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:50:58 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clientes_inscritos" id="C82A0E1F-D20D-F81B-8793-09E830E0A7B6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:51:04 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porcentaje_asistencia" id="01AC1590-1029-AC24-7A27-C0C90289E755">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:51:12 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C30480F6-CDAF-1B18-EDC1-4AF7DEE43F7E" name="template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:45:30 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA038CE0-0EDF-1CC5-8D6D-80F9F9493DC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

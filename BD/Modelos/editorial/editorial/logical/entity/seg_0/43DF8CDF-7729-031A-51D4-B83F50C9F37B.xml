@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43DF8CDF-7729-031A-51D4-B83F50C9F37B" name="Promotores">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:22:56 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_promotor" id="7458ECC5-8B05-022C-B272-0817C10D7C4F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:22:56 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_nombre" id="E7927506-51A7-F413-366F-35A3294AFA2E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:22:56 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_nombre" id="D0882647-C117-5872-58F6-E19E4ECA2A23">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:45:50 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_apellido" id="ADA9FB4D-6F85-F773-090A-5D6363393EEA">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:46:09 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_apellido" id="285C401F-2CE5-4ECC-E79C-F1FB2C6FEEC8">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:46:02 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo" id="D4B37E02-AEF2-68B7-BE42-E6B5D4FF8C17">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:46:44 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="evento" id="154B1673-A4F9-A131-A334-65D5AFC4F71E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:46:58 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="actividades" id="D026F2B4-A2D9-BCC8-761F-A1B9318366D1">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:47:06 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06B6857A-733C-A7C9-2FC8-76B8851AAE4F" name="template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:22:56 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7458ECC5-8B05-022C-B272-0817C10D7C4F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

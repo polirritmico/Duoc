@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C181C3A-E078-029C-BA7E-589CF45B3E79" name="Turnos_Escuela_Profesor">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:15 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_turno_escuela_profesor" id="8D4B2FF2-2FBF-E9BC-7F7A-91DE072DC8DB">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:15 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="35CA48A2-0BF6-E9E8-7104-B6C1E4E8E830">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:50:34 UTC</createdTime>
+<generatorID>A8636401-AE03-9863-2CB0-D09558C69383</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<referedAttribute>EBD71190-56DF-67C9-EF79-902C9440890E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profesor" id="7FC7FBB3-EC4A-D8B0-1B54-83A3A5126061">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:50:40 UTC</createdTime>
+<generatorID>45C28FA8-EA86-7D67-4043-F7CEBBF53CFB</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<referedAttribute>44C18DF9-EF38-869F-9C7B-B1BF488A9927</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_turno_trabajo" id="B4F22F8D-F917-ECAA-1227-E3827BBA8939">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:50:45 UTC</createdTime>
+<generatorID>183AE44B-99E3-0FF4-C386-E2FD386276DC</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<referedAttribute>A1C95A31-D41E-3C53-A7A1-B52EF2A95BCC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4F95454-8F00-D3D5-EC09-1FC887702DEF" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:15 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D4B2FF2-2FBF-E9BC-7F7A-91DE072DC8DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

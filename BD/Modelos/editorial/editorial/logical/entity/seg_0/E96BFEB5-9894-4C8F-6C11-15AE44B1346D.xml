@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E96BFEB5-9894-4C8F-6C11-15AE44B1346D" name="Ciudades">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:23:01 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ciudad" id="0D8CF420-4A80-A906-A048-B28361E69E01">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:23:01 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1EF254F3-10F7-02E2-F736-F2FF257129F6">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:23:01 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46809D7A-15E9-0D6D-8A55-3A8AECCB186A" name="template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-11 02:23:01 UTC</createdTime>
+<ownerDesignName>editorial</ownerDesignName>
+<engineerTo>
+<item key="C9D2C6FC-11B2-DD6B-A443-249F19709F16" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D8CF420-4A80-A906-A048-B28361E69E01</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

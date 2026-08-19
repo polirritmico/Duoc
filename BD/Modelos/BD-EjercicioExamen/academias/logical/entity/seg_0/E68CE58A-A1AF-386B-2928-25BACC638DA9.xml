@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E68CE58A-A1AF-386B-2928-25BACC638DA9" name="Comunas">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:28 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comuna" id="626D239F-3DD8-0EBA-A0B2-012DD707290B">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:28 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C8462506-2A67-D3B9-919F-B5DD56B55300">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:28 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ciudad" id="F5A7EC32-9192-AE7A-8804-28FBCCC50E26">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:10:03 UTC</createdTime>
+<generatorID>441DF213-FF08-6FBD-7525-093D2724E332</generatorID>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>0CD59CEB-E914-C18F-1C7E-8FA03D2667DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EA95088-43E1-972E-BB35-A3989463B9E3" name="template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:28 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>626D239F-3DD8-0EBA-A0B2-012DD707290B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

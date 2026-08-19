@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4BF985A0-D831-BE60-4FCA-D199711CE8D6" containerWithKeyObject="FB0207E2-EFE2-F04B-42FA-511D37EDD379" localFKIndex="8D8C06D3-5998-CEEC-8BCA-D167508B7970" name="Turn_Esc_Prof_Prof_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>45C28FA8-EA86-7D67-4043-F7CEBBF53CFB</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>Profesores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B158E0BA-2A98-9232-F633-BD473011009A</referredTableID>
+<keyObject>D2D58ED9-B3FF-280E-1A49-5A94D3436A54</keyObject>
+<referredKeyID>D2D58ED9-B3FF-280E-1A49-5A94D3436A54</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_profesor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

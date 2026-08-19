@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35DFF8B4-E9D3-922B-390E-CF86E3FFFB09" name="Isapres">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>ECFF7DD2-CCF4-40DA-FA80-F64B75ADFC62</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_isapre" id="AC6375C3-D6FB-4A31-95DF-D83D4DBBD86D">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>A6ACDAF2-6788-B0BB-56A1-58215B60F62F</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1229D8FD-7A63-BEB1-490E-A252AC5942F8">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>93C4F608-FE55-E706-0F37-60199D85084B</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35AE7606-D6AB-40D8-AD29-612830012CB0" name="Isapres_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>AAC446E7-16A2-1571-5EFB-4C2B0A00E2FB</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC6375C3-D6FB-4A31-95DF-D83D4DBBD86D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

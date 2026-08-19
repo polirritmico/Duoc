@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D01BB2D0-15F7-D64E-A161-699BF45E5B56" name="Instituciones_Educativas">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>44D71A0A-E564-3E1A-796A-9168675D03DA</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_institucion_educativa" id="F85B6FBE-06C2-9692-B670-634AB65E614A">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>24006D0F-6486-3893-8172-CBB39588E75E</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="981A001D-6CE7-8D8C-0C15-0F2F67EB9DB6">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>F8C711CF-10F2-DF55-61B1-64D4CEE0488A</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_institucion" id="C1BEE4E2-1CEB-EEE9-F745-5FAD532390EC">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>74F071DB-821A-925B-6143-634C6F438E52</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4900B6D5-3131-E8A3-F009-A51F0B3DBFE3" referredColumn="C8802CC8-4911-55CC-C771-EC99BB4BD9FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54CE4584-57E1-CA6D-97B8-70E3D47C9C5B" name="Instituciones_Educativas_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>E8876501-23DC-9EF7-F654-D5855C79BB31</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F85B6FBE-06C2-9692-B670-634AB65E614A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C10E4AA4-FE59-B159-75CA-4B298A05299A" name="Inst_Edu_Tipos_Inst_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>A2DBB59C-ED2E-33D3-559F-C54325F03EC8</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BEE4E2-1CEB-EEE9-F745-5FAD532390EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

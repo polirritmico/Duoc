@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75354AEA-0954-52DB-4AE4-EC9B3C6ABB14" name="Centros_Deportivos">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 01:02:27 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_centro_deportivo" id="2C279139-B173-FD31-6D6B-E0F80F399E01">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 01:03:07 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="054A6EE8-A3B3-0B63-48BA-6D90B75ADEA2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 01:03:07 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_municipalidad" id="BFFA329B-2726-B588-B871-E06F322803FC">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 01:13:06 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90401AB3-1F4B-8759-E878-33DFB17AF7CE" referredColumn="D8C68386-4964-97C4-5084-B2008700F589"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F04598B-7996-8EA9-2988-3EDF3A6F031D" name="Centros_Dep_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 01:03:07 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C279139-B173-FD31-6D6B-E0F80F399E01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4DAA83F-C267-7833-81BE-B578590E3564" name="Centros_Dep_Muni_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 01:13:06 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFFA329B-2726-B588-B871-E06F322803FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

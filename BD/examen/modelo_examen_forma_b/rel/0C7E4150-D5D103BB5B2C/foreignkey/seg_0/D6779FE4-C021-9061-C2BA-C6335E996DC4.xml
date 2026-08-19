@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6779FE4-C021-9061-C2BA-C6335E996DC4" containerWithKeyObject="B158E0BA-2A98-9232-F633-BD473011009A" localFKIndex="EE708D85-3938-9C1B-0203-4DB51B9D0DB8" name="Profesores_Isapres_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>B24C3B1C-C9D2-58C8-60C5-2272DFD6475F</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>Isapres</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>35DFF8B4-E9D3-922B-390E-CF86E3FFFB09</referredTableID>
+<keyObject>35AE7606-D6AB-40D8-AD29-612830012CB0</keyObject>
+<referredKeyID>35AE7606-D6AB-40D8-AD29-612830012CB0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_isapre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

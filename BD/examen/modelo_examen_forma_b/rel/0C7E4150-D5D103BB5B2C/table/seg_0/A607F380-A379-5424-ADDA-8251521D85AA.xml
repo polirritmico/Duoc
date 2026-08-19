@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A607F380-A379-5424-ADDA-8251521D85AA" name="Formularios">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>0908AB1D-310E-9831-2BEA-4C820D0D4C49</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_formulario" id="F4B29DAF-A8E1-F0FA-5408-CD498337C94F">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>80E7FB49-A738-BD9F-062F-21D66E3F95B9</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="folio" id="F078AE95-B74D-3512-33CA-FC12E4463BF4">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>5C9647DD-92E9-A1CF-81F7-8C70696D10EC</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firma" id="F809B6DB-E238-B3AF-EFAC-A712039EA162">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>DF033FD5-36AC-4907-9A6E-7854368B20DD</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_firma" id="3268BA6F-9432-8ADC-C939-3A782B52C945">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>B2A9DA99-2889-F1C6-24D8-2984F3F5C8ED</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_adjudicacion_recurso" id="FCB1EBC4-4CE1-E32E-BA3F-766F945C8BCA">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>FA85EF18-B697-04A6-D27F-B56926C25F2E</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCEC25BC-118D-5619-5774-8EA3F57EC4B8" referredColumn="3D292623-3FC9-9B2D-32AD-805F347BFC13"/>
+</associations>
+</Column>
+<Column name="id_detalle_inversion" id="0E3714B4-730E-3BF7-20EC-C57E9ED43B18">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>5A6737E4-51DF-DE76-4207-C80A8163354C</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F647C3B-31AA-B6A1-B06D-F41273B937EC" referredColumn="9EF69508-A8BF-200B-F67E-CDF083105D4E"/>
+</associations>
+</Column>
+<Column name="id_escuela" id="0FF49BEC-5E77-A99B-AF84-1968564499FA">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>F71B200E-E055-17E2-FB10-791076710A07</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB773FD3-18A1-133D-E150-B41C2956E5C2" referredColumn="87F9ECE0-35B5-24D2-C25E-47ABBB76EA05"/>
+</associations>
+</Column>
+<Column name="id_director" id="3FB840E5-75CD-ADFE-81C3-44B8594A8E73">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>5922C9E9-7B3E-F720-0F34-6FB3CBCCACE2</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C22E0C01-6021-CBCB-09B1-F93E834C7DCC" referredColumn="B74620F0-B0F4-E65D-300A-0DCF6EAFF502"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA6AF291-DA56-4361-6C4B-6F96CBDE7166" name="Formularios_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>E59B0F77-0421-49AB-F2B6-4DB119E42CFC</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4B29DAF-A8E1-F0FA-5408-CD498337C94F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFA9014A-1F82-C7E9-6DE4-05D42452A94E" name="Form_Adj_Recursos_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>2A4AC20D-F9E1-8D49-AD8D-77FC9FDD2A51</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCB1EBC4-4CE1-E32E-BA3F-766F945C8BCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="867CD2DE-5C97-3570-33BC-CD09BEFCFBA7" name="Form_Detalle_Inv_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>B56BD08E-2E25-C66C-451A-0DAEDEAC91F2</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E3714B4-730E-3BF7-20EC-C57E9ED43B18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D537A3D-D293-3C5F-5C7E-287EC5079C6F" name="Form_Escuelas_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>04BE1633-67F8-9921-09F2-CE253BE85FE4</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FF49BEC-5E77-A99B-AF84-1968564499FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCAD1E21-CE00-29B7-AD95-E4DCF7F55904" name="Form_Directores_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>8D433592-3556-5E99-A28E-EE491AD51D4C</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FB840E5-75CD-ADFE-81C3-44B8594A8E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

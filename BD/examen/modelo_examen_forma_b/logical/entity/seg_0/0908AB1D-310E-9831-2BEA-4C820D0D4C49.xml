@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0908AB1D-310E-9831-2BEA-4C820D0D4C49" name="Formularios">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:25 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_formulario" id="80E7FB49-A738-BD9F-062F-21D66E3F95B9">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:25 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio" id="5C9647DD-92E9-A1CF-81F7-8C70696D10EC">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:25 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firma" id="DF033FD5-36AC-4907-9A6E-7854368B20DD">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:30:10 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_firma" id="B2A9DA99-2889-F1C6-24D8-2984F3F5C8ED">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:30:16 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_adjudicacion_recurso" id="FA85EF18-B697-04A6-D27F-B56926C25F2E">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:47:25 UTC</createdTime>
+<generatorID>2A4AC20D-F9E1-8D49-AD8D-77FC9FDD2A51</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<referedAttribute>C21217A7-5312-D191-08C3-E45A06CD77DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_detalle_inversion" id="5A6737E4-51DF-DE76-4207-C80A8163354C">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:47:38 UTC</createdTime>
+<generatorID>B56BD08E-2E25-C66C-451A-0DAEDEAC91F2</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<referedAttribute>CF076EDC-26F3-BAB7-D9EA-C42296C9C0CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="F71B200E-E055-17E2-FB10-791076710A07">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:48:07 UTC</createdTime>
+<generatorID>04BE1633-67F8-9921-09F2-CE253BE85FE4</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<referedAttribute>EBD71190-56DF-67C9-EF79-902C9440890E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_director" id="5922C9E9-7B3E-F720-0F34-6FB3CBCCACE2">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:53:24 UTC</createdTime>
+<generatorID>8D433592-3556-5E99-A28E-EE491AD51D4C</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<referedAttribute>7D309F5E-128D-77D5-8221-8A7655F5145C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E59B0F77-0421-49AB-F2B6-4DB119E42CFC" name="Template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:43:25 UTC</createdTime>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<engineerTo>
+<item key="0C7E4150-A1D9-0E6B-B010-D5D103BB5B2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80E7FB49-A738-BD9F-062F-21D66E3F95B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7AAEBB8-CDDB-9B3B-D78E-FA49186EF419" containerWithKeyObject="A1AD5A5F-9151-4868-9918-BF3DC4F5CF50" localFKIndex="0F44B4CD-B584-217D-69BC-C641C2B2E006" name="Tel_Directores_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>1722D39F-D65E-BD42-0261-EB372934CDC6</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>Directores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>472C5D6F-47D8-4B83-92F1-0182C91209BE</referredTableID>
+<keyObject>3EA7C716-02BF-C63C-F933-50F890B7E06C</keyObject>
+<referredKeyID>3EA7C716-02BF-C63C-F933-50F890B7E06C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_director</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

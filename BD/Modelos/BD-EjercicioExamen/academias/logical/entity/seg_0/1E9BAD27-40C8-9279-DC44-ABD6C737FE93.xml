@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E9BAD27-40C8-9279-DC44-ABD6C737FE93" name="Contratos">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:22 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contrato" id="AE3E0E8C-8692-A1BE-2A1F-06EFC07CBE37">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:22 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio" id="9DFBA05F-D919-B3E4-57D7-E073CA6B0A10">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:22 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profesor" id="18E37417-690D-10EB-1128-518CA408E5CA">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:11:43 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="D555D309-C214-3FD8-7011-0C11194BF044">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:11:46 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="institucion" id="48ED5506-8D10-5F0E-8761-432642892AD5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:11:54 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="4282C34D-AFBD-EF00-8E7C-F702243DF270">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:13:47 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_contrato" id="1864D539-0082-D410-1EF5-832E39C7562A">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:13:51 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp" id="A94313BC-32F6-02D3-D9F6-E86A7625F512">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:13:56 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isapre" id="0E664343-69CE-B5F7-86D9-19EA9DC26A9F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:14:02 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="2043DE5C-9F24-C35D-D991-FAAC850D9BB0">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:14:06 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_hora" id="6EFC72D8-AC86-7D3D-BA8F-3B2120765C16">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:14:24 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_mensuales" id="D64923A0-CA1B-5AC1-A6D8-B573CB2F2716">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:14:41 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80B73601-A6EE-5DF0-1022-3E9689605F06" name="template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:22 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE3E0E8C-8692-A1BE-2A1F-06EFC07CBE37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

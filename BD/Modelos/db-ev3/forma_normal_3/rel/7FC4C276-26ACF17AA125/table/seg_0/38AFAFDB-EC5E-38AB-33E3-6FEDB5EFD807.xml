@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38AFAFDB-EC5E-38AB-33E3-6FEDB5EFD807" name="Marcas_Vehiculos">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>712A2186-FCE2-E6D5-FF55-0CD185338479</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_marca_vehiculo" id="156678A4-7B86-0037-E0F5-18787E13D7B2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>F34191AA-E7D2-C2C9-2A6D-689196EB1474</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CC43D680-63F9-5B35-5E1E-B949208BA94D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>CF01DA06-3364-0BF6-113B-5F8EFD474CD9</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD18D37B-B717-DC0D-B39C-CCA872496B47" name="Marcas_Vehiculos_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>DC4AB521-486A-CC32-31AA-3A1110EE3C1B</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="156678A4-7B86-0037-E0F5-18787E13D7B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

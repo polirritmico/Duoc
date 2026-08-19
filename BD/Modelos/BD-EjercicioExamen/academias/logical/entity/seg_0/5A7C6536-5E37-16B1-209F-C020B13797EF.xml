@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A7C6536-5E37-16B1-209F-C020B13797EF" name="Formularios">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:35 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_formulario" id="DAB4BA5C-8E43-ACC2-61FF-6D8F12A9F746">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:35 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio" id="9FB45684-A1C5-1C30-B7A9-D4DAC924917F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:35 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_director" id="2FE9DFCB-0524-5C5D-FB0D-FA4066147119">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:15:34 UTC</createdTime>
+<generatorID>1EA9CFBF-10CA-DBB4-4FA5-BD8E68283B45</generatorID>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>A9F30515-652D-A8FE-81EB-FA2FBF45234B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_academia" id="C2008E40-5FD6-DD63-099B-594F5FF5EEA5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:15:39 UTC</createdTime>
+<generatorID>D340DC88-8E31-AB67-9375-330222DA6A7B</generatorID>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>2A715B77-7D70-B21F-AC66-753618B8B284</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_detalle_inversion" id="5DF94B49-A7BE-743C-6407-5CA7EC00BD02">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:15:46 UTC</createdTime>
+<generatorID>7214D07F-1428-8D76-8DAF-DDC6E7197EB0</generatorID>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>E64369B1-527C-FEB1-FB2C-0AEEDCCEDDD2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_recurso" id="E0A34A7D-F589-D2F0-37C5-8AA6FF0344DC">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 22:15:56 UTC</createdTime>
+<generatorID>059F3CE1-4302-1063-1107-85A9BD9BA307</generatorID>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<referedAttribute>A9A58FDF-D92E-8517-9C90-A35355FE9BF4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF82C33C-4133-536B-425B-733148145D2F" name="template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-12 21:55:35 UTC</createdTime>
+<ownerDesignName>academias</ownerDesignName>
+<engineerTo>
+<item key="8B93E66F-3329-72B4-CC57-B33CDF1E1B8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DAB4BA5C-8E43-ACC2-61FF-6D8F12A9F746</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

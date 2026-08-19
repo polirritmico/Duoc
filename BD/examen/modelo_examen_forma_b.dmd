@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_examen_forma_b" id="5456BB7D-6A3E-2F00-4802-EDEB38F5C022" version="3.5">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-15 21:40:02 UTC</createdTime>
+<ownerDesignName>escuelas de arte</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5456BB7D-6A3E-2F00-4802-EDEB38F5C022</designId>
+</OSDM_Design>

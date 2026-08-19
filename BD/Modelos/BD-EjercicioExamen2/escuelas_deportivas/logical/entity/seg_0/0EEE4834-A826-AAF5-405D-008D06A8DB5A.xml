@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EEE4834-A826-AAF5-405D-008D06A8DB5A" name="Formularios">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 22:54:48 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_formulario" id="AD1B4970-C316-922F-408C-009F03D6F5E2">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 22:54:48 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio" id="28100C1B-B4EB-48F2-BCFA-708E69BB9056">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 22:54:48 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firma_director" id="D7F7D376-B855-12DA-5B7E-9FE05AF2CEAA">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:35:34 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_firma" id="D3D79552-76BD-581C-3562-E78E498E06A3">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:35:20 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_adjudicacion_recursos" id="D8E37595-E35F-5B60-4556-99193A21FE54">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:10:14 UTC</createdTime>
+<generatorID>186D8DB1-3ADB-D6F9-6CB5-1D4EF819F7A3</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<referedAttribute>3EBC5ED5-6BD8-EAB8-2444-25F2A2F9FDDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_detalle_inversion" id="9D8DDFF2-62B5-373D-B551-F037BB1A367E">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:10:18 UTC</createdTime>
+<generatorID>63F62977-38A4-9E4E-F32A-8F5E4DE87709</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<referedAttribute>E8694632-9B75-E286-CADB-E80B9C85636B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="C743C5E7-15C3-E955-45BF-49CB309B7A02">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:10:24 UTC</createdTime>
+<generatorID>638BCD60-B829-6D81-4C94-96146FBF5806</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<referedAttribute>143EDBBA-A361-D69B-76CC-38FD904B6674</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_director" id="366F77AD-A3BC-429E-7CAE-01565AE7C888">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:10:32 UTC</createdTime>
+<generatorID>AC54522A-758B-439D-8DC4-569293C714F2</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<referedAttribute>3F6028C0-91EC-570E-74B1-998FEC2BB392</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="6080E30D-0369-372A-6FA4-8C71FE29D2FF">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:10:35 UTC</createdTime>
+<generatorID>7A928477-C08C-4CFA-C6A7-E9C0B9FB0B67</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<referedAttribute>196FAC98-99CA-65B8-74E8-5CEA4BA4950A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profesor" id="749657B1-9A77-9A19-E185-FD3F585D9932">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:10:38 UTC</createdTime>
+<generatorID>8B7C2738-3648-683F-7893-ED893C14B4C4</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<referedAttribute>9CF350E3-FA97-56ED-152A-D5CD98146A31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F52FA31-0AEF-B267-BD38-B722B0011F45" name="template PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 22:54:48 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD1B4970-C316-922F-408C-009F03D6F5E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

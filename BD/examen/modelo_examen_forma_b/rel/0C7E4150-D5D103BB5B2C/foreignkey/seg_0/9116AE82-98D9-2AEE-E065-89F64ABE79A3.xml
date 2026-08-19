@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9116AE82-98D9-2AEE-E065-89F64ABE79A3" containerWithKeyObject="B158E0BA-2A98-9232-F633-BD473011009A" localFKIndex="A3CA3734-180B-B176-C1FA-4418C22A843D" name="Profesores_AFP_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>F115DFB3-38F0-99C6-9647-18F244034715</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>AFP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9ED563B-7408-9DCD-1212-596A86C13FFC</referredTableID>
+<keyObject>3755F6E7-2EB2-C43B-0813-4FCF99DAC07B</keyObject>
+<referredKeyID>3755F6E7-2EB2-C43B-0813-4FCF99DAC07B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_afp</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
