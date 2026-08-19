@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1FF9F29-5612-3311-0544-17B574160FB2" containerWithKeyObject="A1AD5A5F-9151-4868-9918-BF3DC4F5CF50" localFKIndex="87D87644-6853-41D4-10E8-4E81D4ED7A2D" name="Tel_Tipos_Tel_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>546B98C8-7F6A-9ACC-870D-EB867D7B80C5</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>Tipos_Telefono</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FFECED88-021A-681B-D84D-43BA32B935F1</referredTableID>
+<keyObject>728DB358-BFDC-C1C1-E70D-8B918C394119</keyObject>
+<referredKeyID>728DB358-BFDC-C1C1-E70D-8B918C394119</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_telefono</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

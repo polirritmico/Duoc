@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="472C5D6F-47D8-4B83-92F1-0182C91209BE" name="Directores">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>6F7D84C2-61E4-C609-3EF6-AC08B440C9B7</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_director" id="B74620F0-B0F4-E65D-300A-0DCF6EAFF502">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>7D309F5E-128D-77D5-8221-8A7655F5145C</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="815C63BE-FDD0-DDF0-0CC6-FB0D34B052EE">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>8F3BDDD3-CAD6-7653-DA54-46A0314A371E</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="6405E751-A5B8-08E7-4E04-893BFA9FA6B8">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>F3E6147E-4098-91C2-F5CB-59079E7BEBB1</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="5EC611AB-F024-621D-99C5-D4F893CE9543">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>DA3B7FC7-69F1-2C4D-A1FF-EDA2D39B69F1</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="677C482A-9A6B-7A94-04D6-A972E417F985">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>6B281260-ED21-9DE0-E674-862041182B0B</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="EACF3CCC-EE8B-01F4-F266-EC9A28C4FBCE">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>4B6ABD2B-8AEB-9432-5E95-F2B28927D118</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="FB72C14F-9D59-4FCD-87DB-4838F7C4265F">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>99110162-3A7F-176A-B83E-393EE0B070AD</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estado_civil" id="61966079-C72F-4715-478D-087BC63B7139">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>6FA71DA5-088B-B9D9-A5A3-C7FB7E7FA7BD</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86DF1AA5-9948-83E0-94AD-C2DC01AF490D" referredColumn="D3B338F2-5D8B-0F18-5F7D-315E4D62CAEE"/>
+</associations>
+</Column>
+<Column name="id_profesion" id="78B7F003-E87E-1895-9A72-87B35242B2E9">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>72C8F4E6-53C5-A1FC-21BF-73B858FC1320</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59F02A21-F31E-51DE-4B99-3FFBB4138F83" referredColumn="B8552B49-2F44-8D4F-F602-C09087DD62B8"/>
+</associations>
+</Column>
+<Column name="id_nacionalidad" id="A80AA996-22A0-DDDF-63D2-29E8728957D7">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>749770EE-D6D7-6914-4DB4-54AC48EF3DEA</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA042B95-2E14-B066-6DA3-1F3C92C8E9B1" referredColumn="A5BC0C86-351B-1870-1FC0-FF1C88ED54F7"/>
+</associations>
+</Column>
+<Column name="id_comuna" id="B412902D-D7E1-6559-2C7C-33171E6A0155">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>E41C8DF9-5D0D-8F81-1C5B-396547F2755B</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9BC9695-7546-19C4-3C91-AB7B47D65A40" referredColumn="F9C38129-7A10-0F5D-A6BB-037FAF860D10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EA7C716-02BF-C63C-F933-50F890B7E06C" name="Directores_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>226C5A96-A2BD-4488-C233-74F4BC5CC8BA</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B74620F0-B0F4-E65D-300A-0DCF6EAFF502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CA8F730-4CFF-EE40-96C8-B698EE5CBD4C" name="Directores_Estados_Civiles_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>107D355E-A4A1-FD0B-DD67-6340EB66C5BB</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61966079-C72F-4715-478D-087BC63B7139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F135C827-A14B-DC3F-3C66-39AEDF849925" name="Directores_Profesiones_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>A4D32A37-F355-EBD1-CB44-EB8206F83DA0</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78B7F003-E87E-1895-9A72-87B35242B2E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11A78AEF-C27F-D284-E64E-FE7C334772A4" name="Directores_Comunas_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>444DBEB0-A493-025A-BBC6-04F547664A66</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B412902D-D7E1-6559-2C7C-33171E6A0155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76057A97-4B8F-DD7F-9028-A6DE15A686DC" name="Directores_Nacionalidades_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>C71882D9-D1E0-91BB-AADE-CB7B10BC564E</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A80AA996-22A0-DDDF-63D2-29E8728957D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

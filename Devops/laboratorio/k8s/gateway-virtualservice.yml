@@ -1,0 +1,35 @@
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: demo-gateway
+  namespace: demo-mesh
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "*"
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: demo-virtualservice
+  namespace: demo-mesh
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - demo-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /b
+      route:
+        - destination:
+            host: service-b
+            port:
+              number: 5000

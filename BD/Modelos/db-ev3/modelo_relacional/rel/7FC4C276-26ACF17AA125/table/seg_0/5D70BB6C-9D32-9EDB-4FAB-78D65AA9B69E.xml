@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D70BB6C-9D32-9EDB-4FAB-78D65AA9B69E" name="Servicios">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>E43762B8-FCA1-CF59-948F-392361C96816</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="4DF8D880-1DB3-32FC-5BE5-D48F3AE09922">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>9E480F7B-CC6D-A15B-195C-2587E03B8BE0</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_orden" id="4ED3D006-F687-E597-4FE2-4F295175C95C">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>730E24A8-5BD1-A79C-9BFC-4A1071DC65A2</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D03ACE2-3AF6-3313-17A1-3E8593565F70" referredColumn="F0507518-5D45-3677-8F92-6E63A03D7FEF"/>
+</associations>
+</Column>
+<Column name="id_mecanico" id="103039F9-B2FB-CFF3-EC9B-E2E6E182EEBE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>C12BFDA1-7989-17F2-E3DA-29DB726F4402</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1E33ED0-EAFA-F835-52A4-FFBFCC7C733C" referredColumn="51BD262D-4A8D-7D3D-1D43-F309871F1E51"/>
+</associations>
+</Column>
+<Column name="id_tipo_servicio" id="81FAA736-ED6D-EAAA-39E8-200D3545C82F">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>20396217-837A-687F-48CC-504A67E59BB9</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90E7B296-C29B-4745-BAD7-70EE8D2824FF" referredColumn="01D47BB3-8E5C-855A-68ED-E5B73D47E7ED"/>
+</associations>
+</Column>
+<Column name="precio_aplicado" id="F3CF4FA5-10E8-60FE-2489-92B39F723174">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>0EB25F8D-4BE2-1093-43C8-FECC86FD1EEE</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="AA6F8CC4-FAC2-88AF-1643-FF13BF1CFF20">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>70998273-7E91-A4DD-A43B-208D3453F40B</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6B6CE6B-0422-CD3B-5BF0-2078D09214AB" name="Servicios_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>B358BA47-91F8-394B-79E8-E4823C47B6EC</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DF8D880-1DB3-32FC-5BE5-D48F3AE09922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB9B1D3B-1ABE-BBDA-56EA-3ECBB5AD26DB" name="Servicios_Ordenes_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>0263D211-35F1-D182-AA4B-3F3F53380419</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ED3D006-F687-E597-4FE2-4F295175C95C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6C83A1F-07D2-CDE6-639E-DD0B14D35DC0" name="Servicios_Mecanicos_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>4E22AED9-F5CD-807E-E23F-6F6D72DF19CA</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="103039F9-B2FB-CFF3-EC9B-E2E6E182EEBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93263A90-AC01-13BA-BFC4-504268525D65" name="Servicios_Tipos_Servicio_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>B6EC037E-A5AD-356B-2016-E05590343617</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81FAA736-ED6D-EAAA-39E8-200D3545C82F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

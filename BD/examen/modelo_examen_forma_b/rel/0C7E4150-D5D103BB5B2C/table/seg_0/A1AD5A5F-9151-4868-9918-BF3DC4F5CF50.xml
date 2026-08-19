@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1AD5A5F-9151-4868-9918-BF3DC4F5CF50" name="Telefonos">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>400EC559-488C-AD4E-97B4-87A08BB8B401</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefono" id="7610CAAB-ED2B-F130-F3CB-FF9D5A4C2A57">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>69AD166D-1843-D7BE-8DF5-E2D6DC69E6B6</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="9BB96DD2-04BC-E41F-D268-260A54B29457">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>FDC58C4C-C1EA-A316-9647-C7D9398335F7</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_telefono" id="8B0614DC-C085-3D94-6DE7-C7A315D775D0">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>2946E5AD-2FBE-5E64-8C1F-FD0E3B273398</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1FF9F29-5612-3311-0544-17B574160FB2" referredColumn="DAE40004-2800-EA7B-9913-18C04D3A8211"/>
+</associations>
+</Column>
+<Column name="id_director" id="343C3AC9-B694-EEBD-9E2C-21D76B272BC8">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>D23E319B-3D95-CB87-FDD5-8228B60E7A52</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7AAEBB8-CDDB-9B3B-D78E-FA49186EF419" referredColumn="B74620F0-B0F4-E65D-300A-0DCF6EAFF502"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="812B8F01-B666-697E-07F6-666707928DBE" name="Telefonos_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>62C5F94A-4905-175A-DB02-8135E436142C</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7610CAAB-ED2B-F130-F3CB-FF9D5A4C2A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F44B4CD-B584-217D-69BC-C641C2B2E006" name="Tel_Directores_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>1722D39F-D65E-BD42-0261-EB372934CDC6</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="343C3AC9-B694-EEBD-9E2C-21D76B272BC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87D87644-6853-41D4-10E8-4E81D4ED7A2D" name="Tel_Tipos_Tel_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>546B98C8-7F6A-9ACC-870D-EB867D7B80C5</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B0614DC-C085-3D94-6DE7-C7A315D775D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

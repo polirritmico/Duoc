@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87580B61-C724-8241-9959-A0114C6F5D77" containerWithKeyObject="AA1CC4F6-F7C7-FA8B-E800-6ABE31AAA1F2" localFKIndex="6735E071-C6B4-7CD3-B8E9-422B882F051C" name="Det_inv_Tipos_Inv_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>8BA746E9-7433-A3BC-1320-6AF7E38E69D2</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<referredTableLongName>Tipos_Inversion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>38EA8EAD-DF2F-0FD3-5318-34E76658714F</referredTableID>
+<keyObject>5436C5C6-CBF1-4529-F9FF-34A9C7C98170</keyObject>
+<referredKeyID>5436C5C6-CBF1-4529-F9FF-34A9C7C98170</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_inversion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

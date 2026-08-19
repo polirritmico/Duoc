@@ -1,0 +1,135 @@
+
+# Clientes
+id_cliente
+rut
+pasaporte
+primer_nombre
+segundo_nombre
+primer_apellido
+segundo_apellido
+email
+teléfono
+dirección
+
+# Compras
+id_compra
+numero_orden
+fecha
+estado
+cliente
+productos
+
+# Tipos_Compra
+id_tipo_compra
+nombre
+
+# LibrosFisicos
+id_libro_fisico
+isbn
+titulo
+autor
+editorial
+precio
+stock
+num_paginas
+codigo
+proveedor
+
+# Ebooks
+isbn
+nombre
+titulo
+autor
+editorial
+precio
+formato
+codigo
+proveedor
+
+# Revistas
+issn
+nombre
+titulo
+edición
+periodicidad
+precio
+codigo
+proveedor
+
+# Proveedor
+id_proveedor
+nombre
+direccion
+
+# Eventos
+id_evento
+nombre
+fecha
+lugar
+tipo
+código
+autores_invitados
+clientes
+
+# TiposEvento
+id_tipo_evento
+nombre
+
+# Autor
+id_autor
+primer_nombre
+segundo_nombre
+primer_apellido
+segundo_apellido
+
+# Cliente
+id_cliente
+rut
+dv
+primer_nombre
+segundo_nombre
+primer_apellido
+segundo_apellido
+direccion
+telefono
+email
+
+# InscripcionesEvento
+id_inscripcion
+evento
+cliente
+fecha
+asistencia
+
+# Vendedores
+id_vendedor
+nombre
+sueldo_fijo
+meta_ventas
+
+# Promotores
+id_promotor
+primer_nombre
+segundo_nombre
+primer_apellido
+segundo_apellido
+pago
+evento
+actividades
+
+# Ventas
+id_venta
+numero_orden
+fecha
+cliente
+total_compra
+empleado_asociado
+
+# participacion_eventos???
+id_participacion_eventos
+nombre_evento
+fecha
+autores_invitados
+clientes_inscritos
+porcentaje_asistencia_real
+

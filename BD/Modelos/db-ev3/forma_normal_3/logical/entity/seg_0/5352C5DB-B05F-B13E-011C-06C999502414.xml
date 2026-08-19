@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5352C5DB-B05F-B13E-011C-06C999502414" name="Tipos_Servicio">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:26:44 UTC</createdTime>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_servicio" id="08BAACBE-A264-23C4-352B-054943E2AE9A">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:26:52 UTC</createdTime>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="A2BD6049-BDCB-BD14-A8EC-4C3ED63A7669">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:27:06 UTC</createdTime>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_actual" id="22509284-786C-04BE-210D-9ED0F14DA2F1">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:27:20 UTC</createdTime>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C6F7E45-C082-E9A1-D639-8F3029C3F953" name="Tipos_Servicios PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:27:05 UTC</createdTime>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FC4C276-851E-96C4-55CA-26ACF17AA125" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08BAACBE-A264-23C4-352B-054943E2AE9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="355EEA5D-D0A2-4085-6814-253EA97A331F" name="Escuelas">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>BFACE340-061A-4F33-CD93-A4DC2D415A29</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escuela" id="87F9ECE0-35B5-24D2-C25E-47ABBB76EA05">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>EBD71190-56DF-67C9-EF79-902C9440890E</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BB0ED6DC-1710-E7A4-D6EA-40717C0D046B">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>971AC8EE-3001-7A5E-B590-F5C7AC4432CC</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="F0D80F7D-8B80-2100-78A8-1902478FEB83">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>2DABCEC7-926F-E7C5-8541-AB831F57A2B6</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sitio_web" id="7DC463F3-E1EA-E51A-B38B-652D30C06EB9">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>0DBBFAC0-D322-11B3-0162-CD99A9BD2AB3</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_escuela" id="282CBF00-0ED8-3123-CC63-A3A9E11CB691">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>B3C4E059-0FAC-AE78-D62C-E9CAECA7447B</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="993518BC-B23D-23B0-1456-626B798A94E0" referredColumn="0186F8E7-402D-905B-0693-A2656568DC90"/>
+</associations>
+</Column>
+<Column name="id_director" id="A029D5AC-6ACE-CF2B-1D07-820EB453DA2A">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>086C952E-35E8-1131-907C-3E641FFF5817</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A29CE224-2BE1-4909-6E24-65AD94DE8D12" referredColumn="B74620F0-B0F4-E65D-300A-0DCF6EAFF502"/>
+</associations>
+</Column>
+<Column name="id_comuna" id="46014FC4-502B-3C99-C802-E77B375D75EC">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>5584DF78-16DC-DB9B-89CD-4BF08EA27789</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A36B4F5-C0CB-6292-807F-921687E6A628" referredColumn="F9C38129-7A10-0F5D-A6BB-037FAF860D10"/>
+</associations>
+</Column>
+<Column name="id_centro_eventos" id="BBD54AAA-0AB8-7850-5617-A7E8FBDBF9AF">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>417DA666-AFB1-0C48-5C02-9EF0D7D72E1B</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B65354E9-5CA3-BCF6-9D89-58D8FF8EDC6C" referredColumn="DEE0C034-3BDF-8D2D-DA57-BB17C7034741"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A026ACA-1F93-BC91-643A-105612E9A86E" name="Escuelas_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>259D7692-0640-4E28-528D-F2F4F29EEB94</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87F9ECE0-35B5-24D2-C25E-47ABBB76EA05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2949007-6833-E99D-E9EE-4A02AC792C25" name="Escuelas_Tipos_Escuela_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>6386DEBE-62D9-C6A6-1851-45A77D221229</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="282CBF00-0ED8-3123-CC63-A3A9E11CB691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E454143-03F4-7BF8-472F-391125DF4376" name="Escuelas_Directores_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>74ECD077-9BDE-296F-7765-6733B1137304</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A029D5AC-6ACE-CF2B-1D07-820EB453DA2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA8A0E47-FB5F-5684-AB42-F2C2A657BDE5" name="Escuelas_Comunas_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>E0D81570-56FF-B020-A37E-A19DFE0642AC</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46014FC4-502B-3C99-C802-E77B375D75EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63D5AF55-A9C5-0FB5-8EDB-6678B3C2E3AA" name="Escuelas_Centros_Ev_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>7708D0AF-8F78-425B-C082-677DABF69A64</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD54AAA-0AB8-7850-5617-A7E8FBDBF9AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC396D65-084C-470C-F88F-0C02DC1669F9" name="Comunas">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>A8BCAD9B-0B0A-A6A5-DE45-E57606B72854</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="97935DF4-25EC-DC84-CC87-7F2A7EDE3639">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>199FE9FE-6DF4-C83E-5087-12617C361482</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="43B9D011-6D32-093C-4C6B-2DA3A1DAF38D">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>659E4464-45D9-8664-041E-A5517E170497</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_ciudad" id="371AE386-72FF-5B4E-E526-A57553DD9174">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>DE8CA6E1-DF08-D656-2E2A-1B4DC464FED2</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9000F7C-3161-32E7-9FAA-C8E31AD93935" referredColumn="7ACF5C63-7C58-C2DC-565D-6A91585B1470"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE46B651-9E5C-21F8-A5D9-7A946E3E6B80" name="Comunas_PK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>C6ECCEF3-B5C0-8C31-CE45-099DF918FA7C</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97935DF4-25EC-DC84-CC87-7F2A7EDE3639"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA1E07D9-86B2-C6E1-D6AD-A63221EA2C5A" name="Comunas_Ciudades_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-11-30 12:58:46 UTC</createdTime>
+<generatorID>3C3939A4-66EB-81FE-DF5F-32F5C073ED48</generatorID>
+<ownerDesignName>forma_normal_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="371AE386-72FF-5B4E-E526-A57553DD9174"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

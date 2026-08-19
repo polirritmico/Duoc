@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A22465EB-3BC1-7895-71F5-2CF5AA876B35" containerWithKeyObject="1E971299-0842-C1F0-6E03-6835465F1BEF" localFKIndex="1BD6E0B3-F1AF-51E7-7AC6-D4F3652D9C11" name="Prof_Isapres_FK">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-14 00:14:30 UTC</createdTime>
+<generatorID>EA2E169A-63DD-AC40-E948-E7B72E568ECD</generatorID>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<referredTableLongName>Isapres</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>967AA11D-A5A1-6EED-5CD0-A8494444B25B</referredTableID>
+<keyObject>BC6CEE88-E081-A033-C885-359E06FEA17C</keyObject>
+<referredKeyID>BC6CEE88-E081-A033-C885-359E06FEA17C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_isapre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

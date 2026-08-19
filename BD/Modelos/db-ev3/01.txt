@@ -1,0 +1,64 @@
+Sistema gestión taller mecánico
+===============================
+
+taller
+vehículos
+    marca, modelo, año, patente, tipo_combustible
+clientes_propietarios
+    rut, telefono, dirección
+servicios_mecánicos
+    tipo_servicio_mecanico: mantención preventiva, reparación específica, cambio componente, giagnósticos electrónicos, otros trabajos, ¿detalle?
+    vehículo -> historial completo de múltiples servicios
+registro_visita
+    fecha_ingreso, fecha_entrega, detalle, costo, mecanico_responsable
+
+
+-------------------------------------------------------------------------------
+
+Clientes
+--------
+id_cliente
+primer_nombre
+segundo_nombre
+primer_apellido
+segundo_apellido
+rut
+dv
+telefono
+email
+dirección
+
+Vehículos
+---------
+id_vehiculo
+patente
+marca
+modelo
+año
+tipo_combustible
+kilometraje
+id_cliente
+
+Servicios
+-------------------
+id_servicio
+fecha_ingreso
+fecha_entrega
+tipo_servicio
+detalle
+costo
+id_mecanico
+id_vehículo
+
+Mecanicos
+---------
+id_mecanico
+primer_nombre
+segundo_nombre
+primer_apellido
+segundo_apellido
+rut
+dv
+telefono
+email
+dirección

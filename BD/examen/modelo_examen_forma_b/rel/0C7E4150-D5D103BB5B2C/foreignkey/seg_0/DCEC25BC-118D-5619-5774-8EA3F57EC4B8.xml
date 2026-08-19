@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCEC25BC-118D-5619-5774-8EA3F57EC4B8" containerWithKeyObject="A607F380-A379-5424-ADDA-8251521D85AA" localFKIndex="FFA9014A-1F82-C7E9-6DE4-05D42452A94E" name="Form_Adj_Recursos_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>2A4AC20D-F9E1-8D49-AD8D-77FC9FDD2A51</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>Adjudicacion_Recursos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0BCFF6D2-9CA4-BD9C-1641-39FD839DC87E</referredTableID>
+<keyObject>E6D55B2A-4DE7-9677-C8D2-3055640210BC</keyObject>
+<referredKeyID>E6D55B2A-4DE7-9677-C8D2-3055640210BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_adjudicacion_recurso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

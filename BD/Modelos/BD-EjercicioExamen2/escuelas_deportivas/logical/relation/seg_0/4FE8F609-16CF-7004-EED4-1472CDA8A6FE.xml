@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="4FE8F609-16CF-7004-EED4-1472CDA8A6FE">
+<createdBy>eduardo</createdBy>
+<createdTime>2025-12-13 23:19:44 UTC</createdTime>
+<ownerDesignName>escuelas_deportivas</ownerDesignName>
+<engineerTo>
+<item key="A4AFACE0-10DD-BC3D-4102-0DF8420AC703" value="true"/>
+</engineerTo>
+<sourcePk>09A692FE-D873-E7B6-6747-5A79119834F4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1A50408C-AB6F-9795-23C0-B9C6E224179F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C75F2A3-D3EB-5D1A-D7D1-E767C227B601</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

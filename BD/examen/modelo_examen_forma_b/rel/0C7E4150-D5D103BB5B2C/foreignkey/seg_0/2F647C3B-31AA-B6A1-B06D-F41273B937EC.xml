@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F647C3B-31AA-B6A1-B06D-F41273B937EC" containerWithKeyObject="A607F380-A379-5424-ADDA-8251521D85AA" localFKIndex="867CD2DE-5C97-3570-33BC-CD09BEFCFBA7" name="Form_Detalle_Inv_FK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-12-15 22:58:40 UTC</createdTime>
+<generatorID>B56BD08E-2E25-C66C-451A-0DAEDEAC91F2</generatorID>
+<ownerDesignName>modelo_examen_forma_b</ownerDesignName>
+<referredTableLongName>Detalle_Inversiones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>56369251-E64B-1C23-F0DE-E562ABE4783C</referredTableID>
+<keyObject>851A394E-1861-35C7-8208-90C83996151C</keyObject>
+<referredKeyID>851A394E-1861-35C7-8208-90C83996151C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_detalle_inversion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
