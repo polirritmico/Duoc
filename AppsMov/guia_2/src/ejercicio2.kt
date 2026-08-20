@@ -1,12 +1,7 @@
 fun main() {
-    val foo: Int = 123
-    var bar: Double = 1.0
-
-    bar = foo + bar - foo * bar / foo
-    println("foo más bar menos foo por bar dividido foo: $bar")
-
-    println("\n-------------------------------------\n")
-
-    var fuz: String? = "abc"
-    println(fuz?)
+    val numeros = listOf(1, 2, 3, 4, 5)
+    val pares = numeros.filter {
+        it % 2 == 0 && it > 2
+    }
+    println(pares) // [2, 4]
 }
