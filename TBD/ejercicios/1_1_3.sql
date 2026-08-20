@@ -13,48 +13,30 @@ DECLARE
 
   v_nro_cliente NUMERIC := 3;
   v_cliente t_cliente;
-  v_cod_region NUMERIC;
-  v_cod_provincia NUMERIC;
-  v_cod_comuna NUMERIC;
-  v_cod_profesion NUMERIC;
-  v_cod_tipo NUMERIC;
+  v_data cliente%ROWTYPE;
 
 BEGIN
-  SELECT
-    v_nro_cliente
-    ,pnombre||' '||snombre||' '||appaterno||' '||apmaterno
-    ,trunc(months_between(sysdate, fecha_nacimiento)/12)
-    ,trunc(months_between(sysdate, fecha_inscripcion)/12)
-    ,cod_region
-    ,cod_provincia
-    ,cod_comuna
-    ,cod_prof_ofic
-    ,cod_tipo_cliente
-  INTO
-    v_cliente.nro
-    ,v_cliente.nombre
-    ,v_cliente.edad
-    ,v_cliente.antiguedad
-    ,v_cod_region
-    ,v_cod_provincia
-    ,v_cod_comuna
-    ,v_cod_profesion
-    ,v_cod_tipo
-  FROM cliente c
-  WHERE c.nro_cliente = v_nro_cliente
-  ;
+  SELECT * INTO v_data FROM cliente
+    WHERE nro_cliente = v_nro_cliente;
+
+  v_cliente.nro := v_nro_cliente;
+  v_cliente.nombre := v_data.pnombre
+    ||' '||v_data.snombre
+    ||' '||v_data.appaterno
+    ||' '||v_data.apmaterno;
+  v_cliente.edad := trunc(months_between(sysdate, v_data.fecha_nacimiento)/12);
+  v_cliente.antiguedad := trunc(months_between(sysdate, v_data.fecha_inscripcion)/12);
 
   SELECT nombre_comuna INTO v_cliente.nombre_comuna FROM comuna
-  WHERE cod_region = v_cod_region
-    AND cod_provincia = v_cod_provincia
-    AND cod_comuna = v_cod_comuna
-  ;
+  WHERE cod_region = v_data.cod_region
+    AND cod_provincia = v_data.cod_provincia
+    AND cod_comuna = v_data.cod_comuna;
 
   SELECT nombre_tipo_cliente INTO v_cliente.tipo FROM tipo_cliente
-  WHERE cod_tipo_cliente = v_cod_tipo;
+  WHERE cod_tipo_cliente = v_data.cod_tipo_cliente;
 
   SELECT nombre_prof_ofic INTO v_cliente.profesion FROM profesion_oficio
-  WHERE cod_prof_ofic = v_cod_profesion;
+  WHERE cod_prof_ofic = v_data.cod_prof_ofic;
 
   DBMS_OUTPUT.PUT_LINE('===== PERFIL COMERCIAL =====');
   DBMS_OUTPUT.PUT_LINE('Cliente N     : '||v_cliente.nro);
